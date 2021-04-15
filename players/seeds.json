@@ -1,0 +1,28 @@
+[
+{
+  "model": "players.player",
+  "pk": 1,
+  "fields": {
+    "firstname": "Oli",
+    "lastname": "Chelsdick",
+    "team_name": "DickChels",
+    "position": "Attacker",
+    "nationality": "American",
+    "photo": "flynn.jpg",
+    "team": 1
+  }
+},
+{
+  "model": "players.player",
+  "pk": 2,
+  "fields": {
+    "firstname": "Andrew",
+    "lastname": "TheMan",
+    "team_name": "United#1",
+    "position": "Attacker",
+    "nationality": "Chinese",
+    "photo": "united.jpg",
+    "team": 1
+  }
+}
+]

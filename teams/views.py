@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
-
+from rest_framework.permissions import IsAuthenticated
 
 from .models import Team
 from .serializers.common import TeamSerializer
@@ -11,6 +11,8 @@ from .serializers.populated import PopulatedTeamSerializer
 
 
 class TeamListView(APIView):
+
+    permission_classes = IsAuthenticated 
 
     def get(self, _request):
         teams = Team.objects.all()
@@ -26,6 +28,8 @@ class TeamListView(APIView):
 
 
 class TeamDetailView(APIView):
+
+    permission_classes = IsAuthenticated 
 
     def get_team(self, pk):
         try:

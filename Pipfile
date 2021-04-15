@@ -8,8 +8,10 @@ django = "*"
 pylint = "*"
 psycopg2-binary = "*"
 djangorestframework = "*"
+pyjwt = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
