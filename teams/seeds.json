@@ -5,8 +5,8 @@
   "fields": {
     "team_name": "Blazing United",
     "abbreviation": "BLZ",
-    "team_logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN8AAADiCAMAAAD5w+JtAAABtlBMVEX////aAg7/5QAAAADZAA7/7ADXAA//7gD/6gD/6QD/8AD/5wD+4wDTAg3JAwzQAg2+BAr71QN0MwbIYQrjXAz93ALlawujkQDGAwvMdgjfQw3ywQDABArrqwHZjQbHXQqvBAi1BAmkBQexBAj82QP2vgbMfgfvngjrjAn5zQTyrwf0twZ8CQToegrtlgneNQ3xpwjhTgybBQfjXwyRBQawnQDz8/PlaA",
-    "created_at": "2021-04-15T11:29:02.637Z"
+    "team_logo": "united.jpg",
+    "created_at": "2021-04-15T13:40:15.896Z"
   }
 },
 {
@@ -15,8 +15,8 @@
   "fields": {
     "team_name": "Wish FC",
     "abbreviation": "WFC",
-    "team_logo": "wfc.jpg",
-    "created_at": "2021-04-15T11:34:38.606Z"
+    "team_logo": "chelseaareshit.jpg",
+    "created_at": "2021-04-15T13:40:31.417Z"
   }
 }
 ]
