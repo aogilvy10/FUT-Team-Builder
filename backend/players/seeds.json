@@ -8,8 +8,7 @@
     "team_name": "DickChels",
     "position": "Attacker",
     "nationality": "American",
-    "photo": "flynn.jpg",
-    "team": 1
+    "photo": "flynn.jpg"
   }
 },
 {
@@ -21,8 +20,19 @@
     "team_name": "United#1",
     "position": "Attacker",
     "nationality": "Chinese",
-    "photo": "united.jpg",
-    "team": 1
+    "photo": "united.jpg"
+  }
+},
+{
+  "model": "players.player",
+  "pk": 3,
+  "fields": {
+    "firstname": "Andy",
+    "lastname": "Cole",
+    "team_name": "NotChelsea",
+    "position": "attacker",
+    "nationality": "England",
+    "photo": "andy.jpg"
   }
 }
 ]

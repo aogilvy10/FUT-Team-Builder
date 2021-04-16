@@ -32,9 +32,13 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User 
+<<<<<<< HEAD:jwt_auth/serializers/common.py
 <<<<<<< HEAD
         fields = '__all__'
 =======
         fields = ('id', 'username', 'password', 'password_confirmation')
+=======
+        fields = ('id', 'email', 'username', 'password', 'password_confirmation')
+>>>>>>> 82184eb6da6ac3e2741e08c2b6128e686b409300:backend/jwt_auth/serializers/common.py
 
 >>>>>>> cc27b217857cea0a763bba20155f15ac7de31847
