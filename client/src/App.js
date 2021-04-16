@@ -4,6 +4,7 @@ import HomePage from './components/HomePage'
 import LandingPage from './components/LandingPage'
 import Login from './Auth/Login'
 import Register from './Auth/Register'
+import TeamFeed from './components/TeamFeed'
 
 
 
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route exact path="/register">
           <Register />
+        </Route>
+        <Route exact path="/teamfeed">
+          <TeamFeed />
         </Route>
       </Switch>
     </BrowserRouter> 
