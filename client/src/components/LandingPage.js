@@ -1,9 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
+
+
+
+
+
+
   return (
-    <h3>Hello Daddy</h3>
+    <>
+       <button class="button is-outlined">Login</button>
+       <button class="button is-outlined">Register</button>
+    </>
+
   )
 }
 
