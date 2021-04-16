@@ -8,3 +8,7 @@ class User(AbstractUser):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     profile_image = models.CharField(max_length=300) 
+    gamertag = models.CharField(max_length=20)
+    coins = models.FloatField()
+    wins = models.FloatField()
+    losses = models.FloatField()
