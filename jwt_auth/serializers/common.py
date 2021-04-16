@@ -32,4 +32,9 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User 
+<<<<<<< HEAD
         fields = '__all__'
+=======
+        fields = ('id', 'username', 'password', 'password_confirmation')
+
+>>>>>>> cc27b217857cea0a763bba20155f15ac7de31847

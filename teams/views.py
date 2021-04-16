@@ -1,13 +1,12 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from rest_framework.exceptions import NotFound
+from rest_framework.exceptions import NotFound, PermissionDenied
 from rest_framework.permissions import IsAuthenticated
 
 from .models import Team
 from .serializers.common import TeamSerializer
 from .serializers.populated import PopulatedTeamSerializer
-
 
 
 class TeamListView(APIView):
@@ -20,7 +19,8 @@ class TeamListView(APIView):
         return Response(serialized_teams.data, status=status.HTTP_200_OK)
 
     def post(self, request):
-        team_to_add =TeamSerializer(data=request.data)
+        request.data["owner"] = request.user.id
+        team_to_add = TeamSerializer(data=request.data)
         if team_to_add.is_valid():
             team_to_add.save()
             return Response(team_to_add.data, status=status.HTTP_201_CREATED)
@@ -29,7 +29,7 @@ class TeamListView(APIView):
 
 class TeamDetailView(APIView):
 
-    permission_classes = (IsAuthenticated,) 
+    permission_classes = (IsAuthenticated,)
 
     def get_team(self, pk):
         try:
@@ -42,8 +42,10 @@ class TeamDetailView(APIView):
         serialized_team = PopulatedTeamSerializer(team)
         return Response(serialized_team.data, status=status.HTTP_200_OK)
 
-    def delete(self, _request, pk):
+    def delete(self, request, pk):
         team_to_delete = self.get_team(pk=pk)
+        if team_to_delete.owner != request.user:
+            raise PermissionDenied()
         team_to_delete.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
