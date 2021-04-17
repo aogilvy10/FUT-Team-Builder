@@ -28,8 +28,8 @@ const UserTeams = () => {
   
 
   return (
-    <div>
-      <h1>Hello</h1>
+    <div key={teams.id}>
+      <h1>{teams.player}</h1>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import LandingPage from './components/LandingPage'
@@ -45,10 +45,13 @@ function App() {
         </Route>
         <Route exact path="/createateam"> 
           <CreateATeam />
+          </Route>
+        <Route exact path="/api/teams/:id">
+          <UserTeams />
         </Route>
       </Switch>
     </BrowserRouter> 
   )
 }
 
-export default App;
+export default App
