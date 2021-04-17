@@ -1,26 +1,34 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import axios from 'axios'
+import { useParams } from 'react-router-dom'
 
 const UserTeams = () => {
 
-  const [teams, setTeams] = useState('')
+  // const [teams, setTeams] = useState('')
+
+  const { id } = useParams()
 
   useEffect(() => {
     const getData = async () => {
-      const data = await axios.get('/api/teams/')
-      setTeams(data)
-  
+      const token = window.localStorage.getItem('token')
+      const { data } = await axios.get(`/api/teams/${id}`, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      })
+      // setTeams(data)
+      console.log(data)
     }
     getData()
-  }, [])
+  },[id])
 
-  console.log('TEAMS', teams)
+  // console.log('TEAMS', teams)
   
   
 
   return (
     <div>
-      <h1>User teams</h1>
+      <h1></h1>
     </div>
   )
 }
