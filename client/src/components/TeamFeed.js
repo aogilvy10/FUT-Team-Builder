@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 const TeamFeed = () => {
 
 
-  const [teams, setTeams] = useState('')
+  const [users, setUsers] = useState('')
 
-  //get all users and their teams
+  //get all users and their users
 
   useEffect(() => {
     const getData = async () => {
@@ -17,24 +17,27 @@ const TeamFeed = () => {
           Authorization: `Bearer ${token}`
         }
       })
-      setTeams(data)
+      setUsers(data)
     }
     getData()
   }, [])
 
-  console.log(teams)
+  console.log('LOOK HERE', users)
 
 
 
 
 
-  if (!teams) return null
+  if (!users) return null
   return (
     <ul>
-      {teams.map((user) => {
+      {users.map((user) => {
         return (
           <div>
-            <Link to={`/teamfeed/${user.id}`}>
+            <Link to={{
+              pathname: `/users/${user.id}`,
+              state: {user}
+            }}>
               <h3>{user.username}</h3>
               <li>{user.teams.map((userTeam) => {
                 return (
@@ -42,7 +45,6 @@ const TeamFeed = () => {
                   )
                 })}</li>
             </Link>
-                {console.log(user)}
           </div>
         )
       })}

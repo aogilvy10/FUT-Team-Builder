@@ -33,16 +33,13 @@ function App() {
         <Route exact path="/teamfeed">
           <TeamFeed />
         </Route>
-        <Route exact path="/userteams">
-          <UserTeams /> 
-        </Route>
         <Route exact path="/userprofile">
           <UserProfile /> 
         </Route>
-        <Route exact path="/createateam"> 
+        <Route exact path="/teams/new"> 
           <CreateATeam />
           </Route>
-        <Route exact path="/api/teams/:id">
+        <Route exact path="/users/:id">
           <UserTeams />
         </Route>
       </Switch>

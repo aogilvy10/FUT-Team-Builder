@@ -5,8 +5,8 @@ class Team(models.Model):
     abbreviation = models.CharField(max_length=3)
     team_logo = models.CharField(max_length=500)
     created_at = models.DateTimeField(auto_now_add=True)
-    formation = models.ManyToManyField('formations.Formation', related_name='teams')
-    player = models.ManyToManyField('players.Player', related_name='teams', blank=True)
+    formation = models.ForeignKey('formations.Formation', related_name='teams', on_delete = models.CASCADE)
+    players = models.ManyToManyField('players.Player', related_name='teams', blank=True)
     owner = models.ForeignKey(
 		"jwt_auth.User",
 		related_name = "teams",

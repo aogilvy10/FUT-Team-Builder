@@ -4,32 +4,33 @@ import { useParams } from 'react-router-dom'
 
 const UserTeams = () => {
   const { id } = useParams()
-  const [teams, setTeams] = useState('')
+  const [user, setUser] = useState('')
 
 
 
   useEffect(() => {
     const getData = async () => {
       const token = window.localStorage.getItem('token')
-      const { data } = await axios.get(`/api/teams/${id}`, {
+      const { data } = await axios.get(`/api/auth/${id}`, {
         headers: {
-          Authorization: `Bearer ${token}`
+          Authorization: `Bearer ${token}`,
+          
         }
       })
-      setTeams(data)
+      setUser(data)
       console.log(data)
     }
     getData()
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
-  console.log('TEAMS', teams)
+  console.log('TEAMS', user)
   
   
 
   return (
-    <div key={teams.id}>
-      <h1>{teams.player}</h1>
+    <div key={user.id}>
+      <h1>{user.username}</h1>
     </div>
   )
 }

@@ -56,8 +56,10 @@ class LoginView(APIView):
             settings.SECRET_KEY,
             algorithm='HS256'
         )
+        serialized_user = PopulatedUserSerializer(user_to_login)
 
-        return Response({ 'token': token, 'message': f'Welcome back {user_to_login.first_name}'})
+
+        return Response({ 'token': token, 'message': f'Welcome back {user_to_login.first_name}', 'user1': serialized_user.data})
     
 class LoginDetailView(APIView): 
     def get_user(self, pk):
@@ -68,5 +70,5 @@ class LoginDetailView(APIView):
 
     def get(self, _request, pk):
         user = self.get_user(pk=pk)
-        serialized_user = UserSerializer(user)
+        serialized_user = PopulatedUserSerializer(user)
         return Response(serialized_user.data, status=status.HTTP_200_OK) 
