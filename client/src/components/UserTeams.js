@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 
 const UserTeams = () => {
-
-  // const [teams, setTeams] = useState('')
-
   const { id } = useParams()
+  const [teams, setTeams] = useState('')
+
+
 
   useEffect(() => {
     const getData = async () => {
@@ -16,19 +16,20 @@ const UserTeams = () => {
           Authorization: `Bearer ${token}`
         }
       })
-      // setTeams(data)
+      setTeams(data)
       console.log(data)
     }
     getData()
-  },[id])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[])
 
-  // console.log('TEAMS', teams)
+  console.log('TEAMS', teams)
   
   
 
   return (
     <div>
-      <h1></h1>
+      <h1>Hello</h1>
     </div>
   )
 }
