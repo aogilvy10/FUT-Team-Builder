@@ -25,12 +25,11 @@ class UserSerializer(serializers.ModelSerializer):
         except ValidationError as err:
             raise ValidationError({'password': err.messages})
 
-        # hash the password & add back to the dict 
+        # hash the password & add back to the dict
         data['password'] = make_password(password)
 
         return data
 
     class Meta:
-        model = User 
-        fields = ('id', 'email', 'username', 'password', 'password_confirmation')
-
+        model = User
+        fields = '__all__'
