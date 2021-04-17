@@ -6,6 +6,8 @@ import Login from './Auth/Login'
 import Register from './Auth/Register'
 import TeamFeed from './components/TeamFeed'
 import UserTeams from './components/UserTeams'
+import UserProfile from './components/UserProfile'
+import CreateATeam from './components/CreateATeam'
 
 
 
@@ -35,6 +37,15 @@ function App() {
         <Route exact path="/teamfeed">
           <TeamFeed />
         </Route>
+        <Route exact path="/userteams">
+          <UserTeams /> 
+        </Route>
+        <Route exact path="/userprofile">
+          <UserProfile /> 
+        </Route>
+        <Route exact path="/createateam"> 
+          <CreateATeam />
+          </Route>
         <Route exact path="/api/teams/:id">
           <UserTeams />
         </Route>
@@ -43,4 +54,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
