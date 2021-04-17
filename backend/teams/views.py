@@ -11,7 +11,7 @@ from .serializers.populated import PopulatedTeamSerializer
 
 class TeamListView(APIView):
 
-    permission_classes = (IsAuthenticatedOrReadOnly,)
+    # permission_classes = (IsAuthenticatedOrReadOnly,)
 
     def get(self, _request):
         teams = Team.objects.all()
@@ -29,7 +29,7 @@ class TeamListView(APIView):
 
 class TeamDetailView(APIView):
 
-    permission_classes = (IsAuthenticated,)
+    # permission_classes = (IsAuthenticated,)
 
     def get_team(self, pk):
         try:

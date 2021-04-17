@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 
 const UserTeams = () => {
-
+  const { id } = useParams()
   const [teams, setTeams] = useState('')
 
-  const { id } = useParams()
+
 
   useEffect(() => {
     const getData = async () => {
@@ -20,15 +20,16 @@ const UserTeams = () => {
       console.log(data)
     }
     getData()
-  },)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[])
 
-  // console.log('TEAMS', teams)
+  console.log('TEAMS', teams)
   
   
 
   return (
-    <div>
-      {teams.player}
+    <div key={teams.id}>
+      <h1>{teams.player}</h1>
     </div>
   )
 }

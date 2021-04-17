@@ -62,7 +62,7 @@ class LoginView(APIView):
 class LoginDetailView(APIView): 
     def get_user(self, pk):
         try:
-            user = User.objects.get(pk=pk)
+            return User.objects.get(pk=pk)
         except User.DoesNotExist: 
             raise NotFound(detail="👤 User doesn't exist")
 
@@ -70,5 +70,3 @@ class LoginDetailView(APIView):
         user = self.get_user(pk=pk)
         serialized_user = UserSerializer(user)
         return Response(serialized_user.data, status=status.HTTP_200_OK) 
-
-    
