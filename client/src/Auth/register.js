@@ -10,6 +10,8 @@ const Register = () => {
       email: '',
       first_name: '',
       last_name: '',
+      password: '',
+      password_confirmation: '',
       gamertag: '',
       coins: '',
       wins: '',
@@ -29,7 +31,7 @@ const Register = () => {
       try {
         event.preventDefault()
         await axios.post('api/auth/register/', formData)
-        // const response = await axios.post('api/auth/login', {
+        // const response = await axios.post('api/auth/login/', {
         // email: formData.email, password: formData.password })
         // window.localStorage.setItem('token', response.data.token)
         // console.log(response.data.token)
@@ -70,6 +72,22 @@ const Register = () => {
         <div className="field">
           <p className="control has-icons-left">
             <input className="input" type="name" placeholder="Last Name" name="last_name" onChange={handleChange}/>
+              <span className="icon is-small is-left">
+                <i className="fas fa-lock"></i>
+              </span>
+          </p>
+        </div>
+        <div className="field">
+          <p className="control has-icons-left">
+            <input className="input" type="password" placeholder="Password" name="password" onChange={handleChange}/>
+              <span className="icon is-small is-left">
+                <i className="fas fa-lock"></i>
+              </span>
+          </p>
+        </div>
+        <div className="field">
+          <p className="control has-icons-left">
+            <input className="input" type="password" placeholder="Password Confirmation" name="password_confirmation" onChange={handleChange}/>
               <span className="icon is-small is-left">
                 <i className="fas fa-lock"></i>
               </span>
