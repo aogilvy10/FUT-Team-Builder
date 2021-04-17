@@ -15,10 +15,6 @@ import CreateATeam from './components/CreateATeam'
 function App() {
   
   
-  
-  
-  
-  
   return (
     <BrowserRouter>
       <Switch>
