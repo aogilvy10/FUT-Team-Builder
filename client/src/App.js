@@ -35,7 +35,7 @@ function App() {
         <Route exact path="/teamfeed">
           <TeamFeed />
         </Route>
-        <Route exact path="/userteams">
+        <Route exact path="/api/teams/:id">
           <UserTeams />
         </Route>
       </Switch>

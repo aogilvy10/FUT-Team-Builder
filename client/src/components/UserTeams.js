@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 
 const UserTeams = () => {
 
-  // const [teams, setTeams] = useState('')
+  const [teams, setTeams] = useState('')
 
   const { id } = useParams()
 
@@ -16,11 +16,11 @@ const UserTeams = () => {
           Authorization: `Bearer ${token}`
         }
       })
-      // setTeams(data)
+      setTeams(data)
       console.log(data)
     }
     getData()
-  },[id])
+  },)
 
   // console.log('TEAMS', teams)
   
@@ -28,7 +28,7 @@ const UserTeams = () => {
 
   return (
     <div>
-      <h1></h1>
+      {teams.player}
     </div>
   )
 }
