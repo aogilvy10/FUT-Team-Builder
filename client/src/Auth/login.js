@@ -4,7 +4,7 @@ import axios from 'axios'
 const Login = () => {
 
   const [formData, setFormData] = useState({
-    username: '',
+    email: '',
     password: ''
   })
 
@@ -19,7 +19,9 @@ const Login = () => {
   const handleSubmit = async event => {
     event.preventDefault()
     try {
+      
       const response = await axios.post('/api/auth/login/', formData)
+      console.log(response)
       window.localStorage.setItem('token', response.data.token)
       history.push('/teamfeed')
     } catch (err) {
@@ -34,7 +36,7 @@ const Login = () => {
     <form onSubmit={handleSubmit}>
     <div className="field">
       <p className="control has-icons-left has-icons-right">
-        <input className="input" type="username" placeholder="Email" name="username" onChange={handleChange} />
+        <input className="input" type="email" placeholder="Email" name="email" onChange={handleChange} />
           <span className="icon is-small is-left">
             <i className="fas fa-envelope"></i>
           </span>
