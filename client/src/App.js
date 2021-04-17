@@ -6,6 +6,8 @@ import Login from './Auth/Login'
 import Register from './Auth/Register'
 import TeamFeed from './components/TeamFeed'
 import UserTeams from './components/UserTeams'
+import UserProfile from './components/UserProfile'
+import CreateATeam from './components/CreateATeam'
 
 
 
@@ -36,7 +38,13 @@ function App() {
           <TeamFeed />
         </Route>
         <Route exact path="/userteams">
-          <UserTeams />
+          <UserTeams /> 
+        </Route>
+        <Route exact path="/userprofile">
+          <UserProfile /> 
+        </Route>
+        <Route exact path="/createateam"> 
+          <CreateATeam />
         </Route>
       </Switch>
     </BrowserRouter> 

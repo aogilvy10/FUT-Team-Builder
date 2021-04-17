@@ -34,7 +34,7 @@ const TeamFeed = () => {
       {teams.map((user) => {
         return (
           <div>
-            <Link to={`/api/teams/${user.id}`}>
+            <Link to={`/teamfeed/${user.id}`}>
               <h3>{user.username}</h3>
               <li>{user.teams.map((userTeam) => {
                 return (
@@ -42,7 +42,7 @@ const TeamFeed = () => {
                   )
                 })}</li>
             </Link>
-
+                {console.log(user)}
           </div>
         )
       })}
