@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.contrib.auth import get_user_model
-from rest_framework.exceptions import PermissionDenied
+from rest_framework.exceptions import PermissionDenied, NotFound
 from datetime import datetime, timedelta
 from django.conf import settings
 from .serializers.populated import PopulatedUserSerializer
@@ -33,6 +33,8 @@ class LoginView(APIView):
         serialized_users = PopulatedUserSerializer(users, many=True)
         return Response(serialized_users.data, status=status.HTTP_200_OK)
 
+
+
     def post(self, request):
         # get some data off the request
         email = request.data.get('email')
@@ -56,3 +58,17 @@ class LoginView(APIView):
         )
 
         return Response({ 'token': token, 'message': f'Welcome back {user_to_login.first_name}'})
+    
+class LoginDetailView(APIView): 
+    def get_user(self, pk):
+        try:
+            user = User.objects.get(pk=pk)
+        except User.DoesNotExist: 
+            raise NotFound(detail="👤 User doesn't exist")
+
+    def get(self, _request, pk):
+        user = self.get_user(pk=pk)
+        serialized_user = UserSerializer(user)
+        return Response(serialized_user.data, status=status.HTTP_200_OK) 
+
+    
