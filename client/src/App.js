@@ -1,4 +1,4 @@
-import './styles/'
+
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import LandingPage from './components/LandingPage'

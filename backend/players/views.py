@@ -16,6 +16,6 @@ class PlayerListView(APIView):
 
 
     def get(self, _request):
-        players = Player.objects.get()
+        players = Player.objects.all()
         serialized_players = PlayerSerializer(players, many=True)
         return Response(serialized_players.data, status=status.HTTP_200_OK)
