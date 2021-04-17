@@ -14,13 +14,13 @@ const UserTeams = () => {
     getData()
   }, [])
 
-  console.log(teams)
+  console.log('TEAMS', teams)
   
   
 
   return (
     <div>
-      
+      <h1>User teams</h1>
     </div>
   )
 }
