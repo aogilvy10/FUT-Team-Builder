@@ -4,7 +4,7 @@ import axios from 'axios'
 const Login = () => {
 
   const [formData, setFormData] = useState({
-    email: '',
+    username: '',
     password: ''
   })
 
@@ -34,7 +34,7 @@ const Login = () => {
     <form onSubmit={handleSubmit}>
     <div className="field">
       <p className="control has-icons-left has-icons-right">
-        <input className="input" type="email" placeholder="Email" name="email" onChange={handleChange} />
+        <input className="input" type="username" placeholder="Email" name="username" onChange={handleChange} />
           <span className="icon is-small is-left">
             <i className="fas fa-envelope"></i>
           </span>

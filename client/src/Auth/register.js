@@ -37,7 +37,7 @@ const Register = () => {
         // console.log(response.data.token)
         history.push('/home')
       } catch (err) {
-        window.alert(err)
+        console.log(err)
       }
     }
 
