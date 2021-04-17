@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/">
           <LandingPage />
         </Route>
-        <Route exact path="/homepage">
+        <Route exact path="/home">
           <HomePage />
         </Route>
         <Route exact path="/login">
