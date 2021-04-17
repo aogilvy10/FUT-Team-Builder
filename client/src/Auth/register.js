@@ -32,10 +32,9 @@ const Register = () => {
       try {
         event.preventDefault()
         await axios.post('api/auth/register/', formData)
-        // const response = await axios.post('api/auth/login/', {
-        // email: formData.email, password: formData.password })
-        // window.localStorage.setItem('token', response.data.token)
-        // console.log(response.data.token)
+        const response = await axios.post('api/auth/login/', {
+        email: formData.email, password: formData.password })
+        window.localStorage.setItem('token', response.data.token)
         history.push('/home')
       } catch (err) {
         console.log(err)
