@@ -5,7 +5,9 @@ from django.contrib.auth import get_user_model
 from rest_framework.exceptions import PermissionDenied
 from datetime import datetime, timedelta
 from django.conf import settings
+from .serializers.populated import PopulatedUserSerializer
 import jwt
+
 
 from .serializers.common import UserSerializer
 
@@ -25,6 +27,11 @@ class RegisterView(APIView):
 
 
 class LoginView(APIView):
+
+    def get(self, _request): 
+        users = User.objects.all()
+        serialized_users = PopulatedUserSerializer(users, many=True)
+        return Response(serialized_users.data, status=status.HTTP_200_OK)
 
     def post(self, request):
         # get some data off the request
