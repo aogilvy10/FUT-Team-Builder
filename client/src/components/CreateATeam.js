@@ -11,14 +11,15 @@ const CreateATeam = () => {
     abbreviation: '',
     team_logo: '',
     formation: '',
+    players: [],
   })
 
   // const history = useHistory()
 
-
   const handleChange = event => {
     const newFormData = { ...formData, [event.target.name]: event.target.value }
     setFormData(newFormData)
+    console.log(event.target.value)
   }
 
 
@@ -38,24 +39,38 @@ const CreateATeam = () => {
     }
   }
 
-  const [players, setPlayers] = useState([])
+  //get all players
+  const [allPlayers, setAllPlayers] = useState([])
   useEffect(() => {
     const getData = async () => {
       const { data } = await axios.get('/api/players/')
-      setPlayers(data)
+      setAllPlayers(data)
     }
 
     getData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  console.log('>>>>', players)
+  // search for players 
+  console.log('>>>>', allPlayers)
   const [search, setSearch] = useState(null)
-  const searchSpace = event => { 
+  const searchSpace = event => {
     const keyword = event.target.value
     setSearch(keyword)
   }
-console.log(search)
+  console.log(search)
+
+  // add players to team
+
+  const handleChangeTeam = event => { 
+    const playerToPush = event.target.value
+    if (formData.players.includes(playerToPush)) { 
+      return formData.players.pop(playerToPush) 
+    } else { 
+      formData.players.push(playerToPush)
+    }
+    console.log(formData.players)
+  }
 
   return (
     <div>
@@ -80,31 +95,35 @@ console.log(search)
           </div>
         </div>
         <div className="control">
+          <input className="input" type="text" placeholder="players" name="players" onChange={handleChange} />
+        </div>
+        <div className="control">+-
           <button className="button is-primary">Create Team</button>
         </div>
       </form>
-      {players.filter((data) => (search === null || search === '') ? data  : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
-      ).map( (data) => (
+      {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
+      ).map((data) => (
         <div key={data.id} className="card-content">
-          {console.log('>>> search', search)}
-      <div className="card-image">
-      <figure className="image is-4b3">
-      <image src={data.photo} alt=""/>
-      </figure> 
-      <p>{data.first_name} {data.last_name}</p>
-      <p>{data.team_name}</p>
-      <p>{data.nationality}</p>
-      <p>{data.position}</p>
-      </div>
-      </div>
+          <button className="button" value={data.id} onClick={handleChangeTeam} >
+            <div className="card-image">
+              <figure className="image is-4b3">
+                {/* <img src={data.photo} alt="" /> */}
+              </figure>
+              <p>{data.first_name} {data.last_name}</p>
+              <p>{data.team_name}</p>
+              <p>{data.nationality}</p>
+              <p>{data.position}</p>
+            </div>
+          </button>
+        </div>
       )
       )}
-            <div>
-      <input type="text" placeholder="Enter item to be searched"  onChange={searchSpace} />
-      {players.name}
+      <div>
+        <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
+        {allPlayers.name}
       </div>
-          </div>
-        )
-      }
+    </div>
+  )
+}
 
 export default CreateATeam
