@@ -4,7 +4,7 @@ from formations.serializers.common import FormationSerializer
 from jwt_auth.serializers.common import UserSerializer
 
 class PopulatedTeamSerializer(TeamSerializer):
-    player = PlayerSerializer(many=True)
-    formation = FormationSerializer(many=True)
+    players = PlayerSerializer(many=True)
+    formation = FormationSerializer()
     owner = UserSerializer()
     

@@ -31,7 +31,7 @@ const HomePage = () => {
       <div> SLIder for showiong info of different things</div>
 
       <ul>
-        <Link to="/createateam">
+        <Link to="/teams/new">
           <li>
             create a team
         </li>
