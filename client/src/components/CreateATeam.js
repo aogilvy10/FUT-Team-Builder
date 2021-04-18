@@ -49,7 +49,7 @@ const CreateATeam = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  console.log(players)
+  console.log('>>>>', players)
   const [search, setSearch] = useState(null)
   const searchSpace = event => { 
     const keyword = event.target.value
@@ -83,31 +83,22 @@ console.log(search)
           <button className="button is-primary">Create Team</button>
         </div>
       </form>
-      {players.map((player) => {
-        return (
-          <div className="card" key={player.id} name={player.id}>
-            <div className="card-image">
-              <figure className="image is-4by3">
-                <img src={player.photo} alt="" />
-              </figure>
-            </div>
-            <div className="card-content">
-            <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png" alt="" />
-                  </figure>
-                </div>
-              
-                <p className="title is-4"> {player.first_name} {player.last_name}</p>
-                <p className="subtitle is-6"> {player.position}</p>
-                <p className="card-content is-6"> {player.nationality}</p>
-                <p className="card-content is-6"> {player.team_name}</p>
-                </div>
-              </div>
-            </div>
-        )
-      })}
+      {players.filter((data) => (search === null || search === '') ? data  : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
+      ).map( (data) => (
+        <div key={data.id} className="card-content">
+          {console.log('>>> search', search)}
+      <div className="card-image">
+      <figure className="image is-4b3">
+      <image src={data.photo} alt=""/>
+      </figure> 
+      <p>{data.first_name} {data.last_name}</p>
+      <p>{data.team_name}</p>
+      <p>{data.nationality}</p>
+      <p>{data.position}</p>
+      </div>
+      </div>
+      )
+      )}
             <div>
       <input type="text" placeholder="Enter item to be searched"  onChange={searchSpace} />
       {players.name}
