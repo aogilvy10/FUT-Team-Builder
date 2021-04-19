@@ -9,13 +9,13 @@ const LandingPage = () => {
 
 
   return (
-    <div className="image-landing"> 
-    <Link to={'/login'}>
-      <button class="button image-landing is-outlined">Login</button>
-    </Link>
-    <Link to={'/register'}>
-       <button class="button is-outlined">Register</button>
-    </Link>
+    <div className="hero image-landing is-large">
+      <Link to={'/login'}>
+        <button className="button is-outlined">Login</button>
+      </Link>
+      <Link to={'/register'}>
+        <button className="button is-outlined">Register</button>
+      </Link>
     </div>
 
   )
