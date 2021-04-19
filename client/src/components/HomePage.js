@@ -27,32 +27,34 @@ const HomePage = () => {
         <p>coins - {user.coins} </p>
         <p>{user.wins} - {user.losses} </p>
       </div>
-      <div className="Info about the app "> INFO FUT - TEAM - BUILDER </div>
-      <div> SLIder for showiong info of different things</div>
-
-      <ul>
-        <Link to="/teams/new">
-          <li>
-            create a team
+      <div className="columns">
+        <div className="column"> INFO FUT - TEAM - BUILDER </div>
+        <div className="column"> SLIder for showiong info of different things</div>
+        <div >
+          <ul className="columns">
+            <Link to="/teams/new">
+              <li className="column">
+                create a team
         </li>
-        </Link>
-        <Link to="/userteams">
-          <li>
-            View your teams
+            </Link>
+            <Link to="/userteams">
+              <li className="column">
+                View your teams
         </li>
-        </Link>
-        <Link to="/teamfeed">
-          <li>
-            view all teams
+            </Link>
+            <Link to="/teamfeed">
+              <li className="column">
+                view all teams
         </li>
-        </Link>
-        <Link to="/userprofile">
-          <li>
-            go to Your profile
+            </Link>
+            <Link to="/userprofile">
+              <li className="column">
+                go to Your profile
         </li>
-        </Link>
-      </ul>
-
+            </Link>
+          </ul>
+        </div>
+      </div>
     </>
   )
 }
