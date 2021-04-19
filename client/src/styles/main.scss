@@ -42,13 +42,39 @@
 }
 
 .image-landing { 
-
-  background-color:  red;
-  .hero-image { 
   background-image: url('../assets/landingpage.png');
-  height: 100vh;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 210vh;
+  .hero-image { 
+  height: 110vh;
+
+  }
+  .column-start { 
+    padding-top: 200px;
+    padding-left: 10px;
   }
 
 }
+
+@media screen and (max-width: 800px) {
+  .image-landing {
+
+      background-image: url('../assets/back-ground-for-mobile.png');
+      background-size: 100%;
+
+  
+    .column-start { 
+    padding-left: 40px;
+  } }
+  
+  }
+
+  @media screen and (min-width: 1600px) {
+
+    .image-landing { 
+
+      .column-start { 
+        padding-left: 260px;
+      }
+    }
+    }
