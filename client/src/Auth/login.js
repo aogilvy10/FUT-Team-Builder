@@ -1,6 +1,7 @@
 import React , { useState } from 'react'
 import { useHistory } from 'react-router'
 import axios from 'axios'
+
 const Login = () => {
 
   const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ const Login = () => {
       window.localStorage.setItem('token', response.data.token)
       history.push('/teamfeed')
     } catch (err) {
-      console.log(err)
+      window.alert(err)
     }
   }
 

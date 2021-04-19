@@ -1,0 +1,23 @@
+[
+  {
+    "model": "formations.formation",
+    "pk": 4,
+    "fields": {
+      "name": "4-4-2"
+    }
+  },
+  {
+    "model": "formations.formation",
+    "pk": 5,
+    "fields": {
+      "name": "4-3-3"
+    }
+  },
+  {
+    "model": "formations.formation",
+    "pk": 6,
+    "fields": {
+      "name": "4-1-2-1-2"
+    }
+  }
+  ]
