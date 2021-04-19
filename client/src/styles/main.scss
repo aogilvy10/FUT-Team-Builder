@@ -41,6 +41,7 @@
   }
 }
 
+// landing page 
 .image-landing { 
   background-image: url('../assets/landingpage.png');
   background-repeat: no-repeat;
@@ -78,3 +79,28 @@
       }
     }
     }
+
+// homepage 
+.user-info { 
+  background-image: url('../assets/pitch.jpeg');
+  .main-page-column { 
+    height: 600px;
+  }
+  .image-mane { 
+    max-width: 290px;
+  }
+  .image-fut { 
+    max-height: 308px;
+    max-width: 260px;
+  }
+  .p-explanation{ 
+    max-width: 400px;
+  }
+  .is-blue { 
+    background-color: #005391;
+  }
+  .column-dark { 
+    background: rgba(0, 0, 0, 0.596);
+    
+  }
+}
