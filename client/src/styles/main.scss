@@ -42,5 +42,13 @@
 }
 
 .image-landing { 
+
   background-color:  red;
+  .hero-image { 
+  background-image: url('../assets/landingpage.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  }
+
 }
