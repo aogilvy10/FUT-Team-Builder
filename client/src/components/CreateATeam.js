@@ -48,18 +48,15 @@ const CreateATeam = () => {
       setAllPlayers(data)
     }
     getData()
-    console.log(allPlayers)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // search for players 
-  console.log('>>>>', allPlayers)
   const [search, setSearch] = useState(null)
   const searchSpace = event => {
     const keyword = event.target.value
     setSearch(keyword)
   }
-  console.log(search)
 
   // add players to team
 let playerToPush
@@ -67,14 +64,39 @@ let playerToDisplay
   const handleChangeTeam = event => { 
     playerToPush = event.target.value
     playerToDisplay = event.target.name
-  //add players to card
   }
-  const [playerImageToShow, setPlayerImageToShow] = useState(null)
-  const handleChangeSquad = event => { 
+  
+  //add players to card
+  const [playersToDisplayPhoto, setPlayersToDisplayPhoto ]= useState( [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] )
+
+  const handleAddToSquad = event => { 
+    const newPlayersArray = [...playersToDisplayPhoto] 
+    //add player to data 
   formData.players[event.target.name] = Number(playerToPush)
   console.log('all players in array', formData.players )
-  setPlayerImageToShow(allPlayers[playerToDisplay])
-  console.log(playerImageToShow)
+
+
+  //add picture to squad 
+  if (playersToDisplayPhoto.includes(allPlayers[playerToDisplay])) { 
+  window.alert('Already have that player ')
+} else {  
+  newPlayersArray[event.target.name] = allPlayers[playerToDisplay]
+  setPlayersToDisplayPhoto(newPlayersArray)
+console.log(playerToPush) } 
+
+  }
+
+  //delete players from positions 
+  const handleDeleteFromSquad = event => { 
+    //delete player from array to send to database 
+    const formDataPlayerToDelete = [...formData.players]
+    formDataPlayerToDelete[event.target.name] = event.target.name
+    formData.players[event.target.name] = 1
+
+    //delete player from picture 
+    const playerToDelete = [...playersToDisplayPhoto]
+    playerToDelete[event.target.name] = event.target.name
+    setPlayersToDisplayPhoto(playerToDelete)
   }
 
   return (
@@ -134,60 +156,69 @@ let playerToDisplay
     <div className="players">
       <div className="pcard" >
         Goalkeeper
-        {playerImageToShow && <img src={playerImageToShow.photo} alt={playerImageToShow.first_name}/>}
-        <button onClick={handleChangeSquad} name="0"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[0].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="0"> +</button>
+        <button onClick={handleDeleteFromSquad} name="0"> -</button>
       </div>
       <div className="pcard" name="1">
         Left Back
-        
-        <button onClick={handleChangeSquad} name="1"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[1].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="1"> +</button>
+        <button onClick={handleDeleteFromSquad} name="1"> -</button>
       </div>
       <div className="pcard" name="2">
         Right Back
-        <button onClick={handleChangeSquad} name="2"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[2].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="2"> +</button>
+        <button onClick={handleDeleteFromSquad} name="2"> -</button>
       </div>
       <div className="pcard" name="3">
         Center Back
-        <button onClick={handleChangeSquad} name="3"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[3].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="3"> +</button>
+        <button onClick={handleDeleteFromSquad} name="3"> -</button>
       </div>
       <div className="pcard" name="4">
         Center Back
-        <button onClick={handleChangeSquad} name="4"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[4].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="4"> +</button>
+        <button onClick={handleDeleteFromSquad} name="4"> -</button>
       </div>
       <div className="pcard" name="5">
         Left Mid
-        <button onClick={handleChangeSquad} name="5"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[5].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="5"> +</button>
+        <button onClick={handleDeleteFromSquad} name="5"> -</button>
       </div>
       <div className="pcard" name="6">
         Right Mid
-        <button onClick={handleChangeSquad} name="6"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[6].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="6"> +</button>
+        <button onClick={handleDeleteFromSquad} name="6"> -</button>
       </div>
       <div className="pcard" name="7">
         Center Mid
-        <button onClick={handleChangeSquad} name="7"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[7].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="7"> +</button>
+        <button onClick={handleDeleteFromSquad} name="7"> -</button>
       </div>
       <div className="pcard" name="8">
         Center Mid
-        <button onClick={handleChangeSquad} name="8"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[8].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="8"> +</button>
+        <button onClick={handleDeleteFromSquad} name="8"> -</button>
       </div>
       <div className="pcard" name="9">
         Forward
-        <button onClick={handleChangeSquad} name="9"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[9].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="9"> +</button>
+        <button onClick={handleDeleteFromSquad} name="9"> -</button>
       </div>
       <div className="pcard" name="10">
         Forward
-        <button onClick={handleChangeSquad} name="10"> +</button>
-        <button> -</button>
+        <img src={playersToDisplayPhoto[10].photo} alt=""/>
+        <button onClick={handleAddToSquad} name="10"> +</button>
+        <button onClick={handleDeleteFromSquad} name="10"> -</button>
       </div>
     </div>
     </div>
