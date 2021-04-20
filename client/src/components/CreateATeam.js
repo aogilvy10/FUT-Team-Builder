@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
-import PlayerCard from './PlayerCard'
+// import PlayerCard from './PlayerCard'
 // import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 
@@ -13,7 +13,7 @@ const CreateATeam = () => {
     abbreviation: '',
     team_logo: '',
     formation: '',
-    players: [],
+    players: [1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11],
   })
 
   // const history = useHistory()
@@ -62,20 +62,19 @@ const CreateATeam = () => {
   console.log(search)
 
   // add players to team
+let playerToPush
 
   const handleChangeTeam = event => { 
-    const playerToPush = event.target.value
-    if (formData.players.includes(playerToPush)) { 
-      return formData.players.pop(playerToPush) 
-    } else { 
-      formData.players.push(playerToPush)
-    }
-    console.log(formData.players)
-  }
-
+    playerToPush = event.target.value
   //add players to card
-
-  
+  }
+  const handleChangeSquad = event => { 
+    console.log(' index of wherre to add platyer', event.target.name)
+  console.log(' id of player to add to array at position', playerToPush)
+  formData.players[event.target.name] = Number(playerToPush)
+  console.log(formData.players[event.target.name])
+  console.log('all players in array', formData.players )
+  }
 
   return (
     <div>
@@ -130,7 +129,64 @@ const CreateATeam = () => {
         {allPlayers.name}
       </div>
     <div>
-      <PlayerCard />
+      
+    <div className="players">
+      <div className="pcard" >
+        Goalkeeper
+        <button onClick={handleChangeSquad} name="0"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="1">
+        Left Back
+        <button onClick={handleChangeSquad} name="1"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="2">
+        Right Back
+        <button onClick={handleChangeSquad} name="2"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="3">
+        Center Back
+        <button onClick={handleChangeSquad} name="3"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="4">
+        Center Back
+        <button onClick={handleChangeSquad} name="4"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="5">
+        Left Mid
+        <button onClick={handleChangeSquad} name="5"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="6">
+        Right Mid
+        <button onClick={handleChangeSquad} name="6"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="7">
+        Center Mid
+        <button onClick={handleChangeSquad} name="7"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="8">
+        Center Mid
+        <button onClick={handleChangeSquad} name="8"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="9">
+        Forward
+        <button onClick={handleChangeSquad} name="9"> +</button>
+        <button> -</button>
+      </div>
+      <div className="pcard" name="10">
+        Forward
+        <button onClick={handleChangeSquad} name="10"> +</button>
+        <button> -</button>
+      </div>
+    </div>
     </div>
     </div>
   )
