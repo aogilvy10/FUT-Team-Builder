@@ -7,7 +7,7 @@ import Register from './Auth/Register'
 import TeamFeed from './components/TeamFeed'
 import UserProfile from './components/UserProfile'
 import CreateATeam from './components/CreateATeam'
-
+import PitchTest from './components/PitchTest'
 
 
 
@@ -38,6 +38,9 @@ function App() {
         <Route exact path="/teams/new"> 
           <CreateATeam />
           </Route>
+        <Route exact path="/pitch"> 
+          <PitchTest />
+        </Route>
       </Switch>
     </BrowserRouter> 
   )

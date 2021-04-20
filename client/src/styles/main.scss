@@ -41,6 +41,7 @@
   }
 }
 
+// landing page 
 .image-landing { 
   background-image: url('../assets/landingpage.png');
   background-repeat: no-repeat;
@@ -78,3 +79,64 @@
       }
     }
     }
+
+// homepage 
+.user-info { 
+  background-image: url('../assets/pitch.jpeg');
+  .main-page-column { 
+    height: 600px;
+  }
+  .image-mane { 
+    max-width: 290px;
+  }
+  .image-fut { 
+    max-height: 308px;
+    max-width: 260px;
+  }
+  .p-explanation{ 
+    max-width: 400px;
+  }
+  .is-blue { 
+    background-color: #005391;
+  }
+  .column-dark { 
+    background: rgba(0, 0, 0, 0.596);
+    
+  }
+}
+
+.pitch { 
+  .pos {
+    margin: 65px 258px
+  }
+  .pos2 { 
+    margin: 65px 53px
+  }
+  .pos3 { 
+    margin: 65px 126px
+  }
+  .pos4 { 
+    margin: 65px 186px
+  }
+  .pos5{ 
+    margin: 65px 258px
+  }
+  .pos6 { 
+    margin: 130px 53px
+  }
+  .pos7 { 
+    margin: 130px 126px
+  }
+  .pos8 { 
+    margin: 130px 186px
+  }
+  .pos9 {
+    margin: 130px 258px
+  }
+  .pos10 { 
+    margin: 197px 126px
+  }
+  .pos11 { 
+    margin: 197px 186px
+  }
+} 
