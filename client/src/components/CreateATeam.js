@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
+import PlayerCard from './PlayerCard'
 // import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 
@@ -72,6 +73,10 @@ const CreateATeam = () => {
     console.log(formData.players)
   }
 
+  //add players to card
+
+  
+
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -111,10 +116,10 @@ const CreateATeam = () => {
               <figure className="image is-4b3">
                 {/* <img src={data.photo} alt="" /> */}
               </figure>
-              <p>{data.first_name} {data.last_name}</p>
-              <p>{data.team_name}</p>
-              <p>{data.nationality}</p>
-              <p>{data.position}</p>
+              <li>{data.first_name} {data.last_name}</li>
+              <li>{data.team_name}</li>
+              <li>{data.nationality}</li>
+              <li>{data.position}</li>
             </div>
           </button>
         </div>
@@ -124,6 +129,9 @@ const CreateATeam = () => {
         <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
         {allPlayers.name}
       </div>
+    <div>
+      <PlayerCard />
+    </div>
     </div>
   )
 }
