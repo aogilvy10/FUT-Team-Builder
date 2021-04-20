@@ -485,7 +485,7 @@
     "fields": {
       "first_name": "Morgan",
       "last_name": "Gibbs-White",
-      "        nationality": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18746.png",
       "position": "Midfielder",
       "team_name": "Wolves"

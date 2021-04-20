@@ -5,10 +5,10 @@
     "fields": {
       "first_name": "Odion Jude",
       "last_name": "Ighalo",
-      "country": "Nigeria",
+      "nationality": "Nigeria",
       "photo": "https://media.api-sports.io/football/players/12975.png",
       "position": "Attacker",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -17,10 +17,10 @@
     "fields": {
       "first_name": "Jesse",
       "last_name": "Lingard",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/900.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -29,10 +29,10 @@
     "fields": {
       "first_name": "Timothy Evans",
       "last_name": "Fosu-Mensah",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/19018.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -41,10 +41,10 @@
     "fields": {
       "first_name": "José Diogo",
       "last_name": "Dalot Teixeira",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/886.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -53,10 +53,10 @@
     "fields": {
       "first_name": "Chris",
       "last_name": "Smalling",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/892.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -65,10 +65,10 @@
     "fields": {
       "first_name": "Facundo",
       "last_name": "Pellistri Rebollo",
-      "country": "Uruguay",
+      "nationality": "Uruguay",
       "photo": "https://media.api-sports.io/football/players/70078.png",
       "position": "Attacker",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -77,10 +77,10 @@
     "fields": {
       "first_name": "James",
       "last_name": "Garner",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/895.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -89,10 +89,10 @@
     "fields": {
       "first_name": "Teden",
       "last_name": "Mengi",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/153429.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -103,8 +103,8 @@
       "last_name": "Hoelgebaum Pereira",
       "photo": "https://media.api-sports.io/football/players/899.png",
       "position": "Midfielder",
-      "name": "Manchester United",
-      "country": "Belgium"
+      "team_name": "Manchester United",
+      "nationality": "Belgium"
     }
   },
   {
@@ -115,8 +115,8 @@
       "last_name": "de Gea Quintana",
       "photo": "https://media.api-sports.io/football/players/882.png",
       "position": "Goalkeeper",
-      "name": "Manchester United",
-      "country": "Spain"
+      "team_name": "Manchester United",
+      "nationality": "Spain"
     }
   },
   {
@@ -125,10 +125,10 @@
     "fields": {
       "first_name": "Lee",
       "last_name": "Grant",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/883.png",
       "position": "Goalkeeper",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -137,10 +137,10 @@
     "fields": {
       "first_name": "Sergio Germán",
       "last_name": "Romero",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/884.png",
       "position": "Goalkeeper",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -149,10 +149,10 @@
     "fields": {
       "first_name": "Dean",
       "last_name": "Henderson",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19088.png",
       "position": "Goalkeeper",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -161,10 +161,10 @@
     "fields": {
       "first_name": "Nathan",
       "last_name": "Bishop",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/20319.png",
       "position": "Goalkeeper",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -175,8 +175,8 @@
       "last_name": "Nilsson Lindelöf",
       "photo": "https://media.api-sports.io/football/players/889.png",
       "position": "Defender",
-      "name": "Manchester United",
-      "country": "Sweden"
+      "team_name": "Manchester United",
+      "nationality": "Sweden"
     }
   },
   {
@@ -185,10 +185,10 @@
     "fields": {
       "first_name": "Eric Bertrand",
       "last_name": "Bailly",
-      "country": "Côte d'Ivoire",
+      "nationality": "Côte d'Ivoire",
       "photo": "https://media.api-sports.io/football/players/885.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -197,10 +197,10 @@
     "fields": {
       "first_name": "Phil",
       "last_name": "Jones",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/888.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -209,10 +209,10 @@
     "fields": {
       "first_name": "Harry",
       "last_name": "Maguire",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2935.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -221,10 +221,10 @@
     "fields": {
       "first_name": "Luke",
       "last_name": "Shaw",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/891.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -235,8 +235,8 @@
       "last_name": "Telles",
       "photo": "https://media.api-sports.io/football/players/378.png",
       "position": "Defender",
-      "name": "Manchester United",
-      "country": "Brazil"
+      "team_name": "Manchester United",
+      "nationality": "Brazil"
     }
   },
   {
@@ -245,10 +245,10 @@
     "fields": {
       "first_name": "Aaron",
       "last_name": "Wan-Bissaka",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18846.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -257,10 +257,10 @@
     "fields": {
       "first_name": "Brandon",
       "last_name": "Williams",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138806.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -269,10 +269,10 @@
     "fields": {
       "first_name": "Axel",
       "last_name": "Tuanzebe",
-      "country": "Congo DR",
+      "nationality": "Congo DR",
       "photo": "https://media.api-sports.io/football/players/19182.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -283,8 +283,8 @@
       "last_name": "Pogba",
       "photo": "https://media.api-sports.io/football/players/904.png",
       "position": "Midfielder",
-      "name": "Manchester United",
-      "country": "France"
+      "team_name": "Manchester United",
+      "nationality": "France"
     }
   },
   {
@@ -295,8 +295,8 @@
       "last_name": "Mata García",
       "photo": "https://media.api-sports.io/football/players/901.png",
       "position": "Midfielder",
-      "name": "Manchester United",
-      "country": "Spain"
+      "team_name": "Manchester United",
+      "nationality": "Spain"
     }
   },
   {
@@ -307,8 +307,8 @@
       "last_name": "Rodrigues Santos",
       "photo": "https://media.api-sports.io/football/players/905.png",
       "position": "Midfielder",
-      "name": "Manchester United",
-      "country": "Brazil"
+      "team_name": "Manchester United",
+      "nationality": "Brazil"
     }
   },
   {
@@ -317,10 +317,10 @@
     "fields": {
       "first_name": "Bruno Miguel",
       "last_name": "Borges Fernandes",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/1485.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -331,8 +331,8 @@
       "last_name": "James",
       "photo": "https://media.api-sports.io/football/players/19329.png",
       "position": "Midfielder",
-      "name": "Manchester United",
-      "country": "England"
+      "team_name": "Manchester United",
+      "nationality": "England"
     }
   },
   {
@@ -343,8 +343,8 @@
       "last_name": "Matić",
       "photo": "https://media.api-sports.io/football/players/902.png",
       "position": "Midfielder",
-      "name": "Manchester United",
-      "country": "Serbia"
+      "team_name": "Manchester United",
+      "nationality": "Serbia"
     }
   },
   {
@@ -353,10 +353,10 @@
     "fields": {
       "first_name": "Donny",
       "last_name": "van de Beek",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/547.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -365,10 +365,10 @@
     "fields": {
       "first_name": "Scott",
       "last_name": "McTominay",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/903.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -377,10 +377,10 @@
     "fields": {
       "first_name": "Shola",
       "last_name": "Shoretire",
-      "Country": "Nigeria",
+      "nationality": "Nigeria",
       "photo": "https://media.api-sports.io/football/players/163054.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -389,10 +389,10 @@
     "fields": {
       "first_name": "Ethan Stuart",
       "last_name": "William Galbraith",
-      "Country": "Northern Ireland",
+      "nationality": "Northern Ireland",
       "photo": "https://media.api-sports.io/football/players/138814.png",
       "position": "Midfielder",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -401,10 +401,10 @@
     "fields": {
       "first_name": "Edinson Roberto",
       "last_name": "Cavani Gómez",
-      "country": "Uruguay",
+      "nationality": "Uruguay",
       "photo": "https://media.api-sports.io/football/players/274.png",
       "position": "Attacker",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -415,8 +415,8 @@
       "last_name": "Martial",
       "photo": "https://media.api-sports.io/football/players/908.png",
       "position": "Attacker",
-      "name": "Manchester United",
-      "country": "France"
+      "team_name": "Manchester United",
+      "nationality": "France"
     }
   },
   {
@@ -425,10 +425,10 @@
     "fields": {
       "first_name": "Marcus",
       "last_name": "Rashford",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/909.png",
       "position": "Attacker",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -437,10 +437,10 @@
     "fields": {
       "first_name": "Mason",
       "last_name": "Greenwood",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/897.png",
       "position": "Attacker",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -449,10 +449,10 @@
     "fields": {
       "first_name": "Amad Diallo",
       "last_name": "Traoré",
-      "Country": "Côte d'Ivoire",
+      "nationality": "Côte d'Ivoire",
       "photo": "https://media.api-sports.io/football/players/157997.png",
       "position": "Attacker",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -463,8 +463,8 @@
       "last_name": "Elanga",
       "photo": "https://media.api-sports.io/football/players/153430.png",
       "position": "Attacker",
-      "name": "Manchester United",
-      "Country": "Sweden"
+      "team_name": "Manchester United",
+      "nationality": "Sweden"
     }
   },
   {
@@ -473,10 +473,10 @@
     "fields": {
       "first_name": "Faustino Marcos Alberto",
       "last_name": "Rojo",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/890.png",
       "position": "Defender",
-      "name": "Manchester United"
+      "team_name": "Manchester United"
     }
   },
   {
@@ -485,10 +485,10 @@
     "fields": {
       "first_name": "Morgan",
       "last_name": "Gibbs-White",
-      "        Country": "England",
+      "        nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18746.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -497,10 +497,10 @@
     "fields": {
       "first_name": "Vítor",
       "last_name": "Machado Ferreira",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/128384.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -509,10 +509,10 @@
     "fields": {
       "first_name": "Taylor",
       "last_name": "Perry",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/125705.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -521,10 +521,10 @@
     "fields": {
       "first_name": "Romain",
       "last_name": "Saïss",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/2716.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -533,10 +533,10 @@
     "fields": {
       "first_name": "João Filipe",
       "last_name": "Iria Santos Moutinho",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/2677.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -545,10 +545,10 @@
     "fields": {
       "first_name": "Leander",
       "last_name": "Dendoncker",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/2922.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -557,10 +557,10 @@
     "fields": {
       "first_name": "Luke",
       "last_name": "Cundle",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/149564.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -571,8 +571,8 @@
       "last_name": "Otasowie",
       "photo": "https://media.api-sports.io/football/players/152963.png",
       "position": "Midfielder",
-      "name": "Wolves",
-      "country": "USA"
+      "team_name": "Wolves",
+      "nationality": "USA"
     }
   },
   {
@@ -581,10 +581,10 @@
     "fields": {
       "first_name": "Pedro",
       "last_name": "Lomba Neto",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/1864.png",
       "position": "Attacker",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -595,8 +595,8 @@
       "last_name": "Jiménez Rodríguez",
       "photo": "https://media.api-sports.io/football/players/2887.png",
       "position": "Attacker",
-      "name": "Wolves",
-      "country": "Mexico"
+      "team_name": "Wolves",
+      "nationality": "Mexico"
     }
   },
   {
@@ -607,8 +607,8 @@
       "last_name": "da Silva",
       "photo": "https://media.api-sports.io/football/players/47319.png",
       "position": "Attacker",
-      "name": "Wolves",
-      "country": "Brazil"
+      "team_name": "Wolves",
+      "nationality": "Brazil"
     }
   },
   {
@@ -617,10 +617,10 @@
     "fields": {
       "first_name": "Fábio Daniel",
       "last_name": "Soares Silva",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/129791.png",
       "position": "Attacker",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -631,8 +631,8 @@
       "last_name": "Traoré Diarra",
       "photo": "https://media.api-sports.io/football/players/18753.png",
       "position": "Attacker",
-      "name": "Wolves",
-      "country": "Spain"
+      "team_name": "Wolves",
+      "nationality": "Spain"
     }
   },
   {
@@ -643,8 +643,8 @@
       "last_name": "Corbeanu",
       "photo": "https://media.api-sports.io/football/players/280688.png",
       "position": "Attacker",
-      "name": "Wolves",
-      "Country": "Canada"
+      "team_name": "Wolves",
+      "nationality": "Canada"
     }
   },
   {
@@ -655,8 +655,8 @@
       "last_name": "Cutrone",
       "photo": "https://media.api-sports.io/football/players/1649.png",
       "position": "Attacker",
-      "name": "Wolves",
-      "country": "Italy"
+      "team_name": "Wolves",
+      "nationality": "Italy"
     }
   },
   {
@@ -665,10 +665,10 @@
     "fields": {
       "first_name": "Oskar",
       "last_name": "Buur Rasmussen",
-      "country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/82022.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -677,10 +677,10 @@
     "fields": {
       "first_name": "Diogo José",
       "last_name": "Teixeira da Silva",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/2678.png",
       "position": "Attacker",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -689,10 +689,10 @@
     "fields": {
       "first_name": "Meritan",
       "last_name": "Shabani",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/518.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -701,10 +701,10 @@
     "fields": {
       "first_name": "Rúben Gonçalo Silva",
       "last_name": "Nascimento Vinagre",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/18745.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -713,10 +713,10 @@
     "fields": {
       "first_name": "Leonardo",
       "last_name": "Campana Romero",
-      "country": "Ecuador",
+      "nationality": "Ecuador",
       "photo": "https://media.api-sports.io/football/players/2584.png",
       "position": "Attacker",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -725,10 +725,10 @@
     "fields": {
       "first_name": "Rui Pedro",
       "last_name": "dos Santos Patrício",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/2674.png",
       "position": "Goalkeeper",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -737,10 +737,10 @@
     "fields": {
       "first_name": "John",
       "last_name": "Ruddy",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18737.png",
       "position": "Goalkeeper",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -749,10 +749,10 @@
     "fields": {
       "first_name": "Andreas",
       "last_name": "Söndergaard",
-      "Country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/130418.png",
       "position": "Goalkeeper",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -761,10 +761,10 @@
     "fields": {
       "first_name": "Ki-Jana",
       "last_name": "Hoever",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/285.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -775,8 +775,8 @@
       "last_name": "Aït Nouri",
       "photo": "https://media.api-sports.io/football/players/21138.png",
       "position": "Defender",
-      "name": "Wolves",
-      "country": "France"
+      "team_name": "Wolves",
+      "nationality": "France"
     }
   },
   {
@@ -787,8 +787,8 @@
       "last_name": "Marçal de Oliveira",
       "photo": "https://media.api-sports.io/football/players/652.png",
       "position": "Defender",
-      "name": "Wolves",
-      "country": "Brazil"
+      "team_name": "Wolves",
+      "nationality": "Brazil"
     }
   },
   {
@@ -797,10 +797,10 @@
     "fields": {
       "first_name": "Willy-Arnaud",
       "last_name": "Zobo Boly",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/18739.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -809,10 +809,10 @@
     "fields": {
       "first_name": "Conor",
       "last_name": "Coady",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18741.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -823,8 +823,8 @@
       "last_name": "Castro Otto",
       "photo": "https://media.api-sports.io/football/players/18740.png",
       "position": "Defender",
-      "name": "Wolves",
-      "country": "Spain"
+      "team_name": "Wolves",
+      "nationality": "Spain"
     }
   },
   {
@@ -833,10 +833,10 @@
     "fields": {
       "first_name": "Nélson",
       "last_name": "Cabral Semedo",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/130.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -845,10 +845,10 @@
     "fields": {
       "first_name": "Lewis",
       "last_name": "Richards",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/152957.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -857,10 +857,10 @@
     "fields": {
       "first_name": "Maximilian",
       "last_name": "Kilman",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18744.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -869,10 +869,10 @@
     "fields": {
       "first_name": "Nigel",
       "last_name": "Lonwijk",
-      "Country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/280685.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -883,8 +883,8 @@
       "last_name": "Bueno López",
       "photo": "https://media.api-sports.io/football/players/280687.png",
       "position": "Defender",
-      "name": "Wolves",
-      "country": "Spain"
+      "team_name": "Wolves",
+      "nationality": "Spain"
     }
   },
   {
@@ -893,10 +893,10 @@
     "fields": {
       "first_name": "Christian Fernandes",
       "last_name": "Marques",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/152964.png",
       "position": "Defender",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -905,10 +905,10 @@
     "fields": {
       "first_name": "Rúben Diogo",
       "last_name": "da Silva Neves",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/2676.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -917,10 +917,10 @@
     "fields": {
       "first_name": "Daniel",
       "last_name": "Castelo Podence",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/1605.png",
       "position": "Midfielder",
-      "name": "Wolves"
+      "team_name": "Wolves"
     }
   },
   {
@@ -931,8 +931,8 @@
       "last_name": "Minamino",
       "photo": "https://media.api-sports.io/football/players/1101.png",
       "position": "Attacker",
-      "name": "Liverpool",
-      "country": "Japan"
+      "team_name": "Liverpool",
+      "nationality": "Japan"
     }
   },
   {
@@ -941,10 +941,10 @@
     "fields": {
       "first_name": "Sepp",
       "last_name": "van den Berg",
-      "Country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/36922.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -955,8 +955,8 @@
       "last_name": "Becker",
       "photo": "https://media.api-sports.io/football/players/280.png",
       "position": "Goalkeeper",
-      "name": "Liverpool",
-      "country": "Brazil"
+      "team_name": "Liverpool",
+      "nationality": "Brazil"
     }
   },
   {
@@ -967,8 +967,8 @@
       "last_name": "San Miguel del Castillo",
       "photo": "https://media.api-sports.io/football/players/18812.png",
       "position": "Goalkeeper",
-      "name": "Liverpool",
-      "country": "Spain"
+      "team_name": "Liverpool",
+      "nationality": "Spain"
     }
   },
   {
@@ -977,10 +977,10 @@
     "fields": {
       "first_name": "Caoimhin",
       "last_name": "Kelleher",
-      "country": "Republic of Ireland",
+      "nationality": "Republic of Ireland",
       "photo": "https://media.api-sports.io/football/players/281.png",
       "position": "Goalkeeper",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -991,8 +991,8 @@
       "last_name": "Ojrzyński",
       "photo": "https://media.api-sports.io/football/players/162441.png",
       "position": "Goalkeeper",
-      "name": "Liverpool",
-      "Country": "Poland"
+      "team_name": "Liverpool",
+      "nationality": "Poland"
     }
   },
   {
@@ -1001,10 +1001,10 @@
     "fields": {
       "first_name": "Liam",
       "last_name": "Hughes",
-      "Country": "Northern Ireland",
+      "nationality": "Northern Ireland",
       "photo": "https://media.api-sports.io/football/players/138411.png",
       "position": "Goalkeeper",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1013,10 +1013,10 @@
     "fields": {
       "first_name": "Harvey",
       "last_name": "Davies",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/180316.png",
       "position": "Goalkeeper",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1025,10 +1025,10 @@
     "fields": {
       "first_name": "Virgil",
       "last_name": "van Dijk",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/290.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1037,10 +1037,10 @@
     "fields": {
       "first_name": "Joe",
       "last_name": "Gomez",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/284.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1051,8 +1051,8 @@
       "last_name": "Kabak",
       "photo": "https://media.api-sports.io/football/players/26300.png",
       "position": "Defender",
-      "name": "Liverpool",
-      "country": "Turkey"
+      "team_name": "Liverpool",
+      "nationality": "Turkey"
     }
   },
   {
@@ -1063,8 +1063,8 @@
       "last_name": "Tsimikas",
       "photo": "https://media.api-sports.io/football/players/1600.png",
       "position": "Defender",
-      "name": "Liverpool",
-      "country": "Greece"
+      "team_name": "Liverpool",
+      "nationality": "Greece"
     }
   },
   {
@@ -1073,10 +1073,10 @@
     "fields": {
       "first_name": "Andrew",
       "last_name": "Robertson",
-      "country": "Scotland",
+      "nationality": "Scotland",
       "photo": "https://media.api-sports.io/football/players/289.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1085,10 +1085,10 @@
     "fields": {
       "first_name": "Ben",
       "last_name": "Davies",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19437.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1097,10 +1097,10 @@
     "fields": {
       "first_name": "Joël Andre",
       "last_name": "Job Matip",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/286.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1109,10 +1109,10 @@
     "fields": {
       "first_name": "Rhys",
       "last_name": "Williams",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/162904.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1121,10 +1121,10 @@
     "fields": {
       "first_name": "Nathaniel",
       "last_name": "Phillips",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/127472.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1133,10 +1133,10 @@
     "fields": {
       "first_name": "Trent",
       "last_name": "Alexander-Arnold",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/283.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1147,7 +1147,7 @@
       "last_name": "Williams",
       "photo": "https://media.api-sports.io/football/players/138780.png",
       "position": "Defender",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1158,8 +1158,8 @@
       "last_name": "Koumetio",
       "photo": "https://media.api-sports.io/football/players/152974.png",
       "position": "Defender",
-      "name": "Liverpool",
-      "Country": "France"
+      "team_name": "Liverpool",
+      "nationality": "France"
     }
   },
   {
@@ -1170,8 +1170,8 @@
       "last_name": "Tavares",
       "photo": "https://media.api-sports.io/football/players/299.png",
       "position": "Midfielder",
-      "name": "Liverpool",
-      "country": "Brazil"
+      "team_name": "Liverpool",
+      "nationality": "Brazil"
     }
   },
   {
@@ -1180,10 +1180,10 @@
     "fields": {
       "first_name": "Georginio Gregion Emile",
       "last_name": "Wijnaldum",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/300.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1194,8 +1194,8 @@
       "last_name": "Alcântara do Nascimento",
       "photo": "https://media.api-sports.io/football/players/507.png",
       "position": "Midfielder",
-      "name": "Liverpool",
-      "country": "Italy"
+      "team_name": "Liverpool",
+      "nationality": "Italy"
     }
   },
   {
@@ -1204,10 +1204,10 @@
     "fields": {
       "first_name": "James Philip",
       "last_name": "Milner",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/296.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1218,8 +1218,8 @@
       "last_name": "Keïta",
       "photo": "https://media.api-sports.io/football/players/294.png",
       "position": "Midfielder",
-      "name": "Liverpool",
-      "country": "Guinea"
+      "team_name": "Liverpool",
+      "nationality": "Guinea"
     }
   },
   {
@@ -1228,10 +1228,10 @@
     "fields": {
       "first_name": "Jordan Brian",
       "last_name": "Henderson",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/292.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1240,10 +1240,10 @@
     "fields": {
       "first_name": "Alex",
       "last_name": "Oxlade-Chamberlain",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/297.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1252,10 +1252,10 @@
     "fields": {
       "first_name": "Curtis",
       "last_name": "Jones",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/293.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1264,10 +1264,10 @@
     "fields": {
       "first_name": "Xherdan",
       "last_name": "Shaqiri",
-      "country": "Kosovo",
+      "nationality": "Kosovo",
       "photo": "https://media.api-sports.io/football/players/307.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1276,10 +1276,10 @@
     "fields": {
       "first_name": "Jake",
       "last_name": "Cain",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/152975.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1288,10 +1288,10 @@
     "fields": {
       "first_name": "Leighton",
       "last_name": "Clarkson",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/151754.png",
       "position": "Midfielder",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1302,8 +1302,8 @@
       "last_name": "Barbosa de Oliveira",
       "photo": "https://media.api-sports.io/football/players/302.png",
       "position": "Attacker",
-      "name": "Liverpool",
-      "country": "Brazil"
+      "team_name": "Liverpool",
+      "nationality": "Brazil"
     }
   },
   {
@@ -1312,10 +1312,10 @@
     "fields": {
       "first_name": "Sadio",
       "last_name": "Mané",
-      "country": "Senegal",
+      "nationality": "Senegal",
       "photo": "https://media.api-sports.io/football/players/304.png",
       "position": "Attacker",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1326,8 +1326,8 @@
       "last_name": "Salah Ghaly",
       "photo": "https://media.api-sports.io/football/players/306.png",
       "position": "Attacker",
-      "name": "Liverpool",
-      "country": "Egypt"
+      "team_name": "Liverpool",
+      "nationality": "Egypt"
     }
   },
   {
@@ -1336,10 +1336,10 @@
     "fields": {
       "first_name": "Diogo José",
       "last_name": "Teixeira da Silva",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/2678.png",
       "position": "Attacker",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1348,10 +1348,10 @@
     "fields": {
       "first_name": "Divock",
       "last_name": "Okoth Origi",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/305.png",
       "position": "Attacker",
-      "name": "Liverpool"
+      "team_name": "Liverpool"
     }
   },
   {
@@ -1362,8 +1362,8 @@
       "last_name": "Saliba",
       "photo": "https://media.api-sports.io/football/players/22090.png",
       "position": "Defender",
-      "name": "Arsenal",
-      "Country": "France"
+      "team_name": "Arsenal",
+      "nationality": "France"
     }
   },
   {
@@ -1372,10 +1372,10 @@
     "fields": {
       "first_name": "Matt",
       "last_name": "Macey",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/20386.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1384,10 +1384,10 @@
     "fields": {
       "first_name": "Mesut",
       "last_name": "Özil",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/1458.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1396,10 +1396,10 @@
     "fields": {
       "first_name": "Bernd",
       "last_name": "Leno",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/1438.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1408,10 +1408,10 @@
     "fields": {
       "first_name": "Rúnar Alex",
       "last_name": "Rúnarsson",
-      "Country": "Iceland",
+      "nationality": "Iceland",
       "photo": "https://media.api-sports.io/football/players/2784.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1420,10 +1420,10 @@
     "fields": {
       "first_name": "Mathew",
       "last_name": "Ryan",
-      "country": "Australia",
+      "nationality": "Australia",
       "photo": "https://media.api-sports.io/football/players/2741.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1432,10 +1432,10 @@
     "fields": {
       "first_name": "Karl Jakob",
       "last_name": "Hein",
-      "country": "Estonia",
+      "nationality": "Estonia",
       "photo": "https://media.api-sports.io/football/players/169295.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1444,10 +1444,10 @@
     "fields": {
       "first_name": "Arthur",
       "last_name": "Okonkwo",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/231062.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1458,8 +1458,8 @@
       "last_name": "Bellerín Moruno",
       "photo": "https://media.api-sports.io/football/players/1439.png",
       "position": "Defender",
-      "name": "Arsenal",
-      "country": "Spain"
+      "team_name": "Arsenal",
+      "nationality": "Spain"
     }
   },
   {
@@ -1468,10 +1468,10 @@
     "fields": {
       "first_name": "Kieran",
       "last_name": "Tierney",
-      "country": "Isle of Man",
+      "nationality": "Isle of Man",
       "photo": "https://media.api-sports.io/football/players/1117.png",
       "position": "Defender",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1482,8 +1482,8 @@
       "last_name": "dos Santos Magalhães",
       "photo": "https://media.api-sports.io/football/players/22224.png",
       "position": "Defender",
-      "name": "Arsenal",
-      "country": "Brazil"
+      "team_name": "Arsenal",
+      "nationality": "Brazil"
     }
   },
   {
@@ -1492,10 +1492,10 @@
     "fields": {
       "first_name": "Rob",
       "last_name": "Holding",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/1440.png",
       "position": "Defender",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1504,10 +1504,10 @@
     "fields": {
       "first_name": "Cédric Ricardo",
       "last_name": "Alves Soares",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/190.png",
       "position": "Defender",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1516,10 +1516,10 @@
     "fields": {
       "first_name": "Calum",
       "last_name": "Chambers",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19016.png",
       "position": "Defender",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1530,8 +1530,8 @@
       "last_name": "Marí Villar",
       "photo": "https://media.api-sports.io/football/players/46792.png",
       "position": "Defender",
-      "name": "Arsenal",
-      "country": "Spain"
+      "team_name": "Arsenal",
+      "nationality": "Spain"
     }
   },
   {
@@ -1542,8 +1542,8 @@
       "last_name": "Moreira Marinho",
       "photo": "https://media.api-sports.io/football/players/2283.png",
       "position": "Defender",
-      "name": "Arsenal",
-      "country": "Brazil"
+      "team_name": "Arsenal",
+      "nationality": "Brazil"
     }
   },
   {
@@ -1554,8 +1554,8 @@
       "last_name": "López Salguero",
       "photo": "https://media.api-sports.io/football/players/284057.png",
       "position": "Defender",
-      "name": "Arsenal",
-      "Country": "Spain"
+      "team_name": "Arsenal",
+      "nationality": "Spain"
     }
   },
   {
@@ -1564,10 +1564,10 @@
     "fields": {
       "first_name": "Bukayo",
       "last_name": "Saka",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/1460.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1578,8 +1578,8 @@
       "last_name": "Ceballos Fernández",
       "photo": "https://media.api-sports.io/football/players/748.png",
       "position": "Midfielder",
-      "name": "Arsenal",
-      "country": "Spain"
+      "team_name": "Arsenal",
+      "nationality": "Spain"
     }
   },
   {
@@ -1590,8 +1590,8 @@
       "last_name": "Ødegaard",
       "photo": "https://media.api-sports.io/football/players/37127.png",
       "position": "Midfielder",
-      "name": "Arsenal",
-      "country": "Norway"
+      "team_name": "Arsenal",
+      "nationality": "Norway"
     }
   },
   {
@@ -1602,8 +1602,8 @@
       "last_name": "Partey",
       "photo": "https://media.api-sports.io/football/players/49.png",
       "position": "Midfielder",
-      "name": "Arsenal",
-      "country": "Ghana"
+      "team_name": "Arsenal",
+      "nationality": "Ghana"
     }
   },
   {
@@ -1614,8 +1614,8 @@
       "last_name": "Elsayed Elneny",
       "photo": "https://media.api-sports.io/football/players/1452.png",
       "position": "Midfielder",
-      "name": "Arsenal",
-      "country": "Egypt"
+      "team_name": "Arsenal",
+      "nationality": "Egypt"
     }
   },
   {
@@ -1624,10 +1624,10 @@
     "fields": {
       "first_name": "Emile",
       "last_name": "Smith Rowe",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/1161.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1636,10 +1636,10 @@
     "fields": {
       "first_name": "Granit",
       "last_name": "Xhaka",
-      "country": "Switzerland",
+      "nationality": "Switzerland",
       "photo": "https://media.api-sports.io/football/players/1464.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1648,10 +1648,10 @@
     "fields": {
       "first_name": "Miguel",
       "last_name": "Azeez",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138842.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1660,10 +1660,10 @@
     "fields": {
       "first_name": "Ben",
       "last_name": "Cottrell",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/153399.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1674,8 +1674,8 @@
       "last_name": "Lacazette",
       "photo": "https://media.api-sports.io/football/players/1467.png",
       "position": "Attacker",
-      "name": "Arsenal",
-      "country": "France"
+      "team_name": "Arsenal",
+      "nationality": "France"
     }
   },
   {
@@ -1686,8 +1686,8 @@
       "last_name": "Borges da Silva",
       "photo": "https://media.api-sports.io/football/players/2294.png",
       "position": "Attacker",
-      "name": "Arsenal",
-      "country": "Brazil"
+      "team_name": "Arsenal",
+      "nationality": "Brazil"
     }
   },
   {
@@ -1698,8 +1698,8 @@
       "last_name": "Aubameyang",
       "photo": "https://media.api-sports.io/football/players/1465.png",
       "position": "Attacker",
-      "name": "Arsenal",
-      "country": "France"
+      "team_name": "Arsenal",
+      "nationality": "France"
     }
   },
   {
@@ -1708,10 +1708,10 @@
     "fields": {
       "first_name": "Nicolas",
       "last_name": "Pépé",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/3246.png",
       "position": "Attacker",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1720,10 +1720,10 @@
     "fields": {
       "first_name": "Reiss",
       "last_name": "Nelson",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/727.png",
       "position": "Attacker",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1732,10 +1732,10 @@
     "fields": {
       "first_name": "Edward",
       "last_name": "Nketiah",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/1468.png",
       "position": "Attacker",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1746,8 +1746,8 @@
       "last_name": "Martinelli Silva",
       "photo": "https://media.api-sports.io/football/players/127769.png",
       "position": "Attacker",
-      "name": "Arsenal",
-      "country": "Brazil"
+      "team_name": "Arsenal",
+      "nationality": "Brazil"
     }
   },
   {
@@ -1756,10 +1756,10 @@
     "fields": {
       "first_name": "Folarin",
       "last_name": "Balogun",
-      "Country": "USA",
+      "nationality": "USA",
       "photo": "https://media.api-sports.io/football/players/138835.png",
       "position": "Attacker",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1768,10 +1768,10 @@
     "fields": {
       "first_name": "Damián Emiliano",
       "last_name": "Martínez",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/19599.png",
       "position": "Goalkeeper",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1780,10 +1780,10 @@
     "fields": {
       "first_name": "Joseph",
       "last_name": "Willock",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/1463.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1792,10 +1792,10 @@
     "fields": {
       "first_name": "Ainsley",
       "last_name": "Maitland-Niles",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/1456.png",
       "position": "Midfielder",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1806,8 +1806,8 @@
       "last_name": "Guendouzi Olié",
       "photo": "https://media.api-sports.io/football/players/1454.png",
       "position": "Midfielder",
-      "name": "Arsenal",
-      "country": "France"
+      "team_name": "Arsenal",
+      "nationality": "France"
     }
   },
   {
@@ -1816,10 +1816,10 @@
     "fields": {
       "first_name": "Sead",
       "last_name": "Kolašinac",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/1442.png",
       "position": "Defender",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1828,10 +1828,10 @@
     "fields": {
       "first_name": "Shkodran",
       "last_name": "Mustafi",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/1448.png",
       "position": "Defender",
-      "name": "Arsenal"
+      "team_name": "Arsenal"
     }
   },
   {
@@ -1842,8 +1842,8 @@
       "last_name": "Tosun",
       "photo": "https://media.api-sports.io/football/players/18768.png",
       "position": "Attacker",
-      "name": "Everton",
-      "country": "Germany"
+      "team_name": "Everton",
+      "nationality": "Germany"
     }
   },
   {
@@ -1852,10 +1852,10 @@
     "fields": {
       "first_name": "Jordan",
       "last_name": "Pickford",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2932.png",
       "position": "Goalkeeper",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1864,10 +1864,10 @@
     "fields": {
       "first_name": "João Manuel",
       "last_name": "Neves Virginia",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/18755.png",
       "position": "Goalkeeper",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1878,8 +1878,8 @@
       "last_name": "Olsen",
       "photo": "https://media.api-sports.io/football/players/766.png",
       "position": "Goalkeeper",
-      "name": "Everton",
-      "country": "Sweden"
+      "team_name": "Everton",
+      "nationality": "Sweden"
     }
   },
   {
@@ -1888,10 +1888,10 @@
     "fields": {
       "first_name": "Harry",
       "last_name": "Tyrer",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138844.png",
       "position": "Goalkeeper",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1900,10 +1900,10 @@
     "fields": {
       "first_name": "Žan Luk",
       "last_name": "Leban",
-      "Country": "Slovenia",
+      "nationality": "Slovenia",
       "photo": "https://media.api-sports.io/football/players/284326.png",
       "position": "Goalkeeper",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1912,10 +1912,10 @@
     "fields": {
       "first_name": "Mason",
       "last_name": "Holgate",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19150.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1924,10 +1924,10 @@
     "fields": {
       "first_name": "Michael",
       "last_name": "Keane",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2934.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1938,8 +1938,8 @@
       "last_name": "Digne",
       "photo": "https://media.api-sports.io/football/players/2724.png",
       "position": "Defender",
-      "name": "Everton",
-      "country": "France"
+      "team_name": "Everton",
+      "nationality": "France"
     }
   },
   {
@@ -1948,10 +1948,10 @@
     "fields": {
       "first_name": "Yerry Fernando",
       "last_name": "Mina González",
-      "country": "Colombia",
+      "nationality": "Colombia",
       "photo": "https://media.api-sports.io/football/players/2484.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1962,8 +1962,8 @@
       "last_name": "Nkounkou",
       "photo": "https://media.api-sports.io/football/players/156490.png",
       "position": "Defender",
-      "name": "Everton",
-      "Country": "France"
+      "team_name": "Everton",
+      "nationality": "France"
     }
   },
   {
@@ -1972,10 +1972,10 @@
     "fields": {
       "first_name": "Ben",
       "last_name": "Godfrey",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19073.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1984,10 +1984,10 @@
     "fields": {
       "first_name": "Séamus",
       "last_name": "Coleman",
-      "country": "Republic of Ireland",
+      "nationality": "Republic of Ireland",
       "photo": "https://media.api-sports.io/football/players/18758.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -1998,8 +1998,8 @@
       "last_name": "Astley",
       "photo": "https://media.api-sports.io/football/players/138850.png",
       "position": "Defender",
-      "name": "Everton",
-      "Country": "Wales"
+      "team_name": "Everton",
+      "nationality": "Wales"
     }
   },
   {
@@ -2008,10 +2008,10 @@
     "fields": {
       "first_name": "Kyle Alex",
       "last_name": "John",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138849.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2020,10 +2020,10 @@
     "fields": {
       "first_name": "Thierr",
       "last_name": "Small",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/284311.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2034,8 +2034,8 @@
       "last_name": "Marques Loureiro",
       "photo": "https://media.api-sports.io/football/players/326.png",
       "position": "Midfielder",
-      "name": "Everton",
-      "country": "Brazil"
+      "team_name": "Everton",
+      "nationality": "Brazil"
     }
   },
   {
@@ -2044,10 +2044,10 @@
     "fields": {
       "first_name": "Fabian",
       "last_name": "Delph",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/630.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2056,10 +2056,10 @@
     "fields": {
       "first_name": "Gylfi Þór",
       "last_name": "Sigurðsson",
-      "country": "Iceland",
+      "nationality": "Iceland",
       "photo": "https://media.api-sports.io/football/players/2795.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2070,8 +2070,8 @@
       "last_name": "Doucouré",
       "photo": "https://media.api-sports.io/football/players/18805.png",
       "position": "Midfielder",
-      "name": "Everton",
-      "country": "France"
+      "team_name": "Everton",
+      "nationality": "France"
     }
   },
   {
@@ -2080,10 +2080,10 @@
     "fields": {
       "first_name": "Alex",
       "last_name": "Iwobi",
-      "country": "Nigeria",
+      "nationality": "Nigeria",
       "photo": "https://media.api-sports.io/football/players/1455.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2092,10 +2092,10 @@
     "fields": {
       "first_name": "James David",
       "last_name": "Rodríguez Rubio",
-      "country": "Colombia",
+      "nationality": "Colombia",
       "photo": "https://media.api-sports.io/football/players/517.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2106,8 +2106,8 @@
       "last_name": "Anício Caldeira Duarte",
       "photo": "https://media.api-sports.io/football/players/18761.png",
       "position": "Midfielder",
-      "name": "Everton",
-      "country": "Brazil"
+      "team_name": "Everton",
+      "nationality": "Brazil"
     }
   },
   {
@@ -2116,10 +2116,10 @@
     "fields": {
       "first_name": "André Filipe",
       "last_name": "Tavares Gomes",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/18765.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2128,10 +2128,10 @@
     "fields": {
       "first_name": "Jean-Philippe",
       "last_name": "Gbamin",
-      "country": "Côte d'Ivoire",
+      "nationality": "Côte d'Ivoire",
       "photo": "https://media.api-sports.io/football/players/3240.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2140,10 +2140,10 @@
     "fields": {
       "first_name": "Tom",
       "last_name": "Davies",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18762.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2152,10 +2152,10 @@
     "fields": {
       "first_name": "Muhamed",
       "last_name": "Bešić",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/19236.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2166,8 +2166,8 @@
       "last_name": "Broadhead",
       "photo": "https://media.api-sports.io/football/players/126791.png",
       "position": "Midfielder",
-      "name": "Everton",
-      "country": "Wales"
+      "team_name": "Everton",
+      "nationality": "Wales"
     }
   },
   {
@@ -2176,10 +2176,10 @@
     "fields": {
       "first_name": "Tyler",
       "last_name": "Onyango",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/167657.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2190,8 +2190,8 @@
       "last_name": "de Andrade",
       "photo": "https://media.api-sports.io/football/players/2413.png",
       "position": "Attacker",
-      "name": "Everton",
-      "country": "Brazil"
+      "team_name": "Everton",
+      "nationality": "Brazil"
     }
   },
   {
@@ -2200,10 +2200,10 @@
     "fields": {
       "first_name": "Dominic",
       "last_name": "Calvert-Lewin",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18766.png",
       "position": "Attacker",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2214,8 +2214,8 @@
       "last_name": "Kojo King",
       "photo": "https://media.api-sports.io/football/players/18881.png",
       "position": "Attacker",
-      "name": "Everton",
-      "country": "Norway"
+      "team_name": "Everton",
+      "nationality": "Norway"
     }
   },
   {
@@ -2224,10 +2224,10 @@
     "fields": {
       "first_name": "Theo",
       "last_name": "Walcott",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18769.png",
       "position": "Attacker",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2238,8 +2238,8 @@
       "last_name": "Ramírez Castillo",
       "photo": "https://media.api-sports.io/football/players/47324.png",
       "position": "Attacker",
-      "name": "Everton",
-      "country": "Spain"
+      "team_name": "Everton",
+      "nationality": "Spain"
     }
   },
   {
@@ -2248,10 +2248,10 @@
     "fields": {
       "first_name": "Yannick",
       "last_name": "Bolasie Yala",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/1432.png",
       "position": "Attacker",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2260,10 +2260,10 @@
     "fields": {
       "first_name": "Anthony",
       "last_name": "Gordon",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138787.png",
       "position": "Attacker",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2272,10 +2272,10 @@
     "fields": {
       "first_name": "Jarrad",
       "last_name": "Branthwaite",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/17661.png",
       "position": "Defender",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2284,10 +2284,10 @@
     "fields": {
       "first_name": "Beni",
       "last_name": "Baningime",
-      "country": "Congo DR",
+      "nationality": "Congo DR",
       "photo": "https://media.api-sports.io/football/players/19550.png",
       "position": "Midfielder",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2296,10 +2296,10 @@
     "fields": {
       "first_name": "Ellis",
       "last_name": "Simms",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138786.png",
       "position": "Attacker",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2308,10 +2308,10 @@
     "fields": {
       "first_name": "Jonas",
       "last_name": "Lössl",
-      "country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/2727.png",
       "position": "Goalkeeper",
-      "name": "Everton"
+      "team_name": "Everton"
     }
   },
   {
@@ -2320,10 +2320,10 @@
     "fields": {
       "first_name": "Islam",
       "last_name": "Slimani",
-      "country": "Algeria",
+      "nationality": "Algeria",
       "photo": "https://media.api-sports.io/football/players/1374.png",
       "position": "Attacker",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2332,10 +2332,10 @@
     "fields": {
       "first_name": "Rachid",
       "last_name": "Ghezzal",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/18780.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2346,8 +2346,8 @@
       "last_name": "Diabaté",
       "photo": "https://media.api-sports.io/football/players/50101.png",
       "position": "Attacker",
-      "name": "Leicester",
-      "country": "France"
+      "team_name": "Leicester",
+      "nationality": "France"
     }
   },
   {
@@ -2356,10 +2356,10 @@
     "fields": {
       "first_name": "Kasper Peter",
       "last_name": "Schmeichel",
-      "country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/2728.png",
       "position": "Goalkeeper",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2370,8 +2370,8 @@
       "last_name": "Ward",
       "photo": "https://media.api-sports.io/football/players/18146.png",
       "position": "Goalkeeper",
-      "name": "Leicester",
-      "country": "Wales"
+      "team_name": "Leicester",
+      "nationality": "Wales"
     }
   },
   {
@@ -2380,10 +2380,10 @@
     "fields": {
       "first_name": "Eldin",
       "last_name": "Jakupovic",
-      "country": "Bosnia and Herzegovina",
+      "nationality": "Bosnia and Herzegovina",
       "photo": "https://media.api-sports.io/football/players/18770.png",
       "position": "Goalkeeper",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2394,8 +2394,8 @@
       "last_name": "Stolarczyk",
       "photo": "https://media.api-sports.io/football/players/152970.png",
       "position": "Goalkeeper",
-      "name": "Leicester",
-      "Country": "Poland"
+      "team_name": "Leicester",
+      "nationality": "Poland"
     }
   },
   {
@@ -2404,10 +2404,10 @@
     "fields": {
       "first_name": "James",
       "last_name": "Justin",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19760.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2418,8 +2418,8 @@
       "last_name": "Fofana",
       "photo": "https://media.api-sports.io/football/players/22094.png",
       "position": "Defender",
-      "name": "Leicester",
-      "Country": "France"
+      "team_name": "Leicester",
+      "nationality": "France"
     }
   },
   {
@@ -2430,8 +2430,8 @@
       "last_name": "Söyüncü",
       "photo": "https://media.api-sports.io/football/players/18776.png",
       "position": "Defender",
-      "name": "Leicester",
-      "country": "Turkey"
+      "team_name": "Leicester",
+      "nationality": "Turkey"
     }
   },
   {
@@ -2440,10 +2440,10 @@
     "fields": {
       "first_name": "Wes",
       "last_name": "Morgan",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18774.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2452,10 +2452,10 @@
     "fields": {
       "first_name": "Jonathan Grant",
       "last_name": "Evans",
-      "country": "Northern Ireland",
+      "nationality": "Northern Ireland",
       "photo": "https://media.api-sports.io/football/players/18772.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2466,8 +2466,8 @@
       "last_name": "Amartey",
       "photo": "https://media.api-sports.io/football/players/3421.png",
       "position": "Defender",
-      "name": "Leicester",
-      "country": "Ghana"
+      "team_name": "Leicester",
+      "nationality": "Ghana"
     }
   },
   {
@@ -2476,10 +2476,10 @@
     "fields": {
       "first_name": "Ricardo Domingos",
       "last_name": "Barbosa Pereira",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/18771.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2488,10 +2488,10 @@
     "fields": {
       "first_name": "Timothy",
       "last_name": "Castagne",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/2920.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2500,10 +2500,10 @@
     "fields": {
       "first_name": "Christian",
       "last_name": "Fuchs",
-      "country": "Austria",
+      "nationality": "Austria",
       "photo": "https://media.api-sports.io/football/players/18773.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2512,10 +2512,10 @@
     "fields": {
       "first_name": "Luke",
       "last_name": "Thomas",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/152969.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2524,10 +2524,10 @@
     "fields": {
       "first_name": "Vontae",
       "last_name": "Daley-Campbell",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/152971.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2536,10 +2536,10 @@
     "fields": {
       "first_name": "Youri",
       "last_name": "Tielemans",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/2926.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2548,10 +2548,10 @@
     "fields": {
       "first_name": "James",
       "last_name": "Maddison",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18784.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2560,10 +2560,10 @@
     "fields": {
       "first_name": "Marc",
       "last_name": "Albrighton",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18777.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2572,10 +2572,10 @@
     "fields": {
       "first_name": "Harvey Lewis",
       "last_name": "Barnes",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18778.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2586,8 +2586,8 @@
       "last_name": "Ünder",
       "photo": "https://media.api-sports.io/football/players/785.png",
       "position": "Midfielder",
-      "name": "Leicester",
-      "country": "Turkey"
+      "team_name": "Leicester",
+      "nationality": "Turkey"
     }
   },
   {
@@ -2596,10 +2596,10 @@
     "fields": {
       "first_name": "Hamza",
       "last_name": "Choudhury",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18779.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2608,10 +2608,10 @@
     "fields": {
       "first_name": "Nampalys",
       "last_name": "Mendy",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/18785.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2620,10 +2620,10 @@
     "fields": {
       "first_name": "Onyinye Wilfred",
       "last_name": "Ndidi",
-      "country": "Nigeria",
+      "nationality": "Nigeria",
       "photo": "https://media.api-sports.io/football/players/18786.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2632,10 +2632,10 @@
     "fields": {
       "first_name": "Dennis",
       "last_name": "Praet",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/2925.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2644,10 +2644,10 @@
     "fields": {
       "first_name": "Thakgalo Khanya",
       "last_name": "Leshabela",
-      "Country": "South Africa",
+      "nationality": "South Africa",
       "photo": "https://media.api-sports.io/football/players/18783.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2656,10 +2656,10 @@
     "fields": {
       "first_name": "Sidnei Wilson Vieira",
       "last_name": "David Tavares",
-      "Country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/231081.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2668,10 +2668,10 @@
     "fields": {
       "first_name": "Shane",
       "last_name": "Flynn",
-      "country": "Republic of Ireland",
+      "nationality": "Republic of Ireland",
       "photo": "https://media.api-sports.io/football/players/278111.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2682,8 +2682,8 @@
       "last_name": "Suengchitthawon",
       "photo": "https://media.api-sports.io/football/players/276086.png",
       "position": "Midfielder",
-      "name": "Leicester",
-      "Country": "Thailand"
+      "team_name": "Leicester",
+      "nationality": "Thailand"
     }
   },
   {
@@ -2692,10 +2692,10 @@
     "fields": {
       "first_name": "Ethan",
       "last_name": "Fitzhugh",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/284509.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2704,10 +2704,10 @@
     "fields": {
       "first_name": "Ben",
       "last_name": "Nelson",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/278118.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2716,10 +2716,10 @@
     "fields": {
       "first_name": "Jamie",
       "last_name": "Vardy",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18788.png",
       "position": "Attacker",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2728,10 +2728,10 @@
     "fields": {
       "first_name": "Kelechi Promise",
       "last_name": "Iheanacho",
-      "country": "Nigeria",
+      "nationality": "Nigeria",
       "photo": "https://media.api-sports.io/football/players/2778.png",
       "position": "Attacker",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2742,8 +2742,8 @@
       "last_name": "Pérez Gutiérrez",
       "photo": "https://media.api-sports.io/football/players/18906.png",
       "position": "Attacker",
-      "name": "Leicester",
-      "country": "Spain"
+      "team_name": "Leicester",
+      "nationality": "Spain"
     }
   },
   {
@@ -2752,10 +2752,10 @@
     "fields": {
       "first_name": "Demarai",
       "last_name": "Gray",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18781.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2764,10 +2764,10 @@
     "fields": {
       "first_name": "Filip",
       "last_name": "Benković",
-      "country": "Croatia",
+      "nationality": "Croatia",
       "photo": "https://media.api-sports.io/football/players/1107.png",
       "position": "Defender",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2776,10 +2776,10 @@
     "fields": {
       "first_name": "Adrien Sebastian",
       "last_name": "Perruchet Silva",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/114.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2788,10 +2788,10 @@
     "fields": {
       "first_name": "Kiernan",
       "last_name": "Dewsbury-Hall",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/148099.png",
       "position": "Midfielder",
-      "name": "Leicester"
+      "team_name": "Leicester"
     }
   },
   {
@@ -2800,10 +2800,10 @@
     "fields": {
       "first_name": "Brandon",
       "last_name": "Austin",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/156428.png",
       "position": "Goalkeeper",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2812,10 +2812,10 @@
     "fields": {
       "first_name": "Danny",
       "last_name": "Rose",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/167.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2824,10 +2824,10 @@
     "fields": {
       "first_name": "Gedson",
       "last_name": "Carvalho Fernandes",
-      "country": "São Tomé e Príncipe",
+      "nationality": "São Tomé e Príncipe",
       "photo": "https://media.api-sports.io/football/players/569.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2838,8 +2838,8 @@
       "last_name": "Lloris",
       "photo": "https://media.api-sports.io/football/players/159.png",
       "position": "Goalkeeper",
-      "name": "Tottenham",
-      "country": "France"
+      "team_name": "Tottenham",
+      "nationality": "France"
     }
   },
   {
@@ -2848,10 +2848,10 @@
     "fields": {
       "first_name": "Joe",
       "last_name": "Hart",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18908.png",
       "position": "Goalkeeper",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2860,10 +2860,10 @@
     "fields": {
       "first_name": "Alfie",
       "last_name": "Whiteman",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/161.png",
       "position": "Goalkeeper",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2872,10 +2872,10 @@
     "fields": {
       "first_name": "Matt",
       "last_name": "Doherty",
-      "country": "Republic of Ireland",
+      "nationality": "Republic of Ireland",
       "photo": "https://media.api-sports.io/football/players/18742.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2886,8 +2886,8 @@
       "last_name": "Reguilón Rodríguez",
       "photo": "https://media.api-sports.io/football/players/739.png",
       "position": "Defender",
-      "name": "Tottenham",
-      "country": "Spain"
+      "team_name": "Tottenham",
+      "nationality": "Spain"
     }
   },
   {
@@ -2896,10 +2896,10 @@
     "fields": {
       "first_name": "Toby",
       "last_name": "Alderweireld",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/162.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2908,10 +2908,10 @@
     "fields": {
       "first_name": "Davinson",
       "last_name": "Sánchez Mina",
-      "country": "Colombia",
+      "nationality": "Colombia",
       "photo": "https://media.api-sports.io/football/players/168.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2922,8 +2922,8 @@
       "last_name": "Rodon",
       "photo": "https://media.api-sports.io/football/players/19321.png",
       "position": "Defender",
-      "name": "Tottenham",
-      "country": "Wales"
+      "team_name": "Tottenham",
+      "nationality": "Wales"
     }
   },
   {
@@ -2932,10 +2932,10 @@
     "fields": {
       "first_name": "Serge Alain Stéphane",
       "last_name": "Aurier",
-      "country": "Côte d'Ivoire",
+      "nationality": "Côte d'Ivoire",
       "photo": "https://media.api-sports.io/football/players/163.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2944,10 +2944,10 @@
     "fields": {
       "first_name": "Japhet",
       "last_name": "Tanganga",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/149550.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2958,8 +2958,8 @@
       "last_name": "Davies",
       "photo": "https://media.api-sports.io/football/players/164.png",
       "position": "Defender",
-      "name": "Tottenham",
-      "country": "Wales"
+      "team_name": "Tottenham",
+      "nationality": "Wales"
     }
   },
   {
@@ -2968,10 +2968,10 @@
     "fields": {
       "first_name": "Dennis",
       "last_name": "Cirkin",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/162076.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2980,10 +2980,10 @@
     "fields": {
       "first_name": "Marcel",
       "last_name": "Lavinier",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138819.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -2992,10 +2992,10 @@
     "fields": {
       "first_name": "Pierre-Emile",
       "last_name": "Kordt Højbjerg",
-      "country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/2735.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3004,10 +3004,10 @@
     "fields": {
       "first_name": "Harry",
       "last_name": "Winks",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/182.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3016,10 +3016,10 @@
     "fields": {
       "first_name": "Erik",
       "last_name": "Lamela",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/176.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3028,10 +3028,10 @@
     "fields": {
       "first_name": "Eric",
       "last_name": "Dier",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/175.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3042,8 +3042,8 @@
       "last_name": "Sissoko",
       "photo": "https://media.api-sports.io/football/players/179.png",
       "position": "Midfielder",
-      "name": "Tottenham",
-      "country": "France"
+      "team_name": "Tottenham",
+      "nationality": "France"
     }
   },
   {
@@ -3052,10 +3052,10 @@
     "fields": {
       "first_name": "Giovani",
       "last_name": "Lo Celso",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/1578.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3064,10 +3064,10 @@
     "fields": {
       "first_name": "Bamidele",
       "last_name": "Alli",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/172.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3078,8 +3078,8 @@
       "last_name": "Rodrigues Moura da Silva",
       "photo": "https://media.api-sports.io/football/players/178.png",
       "position": "Midfielder",
-      "name": "Tottenham",
-      "country": "Brazil"
+      "team_name": "Tottenham",
+      "nationality": "Brazil"
     }
   },
   {
@@ -3090,8 +3090,8 @@
       "last_name": "Ndombèlé Alvaro",
       "photo": "https://media.api-sports.io/football/players/662.png",
       "position": "Midfielder",
-      "name": "Tottenham",
-      "country": "France"
+      "team_name": "Tottenham",
+      "nationality": "France"
     }
   },
   {
@@ -3100,10 +3100,10 @@
     "fields": {
       "first_name": "Alfie",
       "last_name": "Devine",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/273757.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3112,10 +3112,10 @@
     "fields": {
       "first_name": "Jamie",
       "last_name": "Bowden",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/154793.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3124,10 +3124,10 @@
     "fields": {
       "first_name": "Nile",
       "last_name": "John",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/162150.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3136,10 +3136,10 @@
     "fields": {
       "first_name": "Heung-Min",
       "last_name": "Son",
-      "country": "Korea Republic",
+      "nationality": "Korea Republic",
       "photo": "https://media.api-sports.io/football/players/186.png",
       "position": "Attacker",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3150,8 +3150,8 @@
       "last_name": "Bale",
       "photo": "https://media.api-sports.io/football/players/758.png",
       "position": "Attacker",
-      "name": "Tottenham",
-      "country": "Wales"
+      "team_name": "Tottenham",
+      "nationality": "Wales"
     }
   },
   {
@@ -3160,10 +3160,10 @@
     "fields": {
       "first_name": "Harry",
       "last_name": "Kane",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/184.png",
       "position": "Attacker",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3172,10 +3172,10 @@
     "fields": {
       "first_name": "Steven Charles",
       "last_name": "Bergwijn",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/244.png",
       "position": "Attacker",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3186,8 +3186,8 @@
       "last_name": "Alves Morais",
       "photo": "https://media.api-sports.io/football/players/104.png",
       "position": "Attacker",
-      "name": "Tottenham",
-      "country": "Brazil"
+      "team_name": "Tottenham",
+      "nationality": "Brazil"
     }
   },
   {
@@ -3196,10 +3196,10 @@
     "fields": {
       "first_name": "Dane",
       "last_name": "Scarlett",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/162552.png",
       "position": "Attacker",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3208,10 +3208,10 @@
     "fields": {
       "first_name": "Dilan Kumar",
       "last_name": "Markanday",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138893.png",
       "position": "Attacker",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3220,10 +3220,10 @@
     "fields": {
       "first_name": "Kouassi Ryan",
       "last_name": "Sessegnon",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19032.png",
       "position": "Midfielder",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3232,10 +3232,10 @@
     "fields": {
       "first_name": "Juan Marcos",
       "last_name": "Foyth",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/166.png",
       "position": "Defender",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3244,10 +3244,10 @@
     "fields": {
       "first_name": "Paulo Dino",
       "last_name": "Gazzaniga",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/158.png",
       "position": "Goalkeeper",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3258,8 +3258,8 @@
       "last_name": "Carter-Vickers",
       "photo": "https://media.api-sports.io/football/players/19314.png",
       "position": "Defender",
-      "name": "Tottenham",
-      "country": "England"
+      "team_name": "Tottenham",
+      "nationality": "England"
     }
   },
   {
@@ -3268,10 +3268,10 @@
     "fields": {
       "first_name": "Jack",
       "last_name": "Clarke",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19136.png",
       "position": "Attacker",
-      "name": "Tottenham"
+      "team_name": "Tottenham"
     }
   },
   {
@@ -3280,10 +3280,10 @@
     "fields": {
       "first_name": "Alexandre",
       "last_name": "Nascimento Costa Silva",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/18832.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3294,8 +3294,8 @@
       "last_name": "Fabiański",
       "photo": "https://media.api-sports.io/football/players/2997.png",
       "position": "Goalkeeper",
-      "name": "West Ham",
-      "country": "Poland"
+      "team_name": "West Ham",
+      "nationality": "Poland"
     }
   },
   {
@@ -3304,10 +3304,10 @@
     "fields": {
       "first_name": "David Edward",
       "last_name": "Martin",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19629.png",
       "position": "Goalkeeper",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3316,10 +3316,10 @@
     "fields": {
       "first_name": "Nathan",
       "last_name": "Trott",
-      "Country": "Bermuda",
+      "nationality": "Bermuda",
       "photo": "https://media.api-sports.io/football/players/90494.png",
       "position": "Goalkeeper",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3328,10 +3328,10 @@
     "fields": {
       "first_name": "Darren",
       "last_name": "Randolph",
-      "country": "Republic of Ireland",
+      "nationality": "Republic of Ireland",
       "photo": "https://media.api-sports.io/football/players/19229.png",
       "position": "Goalkeeper",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3340,10 +3340,10 @@
     "fields": {
       "first_name": "Aaron",
       "last_name": "Cresswell",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18813.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3352,10 +3352,10 @@
     "fields": {
       "first_name": "Fabián Cornelio",
       "last_name": "Balbuena González",
-      "country": "Paraguay",
+      "nationality": "Paraguay",
       "photo": "https://media.api-sports.io/football/players/2500.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3364,10 +3364,10 @@
     "fields": {
       "first_name": "Vladimír",
       "last_name": "Coufal",
-      "country": "Czech Republic",
+      "nationality": "Czech Republic",
       "photo": "https://media.api-sports.io/football/players/1231.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3376,10 +3376,10 @@
     "fields": {
       "first_name": "Frederik",
       "last_name": "Alves Ibsen",
-      "country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/15928.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3388,10 +3388,10 @@
     "fields": {
       "first_name": "Craig",
       "last_name": "Dawson",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19147.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3402,8 +3402,8 @@
       "last_name": "Obinze Ogbonna",
       "photo": "https://media.api-sports.io/football/players/18817.png",
       "position": "Defender",
-      "name": "West Ham",
-      "country": "Italy"
+      "team_name": "West Ham",
+      "nationality": "Italy"
     }
   },
   {
@@ -3414,8 +3414,8 @@
       "last_name": "Diop",
       "photo": "https://media.api-sports.io/football/players/18814.png",
       "position": "Defender",
-      "name": "West Ham",
-      "country": "France"
+      "team_name": "West Ham",
+      "nationality": "France"
     }
   },
   {
@@ -3424,10 +3424,10 @@
     "fields": {
       "first_name": "Ryan",
       "last_name": "Fredericks",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18815.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3436,10 +3436,10 @@
     "fields": {
       "first_name": "Arthur",
       "last_name": "Masuaku",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/18816.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3448,10 +3448,10 @@
     "fields": {
       "first_name": "Benjamin",
       "last_name": "Johnson",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18823.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3460,10 +3460,10 @@
     "fields": {
       "first_name": "Harrison",
       "last_name": "Ashby",
-      "Country": "Scotland",
+      "nationality": "Scotland",
       "photo": "https://media.api-sports.io/football/players/171058.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3472,10 +3472,10 @@
     "fields": {
       "first_name": "Manuel",
       "last_name": "Lanzini",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/2473.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3484,10 +3484,10 @@
     "fields": {
       "first_name": "Jesse",
       "last_name": "Lingard",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/900.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3496,10 +3496,10 @@
     "fields": {
       "first_name": "Mark",
       "last_name": "Noble",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18826.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3510,8 +3510,8 @@
       "last_name": "Fornals Malla",
       "photo": "https://media.api-sports.io/football/players/1697.png",
       "position": "Midfielder",
-      "name": "West Ham",
-      "country": "Spain"
+      "team_name": "West Ham",
+      "nationality": "Spain"
     }
   },
   {
@@ -3520,10 +3520,10 @@
     "fields": {
       "first_name": "Tomáš",
       "last_name": "Souček",
-      "country": "Czech Republic",
+      "nationality": "Czech Republic",
       "photo": "https://media.api-sports.io/football/players/1243.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3532,10 +3532,10 @@
     "fields": {
       "first_name": "Michail",
       "last_name": "Antonio",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18819.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3544,10 +3544,10 @@
     "fields": {
       "first_name": "Declan",
       "last_name": "Rice",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2937.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3556,10 +3556,10 @@
     "fields": {
       "first_name": "Conor",
       "last_name": "Coventry",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18820.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3568,10 +3568,10 @@
     "fields": {
       "first_name": "Jamal",
       "last_name": "Baptiste",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/171059.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3580,10 +3580,10 @@
     "fields": {
       "first_name": "Nathan",
       "last_name": "Holland",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18822.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3592,10 +3592,10 @@
     "fields": {
       "first_name": "Andrii",
       "last_name": "Yarmolenko",
-      "country": "Russia",
+      "nationality": "Russia",
       "photo": "https://media.api-sports.io/football/players/18834.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3604,10 +3604,10 @@
     "fields": {
       "first_name": "Mohamed Saïd",
       "last_name": "Benrahma",
-      "country": "Algeria",
+      "nationality": "Algeria",
       "photo": "https://media.api-sports.io/football/players/19361.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3616,10 +3616,10 @@
     "fields": {
       "first_name": "Jarrod",
       "last_name": "Bowen",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19428.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3628,10 +3628,10 @@
     "fields": {
       "first_name": "Ademipo Ibrahim",
       "last_name": "Odubeko",
-      "country": "Republic of Ireland",
+      "nationality": "Republic of Ireland",
       "photo": "https://media.api-sports.io/football/players/278076.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3640,10 +3640,10 @@
     "fields": {
       "first_name": "Mbule Longelo",
       "last_name": "Emmanuel",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/154804.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3652,10 +3652,10 @@
     "fields": {
       "first_name": "Robert",
       "last_name": "Snodgrass",
-      "country": "Scotland",
+      "nationality": "Scotland",
       "photo": "https://media.api-sports.io/football/players/18828.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3664,10 +3664,10 @@
     "fields": {
       "first_name": "Joshua Jon",
       "last_name": "Cullen",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19827.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3676,10 +3676,10 @@
     "fields": {
       "first_name": "Gonçalo Bento",
       "last_name": "Soares Cardoso",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/41301.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3688,10 +3688,10 @@
     "fields": {
       "first_name": "Winston",
       "last_name": "Reid",
-      "country": "New Zealand",
+      "nationality": "New Zealand",
       "photo": "https://media.api-sports.io/football/players/90497.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3700,10 +3700,10 @@
     "fields": {
       "first_name": "Jack",
       "last_name": "Wilshere",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18829.png",
       "position": "Midfielder",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3712,10 +3712,10 @@
     "fields": {
       "first_name": "Ajibola",
       "last_name": "Alese",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/141133.png",
       "position": "Defender",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3726,8 +3726,8 @@
       "last_name": "Anderson Pereira Gomes",
       "photo": "https://media.api-sports.io/football/players/2412.png",
       "position": "Attacker",
-      "name": "West Ham",
-      "country": "Brazil"
+      "team_name": "West Ham",
+      "nationality": "Brazil"
     }
   },
   {
@@ -3736,10 +3736,10 @@
     "fields": {
       "first_name": "Sébastien",
       "last_name": "Haller",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/1826.png",
       "position": "Attacker",
-      "name": "West Ham"
+      "team_name": "West Ham"
     }
   },
   {
@@ -3748,10 +3748,10 @@
     "fields": {
       "first_name": "Ross",
       "last_name": "Barkley",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2287.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3760,10 +3760,10 @@
     "fields": {
       "first_name": "Ruben",
       "last_name": "Loftus-Cheek",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2292.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3772,10 +3772,10 @@
     "fields": {
       "first_name": "Fikayo",
       "last_name": "Tomori",
-      "country": "Canada",
+      "nationality": "Canada",
       "photo": "https://media.api-sports.io/football/players/19209.png",
       "position": "Defender",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3784,10 +3784,10 @@
     "fields": {
       "first_name": "Nathan",
       "last_name": "Baxter",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/18033.png",
       "position": "Goalkeeper",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3798,8 +3798,8 @@
       "last_name": "Arrizabalaga Revuelta",
       "photo": "https://media.api-sports.io/football/players/2273.png",
       "position": "Goalkeeper",
-      "name": "Chelsea",
-      "country": "Spain"
+      "team_name": "Chelsea",
+      "nationality": "Spain"
     }
   },
   {
@@ -3808,10 +3808,10 @@
     "fields": {
       "first_name": "Wilfredo Daniel",
       "last_name": "Caballero",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/2275.png",
       "position": "Goalkeeper",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3820,10 +3820,10 @@
     "fields": {
       "first_name": "Edouard",
       "last_name": "Mendy",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/2986.png",
       "position": "Goalkeeper",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3832,10 +3832,10 @@
     "fields": {
       "first_name": "Karlo",
       "last_name": "Žiger",
-      "country": "Croatia",
+      "nationality": "Croatia",
       "photo": "https://media.api-sports.io/football/players/106721.png",
       "position": "Goalkeeper",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3844,10 +3844,10 @@
     "fields": {
       "first_name": "Antonio",
       "last_name": "Rüdiger",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/2285.png",
       "position": "Defender",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3858,8 +3858,8 @@
       "last_name": "Alonso Mendoza",
       "photo": "https://media.api-sports.io/football/players/2278.png",
       "position": "Defender",
-      "name": "Chelsea",
-      "country": "Spain"
+      "team_name": "Chelsea",
+      "nationality": "Spain"
     }
   },
   {
@@ -3868,10 +3868,10 @@
     "fields": {
       "first_name": "Andreas",
       "last_name": "Bødtker Christensen",
-      "country": "Denmark",
+      "nationality": "Denmark",
       "photo": "https://media.api-sports.io/football/players/2282.png",
       "position": "Defender",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3882,8 +3882,8 @@
       "last_name": "da Silva",
       "photo": "https://media.api-sports.io/football/players/259.png",
       "position": "Defender",
-      "name": "Chelsea",
-      "country": "Brazil"
+      "team_name": "Chelsea",
+      "nationality": "Brazil"
     }
   },
   {
@@ -3894,8 +3894,8 @@
       "last_name": "Zouma",
       "photo": "https://media.api-sports.io/football/players/2726.png",
       "position": "Defender",
-      "name": "Chelsea",
-      "country": "France"
+      "team_name": "Chelsea",
+      "nationality": "France"
     }
   },
   {
@@ -3904,10 +3904,10 @@
     "fields": {
       "first_name": "Ben",
       "last_name": "Chilwell",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2933.png",
       "position": "Defender",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3916,10 +3916,10 @@
     "fields": {
       "first_name": "Reece",
       "last_name": "James",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19545.png",
       "position": "Defender",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -3930,8 +3930,8 @@
       "last_name": "Azpilicueta Tanco",
       "photo": "https://media.api-sports.io/football/players/2280.png",
       "position": "Defender",
-      "name": "Chelsea",
-      "country": "Spain"
+      "team_name": "Chelsea",
+      "nationality": "Spain"
     }
   },
   {
@@ -3942,8 +3942,8 @@
       "last_name": "Palmieri dos Santos",
       "photo": "https://media.api-sports.io/football/players/2284.png",
       "position": "Defender",
-      "name": "Chelsea",
-      "country": "Brazil"
+      "team_name": "Chelsea",
+      "nationality": "Brazil"
     }
   },
   {
@@ -3954,8 +3954,8 @@
       "last_name": "Frello Filho",
       "photo": "https://media.api-sports.io/football/players/2289.png",
       "position": "Midfielder",
-      "name": "Chelsea",
-      "country": "Brazil"
+      "team_name": "Chelsea",
+      "nationality": "Brazil"
     }
   },
   {
@@ -3966,8 +3966,8 @@
       "last_name": "Kanté",
       "photo": "https://media.api-sports.io/football/players/2290.png",
       "position": "Midfielder",
-      "name": "Chelsea",
-      "country": "France"
+      "team_name": "Chelsea",
+      "nationality": "France"
     }
   },
   {
@@ -3978,8 +3978,8 @@
       "last_name": "Pulisic",
       "photo": "https://media.api-sports.io/football/players/17.png",
       "position": "Midfielder",
-      "name": "Chelsea",
-      "country": "USA"
+      "team_name": "Chelsea",
+      "nationality": "USA"
     }
   },
   {
@@ -3988,10 +3988,10 @@
     "fields": {
       "first_name": "Mateo",
       "last_name": "Kovačić",
-      "country": "Austria",
+      "nationality": "Austria",
       "photo": "https://media.api-sports.io/football/players/2291.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4000,10 +4000,10 @@
     "fields": {
       "first_name": "Mason",
       "last_name": "Mount",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19220.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4012,10 +4012,10 @@
     "fields": {
       "first_name": "Hakim",
       "last_name": "Ziyech",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/548.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4024,10 +4024,10 @@
     "fields": {
       "first_name": "Billy",
       "last_name": "Gilmour",
-      "Country": "Scotland",
+      "nationality": "Scotland",
       "photo": "https://media.api-sports.io/football/players/130423.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4036,10 +4036,10 @@
     "fields": {
       "first_name": "Kai",
       "last_name": "Havertz",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/978.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4048,10 +4048,10 @@
     "fields": {
       "first_name": "Faustino",
       "last_name": "Anjorin",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/138777.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4060,10 +4060,10 @@
     "fields": {
       "first_name": "Lewis",
       "last_name": "Bate",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/162446.png",
       "position": "Midfielder",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4072,10 +4072,10 @@
     "fields": {
       "first_name": "Tammy",
       "last_name": "Bakumo-Abraham",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19194.png",
       "position": "Attacker",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4084,10 +4084,10 @@
     "fields": {
       "first_name": "Timo",
       "last_name": "Werner",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/1166.png",
       "position": "Attacker",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4098,8 +4098,8 @@
       "last_name": "Giroud",
       "photo": "https://media.api-sports.io/football/players/2295.png",
       "position": "Attacker",
-      "name": "Chelsea",
-      "country": "France"
+      "team_name": "Chelsea",
+      "nationality": "France"
     }
   },
   {
@@ -4108,10 +4108,10 @@
     "fields": {
       "first_name": "Callum",
       "last_name": "Hudson-Odoi",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/2298.png",
       "position": "Attacker",
-      "name": "Chelsea"
+      "team_name": "Chelsea"
     }
   },
   {
@@ -4120,10 +4120,10 @@
     "fields": {
       "first_name": "Nicolás Hernán Gonzalo",
       "last_name": "Otamendi",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/624.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4132,10 +4132,10 @@
     "fields": {
       "first_name": "Taylor",
       "last_name": "Harwood-Bellis",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/144729.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4146,8 +4146,8 @@
       "last_name": "Steffen",
       "photo": "https://media.api-sports.io/football/players/50828.png",
       "position": "Goalkeeper",
-      "name": "Manchester City",
-      "country": "USA"
+      "team_name": "Manchester City",
+      "nationality": "USA"
     }
   },
   {
@@ -4158,8 +4158,8 @@
       "last_name": "Santana de Moraes",
       "photo": "https://media.api-sports.io/football/players/617.png",
       "position": "Goalkeeper",
-      "name": "Manchester City",
-      "country": "Brazil"
+      "team_name": "Manchester City",
+      "nationality": "Brazil"
     }
   },
   {
@@ -4168,10 +4168,10 @@
     "fields": {
       "first_name": "Scott",
       "last_name": "Carson",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/19197.png",
       "position": "Goalkeeper",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4180,10 +4180,10 @@
     "fields": {
       "first_name": "James",
       "last_name": "Trafford",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/162489.png",
       "position": "Goalkeeper",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4192,10 +4192,10 @@
     "fields": {
       "first_name": "Kyle",
       "last_name": "Walker",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/627.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4204,10 +4204,10 @@
     "fields": {
       "first_name": "Rúben",
       "last_name": "dos Santos Gato Alves Dias",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/567.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4216,10 +4216,10 @@
     "fields": {
       "first_name": "John",
       "last_name": "Stones",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/626.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4228,10 +4228,10 @@
     "fields": {
       "first_name": "Nathan",
       "last_name": "Aké",
-      "country": "Netherlands",
+      "nationality": "Netherlands",
       "photo": "https://media.api-sports.io/football/players/18861.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4242,8 +4242,8 @@
       "last_name": "Laporte",
       "photo": "https://media.api-sports.io/football/players/622.png",
       "position": "Defender",
-      "name": "Manchester City",
-      "country": "France"
+      "team_name": "Manchester City",
+      "nationality": "France"
     }
   },
   {
@@ -4254,8 +4254,8 @@
       "last_name": "Mendy",
       "photo": "https://media.api-sports.io/football/players/623.png",
       "position": "Defender",
-      "name": "Manchester City",
-      "country": "France"
+      "team_name": "Manchester City",
+      "nationality": "France"
     }
   },
   {
@@ -4264,10 +4264,10 @@
     "fields": {
       "first_name": "João Pedro",
       "last_name": "Cavaco Cancelo",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/855.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4278,8 +4278,8 @@
       "last_name": "García Martret",
       "photo": "https://media.api-sports.io/football/players/619.png",
       "position": "Defender",
-      "name": "Manchester City",
-      "Country": "Spain"
+      "team_name": "Manchester City",
+      "nationality": "Spain"
     }
   },
   {
@@ -4288,10 +4288,10 @@
     "fields": {
       "first_name": "Luke",
       "last_name": "Mbete-Tabu",
-      "Country": "Ghana",
+      "nationality": "Ghana",
       "photo": "https://media.api-sports.io/football/players/278129.png",
       "position": "Defender",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4300,10 +4300,10 @@
     "fields": {
       "first_name": "İlkay",
       "last_name": "Gündoğan",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/633.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4312,10 +4312,10 @@
     "fields": {
       "first_name": "Oleksandr",
       "last_name": "Zinchenko",
-      "country": "Ukraine",
+      "nationality": "Ukraine",
       "photo": "https://media.api-sports.io/football/players/641.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4326,8 +4326,8 @@
       "last_name": "Hernández Cascante",
       "photo": "https://media.api-sports.io/football/players/44.png",
       "position": "Midfielder",
-      "name": "Manchester City",
-      "country": "Spain"
+      "team_name": "Manchester City",
+      "nationality": "Spain"
     }
   },
   {
@@ -4336,10 +4336,10 @@
     "fields": {
       "first_name": "Kevin",
       "last_name": "De Bruyne",
-      "country": "Belgium",
+      "nationality": "Belgium",
       "photo": "https://media.api-sports.io/football/players/629.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4348,10 +4348,10 @@
     "fields": {
       "first_name": "Bernardo",
       "last_name": "Mota Veiga de Carvalho e Silva",
-      "country": "Portugal",
+      "nationality": "Portugal",
       "photo": "https://media.api-sports.io/football/players/636.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4362,8 +4362,8 @@
       "last_name": "Rosa",
       "photo": "https://media.api-sports.io/football/players/640.png",
       "position": "Midfielder",
-      "name": "Manchester City",
-      "country": "Brazil"
+      "team_name": "Manchester City",
+      "nationality": "Brazil"
     }
   },
   {
@@ -4372,10 +4372,10 @@
     "fields": {
       "first_name": "Philip",
       "last_name": "Foden",
-      "country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/631.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4384,10 +4384,10 @@
     "fields": {
       "first_name": "Felix Kalu",
       "last_name": "Nmecha",
-      "country": "Germany",
+      "nationality": "Germany",
       "photo": "https://media.api-sports.io/football/players/637.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4396,10 +4396,10 @@
     "fields": {
       "first_name": "Thomas",
       "last_name": "Doyle",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/144732.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4408,10 +4408,10 @@
     "fields": {
       "first_name": "Cole",
       "last_name": "Palmer",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/152982.png",
       "position": "Midfielder",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4422,8 +4422,8 @@
       "last_name": "Gomes",
       "photo": "https://media.api-sports.io/football/players/632.png",
       "position": "Midfielder",
-      "name": "Manchester City",
-      "country": "France"
+      "team_name": "Manchester City",
+      "nationality": "France"
     }
   },
   {
@@ -4434,8 +4434,8 @@
       "last_name": "Bernabe Garcia",
       "photo": "https://media.api-sports.io/football/players/628.png",
       "position": "Midfielder",
-      "name": "Manchester City",
-      "Country": "Spain"
+      "team_name": "Manchester City",
+      "nationality": "Spain"
     }
   },
   {
@@ -4444,10 +4444,10 @@
     "fields": {
       "first_name": "Raheem Shaquille",
       "last_name": "Sterling",
-      "country": "Jamaica",
+      "nationality": "Jamaica",
       "photo": "https://media.api-sports.io/football/players/645.png",
       "position": "Attacker",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4458,8 +4458,8 @@
       "last_name": "de Jesus",
       "photo": "https://media.api-sports.io/football/players/643.png",
       "position": "Attacker",
-      "name": "Manchester City",
-      "country": "Brazil"
+      "team_name": "Manchester City",
+      "nationality": "Brazil"
     }
   },
   {
@@ -4468,10 +4468,10 @@
     "fields": {
       "first_name": "Sergio Leonel",
       "last_name": "Agüero del Castillo",
-      "country": "Argentina",
+      "nationality": "Argentina",
       "photo": "https://media.api-sports.io/football/players/642.png",
       "position": "Attacker",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4482,8 +4482,8 @@
       "last_name": "Torres García",
       "photo": "https://media.api-sports.io/football/players/931.png",
       "position": "Attacker",
-      "name": "Manchester City",
-      "country": "Spain"
+      "team_name": "Manchester City",
+      "nationality": "Spain"
     }
   },
   {
@@ -4492,10 +4492,10 @@
     "fields": {
       "first_name": "Riyad",
       "last_name": "Mahrez",
-      "country": "France",
+      "nationality": "France",
       "photo": "https://media.api-sports.io/football/players/635.png",
       "position": "Attacker",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   },
   {
@@ -4504,10 +4504,10 @@
     "fields": {
       "first_name": "Liam",
       "last_name": "Delap",
-      "Country": "England",
+      "nationality": "England",
       "photo": "https://media.api-sports.io/football/players/161948.png",
       "position": "Attacker",
-      "name": "Manchester City"
+      "team_name": "Manchester City"
     }
   }
 ]

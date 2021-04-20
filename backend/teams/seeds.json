@@ -1,10 +1,10 @@
 {
-  "id": 1,
+  "model": "teams.team",
+  "pk": 1,
+  "fields": {
   "team_name": "Blazing United",
   "abbreviation": "BLZ",
   "team_logo": "united.jpg",
-  "created_at": "2021-04-19T14:09:48.763400Z",
-  "formation": 4,
-  "owner": 1,
-  "players": []
+  "formation": 4
+  }
 }
