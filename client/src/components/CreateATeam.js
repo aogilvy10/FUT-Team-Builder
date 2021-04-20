@@ -37,6 +37,7 @@ const CreateATeam = () => {
       console.log('RESPONSE',response)
     } catch (err) {
       console.log(err)
+      window.alert('Not added enough players')
     }
   }
 
