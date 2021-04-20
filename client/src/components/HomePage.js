@@ -47,7 +47,7 @@ const HomePage = () => {
             <div className="column"> </div>
             <div className="column"> </div>
           </div>
-        <div className="">
+        <div className="column">
           <div className="columns main-page-column">
             <div className="column"> </div>
             <div className="column"> </div>

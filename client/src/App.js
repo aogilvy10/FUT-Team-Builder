@@ -8,7 +8,7 @@ import TeamFeed from './components/TeamFeed'
 import UserTeams from './components/UserTeams'
 import UserProfile from './components/UserProfile'
 import CreateATeam from './components/CreateATeam'
-
+import PitchTest from './components/PitchTest'
 
 
 
@@ -41,6 +41,9 @@ function App() {
           </Route>
         <Route exact path="/users/:id">
           <UserTeams />
+        </Route>
+        <Route exact path="/pitch"> 
+          <PitchTest />
         </Route>
       </Switch>
     </BrowserRouter> 
