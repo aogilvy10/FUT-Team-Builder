@@ -1,7 +1,6 @@
 
 @import '~bulma/bulma.sass';
 
-
 .App {
   text-align: center;
 }
@@ -45,17 +44,66 @@
 .image-landing { 
   background-image: url('../assets/landingpage.png');
   background-repeat: no-repeat;
-  background-size: 210vh;
-  .hero-image { 
-  height: 110vh;
-
-  }
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  border: 10px solid black;
   .column-start { 
     padding-top: 200px;
     padding-left: 10px;
   }
-
 }
+
+//login page
+#login-page {
+  background-image: url('https://i.pinimg.com/736x/79/b5/21/79b521e4ab918650b8d614cbbd96d04c.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw; 
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .field-top {
+    margin-top: 30vh;
+  }
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    font-size: 50px;
+    color: white;
+  }
+}
+
+//REGISTER
+.register-page {
+  background-image: url('https://wallpaperaccess.com/full/1079047.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  border: 10px solid black;
+  .input {
+    width: 20vw;
+  }
+  .field.column.top{
+    margin-top: 14vh;
+  }
+  .input {
+    height: 3vh;
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 5vh;
+  }
+}
+  
+
 
 @media screen and (max-width: 800px) {
   .image-landing {

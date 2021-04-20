@@ -34,35 +34,37 @@ const Login = () => {
 
   
   return (
-    
-    <form onSubmit={handleSubmit}>
-    <div className="field">
-      <p className="control has-icons-left has-icons-right">
-        <input className="input" type="email" placeholder="Email" name="email" onChange={handleChange} />
-          <span className="icon is-small is-left">
-            <i className="fas fa-envelope"></i>
-          </span>
-          <span className="icon is-small is-right">
-            <i className="fas fa-check"></i>
-          </span>
-      </p>
-    </div>
-      <div className="field">
-        <p className="control has-icons-left">
-          <input className="input" type="password" placeholder="Password" name="password" onChange={handleChange} />
+    <div id="login-page">
+    <form onSubmit={handleSubmit} className="login-form">
+    <h1>LOGIN</h1>
+      <div className="field-top">
+        <p className="control has-icons-left has-icons-right">
+          <input className="input" type="email" placeholder="Email" name="email" onChange={handleChange} />
             <span className="icon is-small is-left">
-              <i className="fas fa-lock"></i>
+              <i className="fas fa-envelope"></i>
+            </span>
+            <span className="icon is-small is-right">
+              <i className="fas fa-check"></i>
             </span>
         </p>
       </div>
         <div className="field">
+          <p className="control has-icons-left">
+            <input className="input" type="password" placeholder="Password" name="password" onChange={handleChange} />
+              <span className="icon is-small is-left">
+                <i className="fas fa-lock"></i>
+              </span>
+          </p>
+        </div>
+        <div className="field">
           <p className="control">
             <button className="button is-success">
-          Login
+            Login
             </button>
           </p>
         </div>
-        </form>
+    </form>
+  </div>
     
   )
 }
