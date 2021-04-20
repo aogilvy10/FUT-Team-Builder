@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 
 const CreateATeam = () => {
@@ -20,7 +20,6 @@ const CreateATeam = () => {
   const handleChange = event => {
     const newFormData = { ...formData, [event.target.name]: event.target.value }
     setFormData(newFormData)
-    console.log(event.target.value)
   }
 
 
@@ -34,7 +33,7 @@ const CreateATeam = () => {
           Authorization: `Bearer ${token}`,
         }
       })
-      console.log(response)
+      console.log('RESPONSE',response)
     } catch (err) {
       console.log(err)
     }
@@ -98,11 +97,11 @@ const CreateATeam = () => {
         <div className="control">
           <input className="input" type="text" placeholder="players" name="players" onChange={handleChange} />
         </div>
-        <Link to={'/userprofile'}>
+        {/* <Link to={'/userprofile'}> */}
         <div className="control">+-
           <button className="button is-primary">Create Team</button>
         </div>
-        </Link>
+        {/* </Link> */}
       </form>
       {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
       ).map((data) => (

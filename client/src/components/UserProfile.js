@@ -16,7 +16,14 @@ const UserProfile = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  console.log(user)
+  console.log('WHAT IS THIS', user)
+
+
+  
+
+
+
+
   return (
     <>
       <div className="userInfo">
@@ -24,6 +31,7 @@ const UserProfile = () => {
         <p>Gamertag - {user.gamertag} </p>
         <p>coins - {user.coins} </p>
         <p>{user.wins} - {user.losses} </p>
+        <p>{user.teams}</p>
       </div>
       <button> Edit </button>
     </>

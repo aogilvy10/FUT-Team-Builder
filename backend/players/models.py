@@ -8,12 +8,7 @@ class Player(models.Model):
     position = models.CharField(max_length=50)
     nationality = models.CharField(max_length=50)
     photo = models.CharField(max_length=500)
-    # team = models.ForeignKey(
-    #     "teams.Team",
-    #     related_name="players",
-    #     on_delete=models.CASCADE
-    # )
-
+   
 
     def __str__(self):
         return f"{self.first_name}, {self.last_name}, {self.team_name}"
