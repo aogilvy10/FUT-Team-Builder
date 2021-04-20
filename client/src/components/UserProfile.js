@@ -25,16 +25,16 @@ const UserProfile = () => {
 
 
   return (
-    <>
+    
       <div className="userInfo">
-        <p> Username - {user.username}</p>
-        <p>Gamertag - {user.gamertag} </p>
-        <p>coins - {user.coins} </p>
-        <p>{user.wins} - {user.losses} </p>
-        <p>{user.teams}</p>
+        <li key={user.username}> Username - {user.username}</li>
+        <li key={user.gamertag}>Gamertag - {user.gamertag} </li>
+        <li key={user.coins}>Coins - {user.coins} </li>
+        <li key={user.wins}> Wins: {user.wins} - Losses:{user.losses} </li>
+        {/* <li key={user.last_name}>{user.teams}</li> */}
+        <button> Edit </button>
       </div>
-      <button> Edit </button>
-    </>
+    
   )
 }
 

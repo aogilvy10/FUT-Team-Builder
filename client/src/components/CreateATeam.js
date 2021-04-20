@@ -88,7 +88,7 @@ const CreateATeam = () => {
           <div className="select">
             <select name="formation" onChange={handleChange}>
               <option hidden disabled selected>Select Formation</option>
-              <option value="1">4-4-2</option>
+              <option value="4">4-4-2</option>
               <option value="2">4-3-3</option>
               <option value="3">4-1-2-1-2</option>
             </select>
