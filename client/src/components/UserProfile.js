@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { getPayloadFromToken } from '../helpers/auth'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
+
 const UserProfile = () => {
 
   const userId = getPayloadFromToken().sub
@@ -26,24 +28,31 @@ const UserProfile = () => {
 
   if (!user) return null
   return (
-    
-      <div className="userInfo">
-        <div className="nav-bar">
-          <p key={user.username}> Username - {user.username}</p>
-          <p key={user.gamertag}>Gamertag - {user.gamertag} </p>
-          <p key={user.coins}>Coins - {user.coins} </p>
-          <p key={user.wins}> Wins: {user.wins} - Losses:{user.losses} </p>
+      <div className="user-profile">
+          <div className="nav-bar">
+            <Link to="/home">
+              <p className="home">Home</p>
+            </Link>
+            <p key={user.username}> ❕ {user.username}</p>
+            <p key={user.gamertag}>⚽️--- GAMERTAG ➖{user.gamertag} </p>
+            <p key={user.coins}>💰--- COINS ➖{user.coins} </p>
+            <p key={user.wins}> 🏆---{user.wins} ➖{user.losses} </p>
+          </div>
+        <div className="userInfo">
+          {user.teams.map((team) => {
+            console.log(team)
+            return (
+              <>
+              <h1>USER PROFILE</h1>
+              <div className="content">
+                <p className="top-content">{team.team_name}</p>
+                <p>{team.formation.name}</p>
+                <img src="https://www.fifauteam.com/wp-content/uploads/2018/10/A1654-13.jpg" alt="fifa"></img>
+              </div>
+              </>
+            )
+          })}
         </div>
-        {user.teams.map((team) => {
-          console.log(team)
-          return (
-            <div className="content">
-              <p className="top-content">{team.team_name}</p>
-              <p>{team.formation.name}</p>
-              <img src="https://www.fifauteam.com/wp-content/uploads/2018/10/A1654-13.jpg" alt="fifa"></img>
-            </div>
-          )
-        })}
       </div>
     
   )

@@ -84,7 +84,7 @@ const HomePage = () => {
                 </Link>
               </div>
               <div className="column columns is-centered is-blue m-1">
-                <Link to="/userprofile">
+                <Link to="/users/:userId">
                   <p className="column  is-vcentered">
                     View Your Teams
               </p>

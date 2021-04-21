@@ -2,13 +2,12 @@ import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
 // import PlayerCard from './PlayerCard'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 import Slider from 'react-slick'
 import { sliderSettings } from '../components/CreateATeam/SliderSettings'
 const CreateATeam = () => {
   // const userId = getPayloadFromToken().sub
-
   const [formData, setFormData] = useState({
     team_name: '',
     abbreviation: '',
@@ -16,15 +15,11 @@ const CreateATeam = () => {
     formation: 4,
     players: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
   })
-
   // const history = useHistory()
-
   const handleChange = event => {
     const newFormData = { ...formData, [event.target.name]: event.target.value }
     setFormData(newFormData)
   }
-
-
   const handleSubmit = async event => {
     try {
       event.preventDefault()
@@ -41,7 +36,6 @@ const CreateATeam = () => {
       window.alert(err)
     }
   }
-
   //get all players
   const [allPlayers, setAllPlayers] = useState([])
   useEffect(() => {
@@ -52,14 +46,12 @@ const CreateATeam = () => {
     getData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-
   // search for players 
   const [search, setSearch] = useState(null)
   const searchSpace = event => {
     const keyword = event.target.value
     setSearch(keyword)
   }
-
   // add players to team
   let playerToPush
   let playerToDisplay
@@ -67,18 +59,14 @@ const CreateATeam = () => {
     playerToPush = event.target.value
     playerToDisplay = event.target.name
   }
-
   //add players to card
   const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-
   const handleAddToSquad = event => {
     const newPlayersArray = [...playersToDisplayPhoto]
     //add player to data 
     formData.players[event.target.name] = Number(playerToPush)
     console.log('all players in array', formData.players)
-
-
-    //add picture to squad 
+    //add picture to squad 
     if (playersToDisplayPhoto.includes(allPlayers[playerToDisplay])) {
       window.alert('Already have that player ')
     } else {
@@ -86,22 +74,18 @@ const CreateATeam = () => {
       setPlayersToDisplayPhoto(newPlayersArray)
       console.log(playerToPush)
     }
-
   }
-
   //delete players from positions 
   const handleDeleteFromSquad = event => {
     //delete player from array to send to database 
     const formDataPlayerToDelete = [...formData.players]
     formDataPlayerToDelete[event.target.name] = event.target.name
     formData.players[event.target.name] = 1
-
     //delete player from picture 
     const playerToDelete = [...playersToDisplayPhoto]
     playerToDelete[event.target.name] = event.target.name
     setPlayersToDisplayPhoto(playerToDelete)
   }
-
   const [handleToggle, setHandleToggle] = useState(null)
   //modal to add a team. 
   const handleModal = event => {
@@ -111,9 +95,7 @@ const CreateATeam = () => {
       console.log(event)
       console.log(handleToggle, setHandleToggle)
       setHandleToggle(true)
-
     }
-
   }
 
   return (
@@ -122,44 +104,7 @@ const CreateATeam = () => {
         <div className="column "> </div>
         <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
         <div className="column"> </div>
-      <Link to='/home'>
-        <p>HOME</p>
-      </Link>
-      <form onSubmit={handleSubmit}>
-        <div className="control">
-          <input className="input" type="text" placeholder="Team Name" name="team_name" onChange={handleChange} />
-        </div>
-        <div className="control">
-          <input className="input" type="text" placeholder="Abbreviation" name="abbreviation" onChange={handleChange} />
-        </div>
-        <div className="control">
-          <input className="input" type="text" placeholder="Team Logo" name="team_logo" onChange={handleChange} />
-        </div>
-        <div className="control">
-          <div className="select">
-            <select name="formation" onChange={handleChange}>
-              <option hidden disabled selected>Select Formation</option>
-              <option value="4">4-4-2</option>
-              <option value="2">4-3-3</option>
-              <option value="3">4-1-2-1-2</option>
-            </select>
-          </div>
-        </div>
-        <div className="control">
-          <input className="input" type="text" placeholder="players" name="players" onChange={handleChange} />
-        </div>
-        {/* <Link to={'/userprofile'}> */}
-        <div className="control">+-
-          <button className="button is-primary">Create Team</button>
-        </div>
-        {/* </Link> */}
-      </form>
-
-      <div>
-        <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
-        {allPlayers.name}
       </div>
-      
       <div className="field">
         <div className="columns main full-page ">
           <div className="column red"> 1</div>
@@ -167,7 +112,42 @@ const CreateATeam = () => {
           <div className="column red "> 3</div>
           <div className="column red ">4 </div>
           <div className="column red "><div className="pcard" name="9">
-            Forward
+          <div class="wrapper">
+      <div class="fut-player-card">
+        <div class="player-card-top">
+          <div class="player-master-info">
+            <div class="player-rating"><span>97</span></div>
+            <div class="player-position"><span>RW</span></div>
+            <div class="player-nation"><img src="https://selimdoyranli.com/cdn/fut-player-card/img/argentina.svg" alt="Argentina" draggable="false"/></div>
+            <div class="player-club"><img src="https://selimdoyranli.com/cdn/fut-player-card/img/barcelona.svg" alt="Barcelona" draggable="false"/></div>
+          </div>
+          <div class="player-picture"><img src="https://selimdoyranli.com/cdn/fut-player-card/img/messi.png" alt="Messi" draggable="false"/>
+            <div class="player-extra"><span>4*SM</span><span>4*WF</span></div>
+          </div>
+        </div>
+        <div class="player-card-bottom">
+          <div class="player-info">
+            <div class="player-name"><span>MESSI</span></div>
+            <div class="player-features">
+              <div class="player-features-col"><span>
+                  <div class="player-feature-value">97</div>
+                  <div class="player-feature-title">PAC</div></span><span>
+                  <div class="player-feature-value">95</div>
+                  <div class="player-feature-title">SHO</div></span><span>
+                  <div class="player-feature-value">94</div>
+                  <div class="player-feature-title">PAS</div></span></div>
+              <div class="player-features-col"><span>
+                  <div class="player-feature-value">99</div>
+                  <div class="player-feature-title">DRI</div></span><span>
+                  <div class="player-feature-value">35</div>
+                  <div class="player-feature-title">DEF</div></span><span>
+                  <div class="player-feature-value">68</div>
+                  <div class="player-feature-title">PHY</div></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
         <img src={playersToDisplayPhoto[9].photo} alt="" />
             <button onClick={handleAddToSquad} name="9"> +</button>
             <button onClick={handleDeleteFromSquad} name="9"> -</button>
@@ -222,7 +202,6 @@ const CreateATeam = () => {
         <div className="columns main full-page ">
           <div className="column red"> 1</div>
           <div className="column red ">2 </div>
-
           <div className="column red ">
             <div className="pcard" name="1">
               Left Back
