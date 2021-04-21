@@ -4,7 +4,8 @@ import axios from 'axios'
 // import PlayerCard from './PlayerCard'
 // import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
-
+import Slider from 'react-slick'
+import { sliderSettings } from '../components/CreateATeam/SliderSettings'
 const CreateATeam = () => {
   // const userId = getPayloadFromToken().sub
 
@@ -132,23 +133,7 @@ const CreateATeam = () => {
         </div>
         {/* </Link> */}
       </form>
-      {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
-      ).map((data) => (
-        <div key={data.id} className="card-content">
-          <button className="button" value={data.id} onClick={handleChangeTeam} name={allPlayers.indexOf(data)} >
-            <div className="card-image">
-              <figure className="image is-4b3">
-                {/* <img src={data.photo} alt="" /> */}
-              </figure>
-              <li>{data.first_name} {data.last_name}</li>
-              <li>{data.team_name}</li>
-              <li>{data.nationality}</li>
-              <li>{data.position}</li>
-            </div>
-          </button>
-        </div>
-      )
-      )}
+
       <div>
         <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
         {allPlayers.name}
@@ -265,6 +250,44 @@ const CreateATeam = () => {
           <div className="column red ">4 </div>
           <div className="column red ">4 </div>
           <div className="column red ">4 </div>
+        </div>
+      </div>
+      <div className="everything">
+        <div className="container ">
+          <Slider {...sliderSettings} className="slider ">
+            {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
+            ).map((data) => (
+              <div key={data.id} className="card-content item">
+                <button className="button" value={data.id} onClick={handleChangeTeam} name={allPlayers.indexOf(data)} >
+                  <div className="card-image">
+                    <figure className="image is-4b3">
+                      {/* <img src={data.photo} alt="" /> */}
+                    </figure>
+                    <li>{data.first_name} {data.last_name}</li>
+                    <li>{data.team_name}</li>
+                    <li>{data.nationality}</li>
+                    <li>{data.position}</li>
+                  </div>
+                </button>
+              </div>
+            )
+            )}
+          </Slider>
+          {/* <div className="container columns ">
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+        </div> */}
         </div>
       </div>
     </div>
