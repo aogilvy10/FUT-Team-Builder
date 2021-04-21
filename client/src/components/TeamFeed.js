@@ -30,25 +30,36 @@ const TeamFeed = () => {
 
   if (!users) return null
   return (
-    <ul>
+    <>
+    <ul className="feed">
+      <h1>TEAM FEED</h1>
       {users.map((user) => {
         return (
           <div>
             <Link to={{
               pathname: `/users/${user.id}`,
-              state: {user}
+              state: { user }
             }}>
-              <h3>{user.username}</h3>
-              <li>{user.teams.map((userTeam) => {
+              <h3>  {user.username}</h3>
+              <li className="feed-container">{user.teams.map((userTeam) => {
                 return (
-                  <p>{userTeam.team_name}</p>
-                  )
-                })}</li>
+                  <>
+                  <div class="container">
+                      <p> TEAM NAME  ➖ {userTeam.team_name}
+                      </p> 
+                      <p className="abbreviation">{userTeam.abbreviation}
+                      </p>
+                      <img src="https://www.fifauteam.com/wp-content/uploads/2018/10/A1654-13.jpg" alt="fifa"></img>
+                  </div>
+                </>
+                )
+              })}</li>
             </Link>
           </div>
         )
       })}
     </ul>
+    </>
   )
 }
 

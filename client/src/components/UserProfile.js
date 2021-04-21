@@ -31,7 +31,11 @@ const UserProfile = () => {
         <li key={user.gamertag}>Gamertag - {user.gamertag} </li>
         <li key={user.coins}>Coins - {user.coins} </li>
         <li key={user.wins}> Wins: {user.wins} - Losses:{user.losses} </li>
-        {/* <li key={user.last_name}>{user.teams}</li> */}
+        {user.teams.map((team) => {
+          return (
+            <li>{team.name} - {team.owner.name}</li>
+          )
+        })}
         <button> Edit </button>
       </div>
     

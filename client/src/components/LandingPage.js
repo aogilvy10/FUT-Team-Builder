@@ -1,34 +1,37 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
 
 
 
-
-
-
   return (
-    <div className="image-landing is-large image-response">
-        <div className="container hero-image columns">
-          <div className="column is-four-fifths"> </div>
-          <div className="columns is-vcentered"> 
-          <div className="column is-flex-mobile"></div>
-          <div className="form columns column-start is-vcentered ">
-            <div className="column loading-text loading-text-words loading"> 
-            <Link to={'/login'}>
-              <button className="button is-centered">Login</button>
-            </Link>
-            </div>
-            <div className="column"> 
-            <Link to={'/register'}>
-              <button className="button is-outlined is-purple">Register</button>
-            </Link>
-            </div>
-          </div>
-          </div>
-        </div>
+    <div className="landing-page">
+    <h1>FUT TEAM BUILDER</h1>
+    <div className="landing">
+      {/* <Link to={'/login'}> */}
+      <a href="/login" class="animated-button1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+            Login
+      </a>      
+      {/* </Link> */}
+
+      {/* <Link to={'/register'}> */}
+      <a href="/register" class="animated-button1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+            Register
+      </a> 
     </div>
+    </div>
+    
 
   )
 }

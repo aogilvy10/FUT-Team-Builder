@@ -27,16 +27,17 @@ const HomePage = () => {
     <>
       <div className="user-info">
         <div className="columns">
-          <div className="column">
-            <p>Gamertag - {user.gamertag} </p>
-            <p>coins - {user.coins} </p>
-            <p>{user.wins} - {user.losses} </p>
+          <div className="column" id="nav-bar">
+            <p>⚽️--- GAMERTAG ➖ {user.gamertag} </p>
+            <p>💰--- COINS ➖ {user.coins} </p>
+            <p>🏆---{user.wins} ➖ {user.losses} </p>
           </div>
         </div>
           <div className="columns mt-6  mb-0">
             <div className="column"></div>
             <div className="column"> </div>
-            <div className="column is-4 pl-0"> <p className="column-dark "> Create</p> </div>
+            <div className="column is-4 pl-0 ml-2 p-0"> <p className="column-dark pl-2" id="top-bar m-1" > BUILD--THE--BEST--TEAM--POSSIBLE</p> 
+            </div>
             <div className="column"> </div>
             <div className="column"> </div>
             <div className="column "> </div>
@@ -54,18 +55,18 @@ const HomePage = () => {
             <div className="column"> </div>
             <div className="column"> </div>
             <div className="column"> </div>
-            <div className="column is-6 column-dark m-1"> 
-            <div className="column pl-0"><h1 className="">INFO FUT - TEAM - BUILDER </h1>  </div>
+            <div className="column is-6 column-dark m-2"> 
+            <div className="column pl-0"><h1 className="team-builder"> FUT--TEAM--BUILDER </h1>  </div>
             <div className="columns"> 
-            <div className="column"> <p className="p-explanation">Welcome to FUT-Team-builder where you can create your favourite teams from FUT. You can view any player in the top 10 of the Premier League.  </p>
+            <div className="column"> <p className="p-explanation">Welcome to FUT-Team-Builder where you can create your favourite teams from FUT. You will have your choice from the top players in the english premier league.  </p>
             <div className="columns"> 
 
             <div className="column"></div>
             <img src={mane} alt="" className="image column image-mane mt-6  ml-0  " /></div></div>
             </div>
             </div>
-            <div className="column is-3 column-dark m-1"> <h2>Squad Building Challenges </h2> 
-            <p className="mt-3"> Remember to use the search bar when checking out all the different players. </p> 
+            <div className="column is-3 column-dark m-2"> <h2>Squad--Building--Challenges </h2> 
+            <p className="mt-3"> Create the best team possible when searching through our set of players. </p> 
             <img src={futchamp} alt="" className="image image-fut column "/></div>
             <div className="column"> </div>
             <div className="column"> </div>
@@ -78,28 +79,28 @@ const HomePage = () => {
               <div className="column columns is-centered is-blue m-1">
                 <Link to="/teams/new">
                   <p className="column">
-                    create a team
+                    Create A Team
               </p>
                 </Link>
               </div>
               <div className="column columns is-centered is-blue m-1">
-                <Link to="/userteams">
+                <Link to="/userprofile">
                   <p className="column  is-vcentered">
-                    View your teams
+                    View Your Teams
               </p>
                 </Link>
               </div>
               <div className="column columns is-centered is-blue m-1">
                 <Link to="/teamfeed">
                   <p className="column">
-                    view all teams
+                    View All Teams
               </p>
                 </Link>
               </div>
               <div className="column columns is-centered is-blue m-1">
                 <Link to="/userprofile">
                   <p className="column">
-                    go to Your profile
+                    Your profile
               </p>
                 </Link>
               </div>
