@@ -12,8 +12,8 @@ const CreateATeam = () => {
   const [formData, setFormData] = useState({
     team_name: '',
     abbreviation: '',
-    team_logo: '',
-    formation: '',
+    team_logo: 'team.jpg',
+    formation: 4,
     players: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
   })
 
@@ -38,7 +38,7 @@ const CreateATeam = () => {
       console.log('RESPONSE', response)
     } catch (err) {
       console.log(err)
-      window.alert('Not added enough players')
+      window.alert(err)
     }
   }
 
@@ -102,8 +102,26 @@ const CreateATeam = () => {
     setPlayersToDisplayPhoto(playerToDelete)
   }
 
+  const [handleToggle, setHandleToggle] = useState(null)
+  //modal to add a team. 
+  const handleModal = event => {
+    if (handleToggle === true) {
+      setHandleToggle(null)
+    } else {
+      console.log(event)
+      console.log(handleToggle, setHandleToggle)
+      setHandleToggle(true)
+
+    }
+
+  }
+
   return (
     <div className="create-page">
+      <div className="columns">
+        <div className="column "> </div>
+        <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
+        <div className="column"> </div>
       <Link to='/home'>
         <p>HOME</p>
       </Link>
@@ -141,7 +159,7 @@ const CreateATeam = () => {
         <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
         {allPlayers.name}
       </div>
-
+      
       <div className="field">
         <div className="columns main full-page ">
           <div className="column red"> 1</div>
@@ -252,7 +270,46 @@ const CreateATeam = () => {
           <div className="column red ">4 </div>
           <div className="column red ">4 </div>
           <div className="column red ">4 </div>
-          <div className="column red ">4 </div>
+          <div className="column red ">      <div>
+            <input className="align" type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
+            {allPlayers.name}
+            <button onClick={handleModal} className="button">Add Name/FC </button>
+            {handleToggle && <div name="modal" className="modal is-active">
+              <div className="modal-background"></div>
+              <div className="modal-content">
+                <form onSubmit={handleSubmit}>
+                  <div className="control">
+                    <input className="input" type="text" placeholder="Team Name" name="team_name" onChange={handleChange} />
+                  </div>
+                  <div className="control">
+                    <input className="input" type="text" placeholder="Abbreviation" name="abbreviation" onChange={handleChange} />
+                  </div>
+                  <div className="control">
+                    <input className="input hidden" type="text" placeholder="Team Logo" name="team_logo" onChange={handleChange} />
+                  </div>
+                  <div className="control">
+                    <div className="select hidden">
+                      <select name="formation" onChange={handleChange}>
+                        <option hidden disabled selected>Select Formation</option>
+                        <option value="4">4-4-2</option>
+                        <option value="2">4-3-3</option>
+                        <option value="3">4-1-2-1-2</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div className="control">
+                    <input className="input hidden" type="text" placeholder="players" name="players" onChange={handleChange} />
+                  </div>
+                  {/* <Link to={'/userprofile'}> */}
+                  <div className="control">+-
+          <button className="button is-primary">Create Team</button>
+                  </div>
+                  {/* </Link> */}
+                </form>
+              </div>
+              <button onClick={handleModal} className="modal-close is-large" aria-label="close"></button>
+            </div>}
+          </div> </div>
         </div>
       </div>
       <div className="everything">
