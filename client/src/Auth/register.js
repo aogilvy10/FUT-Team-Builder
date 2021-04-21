@@ -52,12 +52,12 @@ const Register = () => {
   return (
     <div className="register-page">
       <div className="columns">
-      <div class="column is-one-quarter"></div>
+      <div className="column is-one-quarter"></div>
       <h1>REGISTER</h1>
       </div>
       <form onSubmit={handleSubmit} className="register-form">
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column top">
             <p className="control has-icons-left has-icons-right">
               <input className="input" type="email" placeholder="Email" name="email" onChange={handleChange} />
@@ -71,7 +71,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left has-icons-right">
               <input className="input" type="username" placeholder="Username" name="username" onChange={handleChange} />
@@ -85,7 +85,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="name" placeholder="First Name" name="first_name" onChange={handleChange} />
@@ -96,7 +96,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="name" placeholder="Last Name" name="last_name" onChange={handleChange} />
@@ -107,7 +107,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="password" placeholder="Password" name="password" onChange={handleChange} />
@@ -118,7 +118,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="password" placeholder="Password Confirmation" name="password_confirmation" onChange={handleChange} />
@@ -129,7 +129,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="name" placeholder="Gamertag" name="gamertag" onChange={handleChange} />
@@ -140,7 +140,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="coins" placeholder="Coins" name="coins" onChange={handleChange} />
@@ -151,7 +151,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="wins" placeholder="Wins" name="wins" onChange={handleChange} />
@@ -162,7 +162,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="losses" placeholder="Losses" name="losses" onChange={handleChange} />
@@ -173,7 +173,7 @@ const Register = () => {
           </div>
         </div>
         <div className="columns">
-          <div class="column is-three-fifths"></div>
+          <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control">
               <button className="button is-success">
