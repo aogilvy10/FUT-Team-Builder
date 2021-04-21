@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
 // import PlayerCard from './PlayerCard'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 import Slider from 'react-slick'
 import { sliderSettings } from '../components/CreateATeam/SliderSettings'
@@ -122,6 +122,42 @@ const CreateATeam = () => {
         <div className="column "> </div>
         <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
         <div className="column"> </div>
+      <Link to='/home'>
+        <p>HOME</p>
+      </Link>
+      <form onSubmit={handleSubmit}>
+        <div className="control">
+          <input className="input" type="text" placeholder="Team Name" name="team_name" onChange={handleChange} />
+        </div>
+        <div className="control">
+          <input className="input" type="text" placeholder="Abbreviation" name="abbreviation" onChange={handleChange} />
+        </div>
+        <div className="control">
+          <input className="input" type="text" placeholder="Team Logo" name="team_logo" onChange={handleChange} />
+        </div>
+        <div className="control">
+          <div className="select">
+            <select name="formation" onChange={handleChange}>
+              <option hidden disabled selected>Select Formation</option>
+              <option value="4">4-4-2</option>
+              <option value="2">4-3-3</option>
+              <option value="3">4-1-2-1-2</option>
+            </select>
+          </div>
+        </div>
+        <div className="control">
+          <input className="input" type="text" placeholder="players" name="players" onChange={handleChange} />
+        </div>
+        {/* <Link to={'/userprofile'}> */}
+        <div className="control">+-
+          <button className="button is-primary">Create Team</button>
+        </div>
+        {/* </Link> */}
+      </form>
+
+      <div>
+        <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
+        {allPlayers.name}
       </div>
       
       <div className="field">

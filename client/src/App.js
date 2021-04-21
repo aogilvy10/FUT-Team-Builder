@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/teamfeed">
           <TeamFeed />
         </Route>
-        <Route exact path="/users/:id">
+        <Route exact path="/users/:userId">
           <UserProfile /> 
         </Route>
         <Route exact path="/teams/new"> 

@@ -4,7 +4,7 @@ import axios from 'axios'
 const UserProfile = () => {
 
   const userId = getPayloadFromToken().sub
-  console.log(userId)
+  console.log('userId',userId)
 
   const [user, setUser] = useState('')
   useEffect(() => {
@@ -16,27 +16,34 @@ const UserProfile = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  console.log('WHAT IS THIS', user)
+  
+
 
 
   
 
 
 
-
+  if (!user) return null
   return (
     
       <div className="userInfo">
-        <li key={user.username}> Username - {user.username}</li>
-        <li key={user.gamertag}>Gamertag - {user.gamertag} </li>
-        <li key={user.coins}>Coins - {user.coins} </li>
-        <li key={user.wins}> Wins: {user.wins} - Losses:{user.losses} </li>
+        <div className="nav-bar">
+          <p key={user.username}> Username - {user.username}</p>
+          <p key={user.gamertag}>Gamertag - {user.gamertag} </p>
+          <p key={user.coins}>Coins - {user.coins} </p>
+          <p key={user.wins}> Wins: {user.wins} - Losses:{user.losses} </p>
+        </div>
         {user.teams.map((team) => {
+          console.log(team)
           return (
-            <li>{team.name} - {team.owner.name}</li>
+            <div className="content">
+              <p className="top-content">{team.team_name}</p>
+              <p>{team.formation.name}</p>
+              <img src="https://www.fifauteam.com/wp-content/uploads/2018/10/A1654-13.jpg" alt="fifa"></img>
+            </div>
           )
         })}
-        <button> Edit </button>
       </div>
     
   )
