@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { getPayloadFromToken } from '../helpers/auth'
+// import { getPayloadFromToken } from '../helpers/auth'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 const UserProfile = () => {
 
-  const userId = getPayloadFromToken().sub
+  const {userId} = useParams()
   console.log('userId',userId)
 
   const [user, setUser] = useState('')
@@ -20,12 +20,6 @@ const UserProfile = () => {
   }, [])
   
 
-
-
-  
-
-
-
   if (!user) return null
   return (
       <div className="user-profile">
@@ -39,12 +33,13 @@ const UserProfile = () => {
             <p key={user.wins}> 🏆---{user.wins} ➖{user.losses} </p>
           </div>
         <div className="userInfo">
+          <h1>USER PROFILE</h1>
           {user.teams.map((team) => {
             console.log(team)
             return (
               <>
-              <h1>USER PROFILE</h1>
               <div className="content">
+                <p className="top-content">{team.owner.username}</p>
                 <p className="top-content">{team.team_name}</p>
                 <p>{team.formation.name}</p>
                 <img src="https://www.fifauteam.com/wp-content/uploads/2018/10/A1654-13.jpg" alt="fifa"></img>

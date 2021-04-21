@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getPayloadFromToken } from '../helpers/auth'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import mane from '../assets/mane.png'
 import futchamp from '../assets/sbc_set_image_1000073-36bf671a-223b.png'
 
@@ -22,6 +22,15 @@ const HomePage = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  const history = useHistory()
+
+
+  const handleLogout = () => {
+    window.localStorage.removeItem('token')
+    history.push('/')
+  }
+
   console.log(user)
   return (
     <>
@@ -84,9 +93,9 @@ const HomePage = () => {
                 </Link>
               </div>
               <div className="column columns is-centered is-blue m-1">
-                <Link to="/users/:userId">
+                <Link to={`users/${userId}`}>
                   <p className="column  is-vcentered">
-                    View Your Teams
+                    Your profile
               </p>
                 </Link>
               </div>
@@ -98,10 +107,10 @@ const HomePage = () => {
                 </Link>
               </div>
               <div className="column columns is-centered is-blue m-1">
-                <Link to="/userprofile">
+                <Link onClick={handleLogout}>
                   <p className="column">
-                    Your profile
-              </p>
+                    Log Out
+                  </p>
                 </Link>
               </div>
             </div>
