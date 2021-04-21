@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
 // import PlayerCard from './PlayerCard'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 import Slider from 'react-slick'
 import { sliderSettings } from '../components/CreateATeam/SliderSettings'
@@ -104,6 +104,9 @@ const CreateATeam = () => {
 
   return (
     <div className="create-page">
+      <Link to='/home'>
+        <p>HOME</p>
+      </Link>
       <form onSubmit={handleSubmit}>
         <div className="control">
           <input className="input" type="text" placeholder="Team Name" name="team_name" onChange={handleChange} />

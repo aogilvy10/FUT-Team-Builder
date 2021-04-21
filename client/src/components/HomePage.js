@@ -36,7 +36,7 @@ const HomePage = () => {
           <div className="columns mt-6  mb-0">
             <div className="column"></div>
             <div className="column"> </div>
-            <div className="column is-4 pl-0 ml-2 p-0"> <p className="column-dark pl-2" id="top-bar m-1" > BUILD--THE--BEST--TEAM--POSSIBLE</p> 
+            <div className="column is-4 pl-0 ml-2 p-0"> <p className="column-dark pl-2" id="top-bar m-1" > BUILD-THE-BEST-TEAM-POSSIBLE</p> 
             </div>
             <div className="column"> </div>
             <div className="column"> </div>
@@ -56,7 +56,7 @@ const HomePage = () => {
             <div className="column"> </div>
             <div className="column"> </div>
             <div className="column is-6 column-dark m-2"> 
-            <div className="column pl-0"><h1 className="team-builder"> FUT--TEAM--BUILDER </h1>  </div>
+            <div className="column pl-0"><h1 className="team-builder"> FUT-TEAM-BUILDER </h1>  </div>
             <div className="columns"> 
             <div className="column"> <p className="p-explanation">Welcome to FUT-Team-Builder where you can create your favourite teams from FUT. You will have your choice from the top players in the english premier league.  </p>
             <div className="columns"> 

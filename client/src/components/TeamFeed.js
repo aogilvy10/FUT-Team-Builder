@@ -32,10 +32,13 @@ const TeamFeed = () => {
   return (
     <>
     <ul className="feed">
+      <Link to='/home'>
+        <p className="home">HOME</p>
+      </Link>
       <h1>TEAM FEED</h1>
       {users.map((user) => {
         return (
-          <div>
+          <div className="feed-center">
             <Link to={{
               pathname: `/users/${user.id}`,
               state: { user }
@@ -43,7 +46,7 @@ const TeamFeed = () => {
               <h3>  {user.username}</h3>
               <li className="feed-container">{user.teams.map((userTeam) => {
                 return (
-                  <>
+                  
                   <div class="container">
                       <p> TEAM NAME  ➖ {userTeam.team_name}
                       </p> 
@@ -51,7 +54,7 @@ const TeamFeed = () => {
                       </p>
                       <img src="https://www.fifauteam.com/wp-content/uploads/2018/10/A1654-13.jpg" alt="fifa"></img>
                   </div>
-                </>
+                
                 )
               })}</li>
             </Link>

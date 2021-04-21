@@ -1893,6 +1893,7 @@
   border: 4px solid black;
   height: 100vh;
 
+
   h1, h2, .column-dark.pl-2 {
     color: #ABCB2D;
   }
@@ -1985,13 +1986,26 @@
  //Team Feed
  .feed {
   background-image: url('https://www.gamingfrog.com/wp-content/uploads/2019/09/FIFA-20-background.jpg');
-  height: 100vh;
+  // height: 100vh;
   width: 100vw;
   background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
+  .home {
+    font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    color: #ABCB2D;
+    width: 4vw;
+    // margin-top: 5vh;
+  }
+  .home:hover {
+    background-color: white;
+  }
    .container {
      border: 2px solid white;
      border-radius: 10px;
@@ -2021,7 +2035,16 @@
     h1 {
       font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
       font-size: 45px;
-      color: #ABCB2D
+      color: #ABCB2D;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .feed-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     
     img {
@@ -2029,6 +2052,43 @@
       width: 15vw;
     }
 }
+
+//USER PROFILE
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://wallup.net/wp-content/uploads/2019/09/362058-fifa-14-world-cup-soccer-game-fifa14-2-748x399.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+    // height: 20vh;
+    // width: 55vw;
+    margin-top: 20vh;
+  }
+  img {
+    height: 10vh;
+    width: 15vh;
+  }
+
+}
+
+
+
 
 //CREATE A TEAM PAGE
   .create-page {
@@ -2041,6 +2101,11 @@
       .main { 
         max-width: 100vh;
       }
+    }
+
+    p {
+      font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+      font-size: 15px;
     }
    
     .field { 
