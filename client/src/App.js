@@ -7,7 +7,7 @@ import Register from './Auth/Register'
 import TeamFeed from './components/TeamFeed'
 import UserProfile from './components/UserProfile'
 import CreateATeam from './components/CreateATeam'
-import PitchTest from './components/PitchTest'
+import PitchTest from './components/CreateATeam/PitchTest'
 
 
 

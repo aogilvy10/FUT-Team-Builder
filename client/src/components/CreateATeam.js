@@ -4,7 +4,8 @@ import axios from 'axios'
 // import PlayerCard from './PlayerCard'
 // import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
-
+import Slider from 'react-slick'
+import { sliderSettings } from '../components/CreateATeam/SliderSettings'
 const CreateATeam = () => {
   // const userId = getPayloadFromToken().sub
 
@@ -13,7 +14,7 @@ const CreateATeam = () => {
     abbreviation: '',
     team_logo: '',
     formation: '',
-    players: [1, 2, 3, 4, 5, 6, 7, 8 , 9, 10, 11],
+    players: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
   })
 
   // const history = useHistory()
@@ -34,7 +35,7 @@ const CreateATeam = () => {
           Authorization: `Bearer ${token}`,
         }
       })
-      console.log('RESPONSE',response)
+      console.log('RESPONSE', response)
     } catch (err) {
       console.log(err)
       window.alert('Not added enough players')
@@ -60,35 +61,36 @@ const CreateATeam = () => {
   }
 
   // add players to team
-let playerToPush
-let playerToDisplay
-  const handleChangeTeam = event => { 
+  let playerToPush
+  let playerToDisplay
+  const handleChangeTeam = event => {
     playerToPush = event.target.value
     playerToDisplay = event.target.name
   }
-  
+
   //add players to card
-  const [playersToDisplayPhoto, setPlayersToDisplayPhoto ]= useState( [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] )
+  const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
-  const handleAddToSquad = event => { 
-    const newPlayersArray = [...playersToDisplayPhoto] 
+  const handleAddToSquad = event => {
+    const newPlayersArray = [...playersToDisplayPhoto]
     //add player to data 
-  formData.players[event.target.name] = Number(playerToPush)
-  console.log('all players in array', formData.players )
+    formData.players[event.target.name] = Number(playerToPush)
+    console.log('all players in array', formData.players)
 
 
-  //add picture to squad 
-  if (playersToDisplayPhoto.includes(allPlayers[playerToDisplay])) { 
-  window.alert('Already have that player ')
-} else {  
-  newPlayersArray[event.target.name] = allPlayers[playerToDisplay]
-  setPlayersToDisplayPhoto(newPlayersArray)
-console.log(playerToPush) } 
+    //add picture to squad 
+    if (playersToDisplayPhoto.includes(allPlayers[playerToDisplay])) {
+      window.alert('Already have that player ')
+    } else {
+      newPlayersArray[event.target.name] = allPlayers[playerToDisplay]
+      setPlayersToDisplayPhoto(newPlayersArray)
+      console.log(playerToPush)
+    }
 
   }
 
   //delete players from positions 
-  const handleDeleteFromSquad = event => { 
+  const handleDeleteFromSquad = event => {
     //delete player from array to send to database 
     const formDataPlayerToDelete = [...formData.players]
     formDataPlayerToDelete[event.target.name] = event.target.name
@@ -131,98 +133,163 @@ console.log(playerToPush) }
         </div>
         {/* </Link> */}
       </form>
-      {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
-      ).map((data) => (
-        <div key={data.id} className="card-content">
-          <button className="button" value={data.id} onClick={handleChangeTeam} name={allPlayers.indexOf(data)} >
-            <div className="card-image">
-              <figure className="image is-4b3">
-                {/* <img src={data.photo} alt="" /> */}
-              </figure>
-              <li>{data.first_name} {data.last_name}</li>
-              <li>{data.team_name}</li>
-              <li>{data.nationality}</li>
-              <li>{data.position}</li>
-            </div>
-          </button>
-        </div>
-      )
-      )}
+
       <div>
         <input type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
         {allPlayers.name}
       </div>
-    <div>
-      
-    <div className="players">
-      <div className="pcard" >
-        Goalkeeper
-        <img src={playersToDisplayPhoto[0].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="0"> +</button>
-        <button onClick={handleDeleteFromSquad} name="0"> -</button>
+
+      <div className="field">
+        <div className="columns main full-page ">
+          <div className="column red"> 1</div>
+          <div className="column red ">2 </div>
+          <div className="column red "> 3</div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="9">
+            Forward
+        <img src={playersToDisplayPhoto[9].photo} alt="" />
+            <button onClick={handleAddToSquad} name="9"> +</button>
+            <button onClick={handleDeleteFromSquad} name="9"> -</button>
+          </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="10">
+            Forward
+        <img src={playersToDisplayPhoto[10].photo} alt="" />
+            <button onClick={handleAddToSquad} name="10"> +</button>
+            <button onClick={handleDeleteFromSquad} name="10"> -</button>
+          </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+        </div>
+        <div className="columns main full-page ">
+          <div className="column red"> 1</div>
+          <div className="column red ">2 </div>
+          <div className="column red "> <div className="pcard" name="5">
+            Left Mid
+        <img src={playersToDisplayPhoto[5].photo} alt="" />
+            <button onClick={handleAddToSquad} name="5"> +</button>
+            <button onClick={handleDeleteFromSquad} name="5"> -</button>
+          </div></div>
+          <div className="column red ">4 </div>
+          <div className="column red ">          <div className="pcard" name="7">
+            Center Mid
+        <img src={playersToDisplayPhoto[7].photo} alt="" />
+            <button onClick={handleAddToSquad} name="7"> +</button>
+            <button onClick={handleDeleteFromSquad} name="7"> -</button>
+          </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="8">
+            Center Mid
+        <img src={playersToDisplayPhoto[8].photo} alt="" />
+            <button onClick={handleAddToSquad} name="8"> +</button>
+            <button onClick={handleDeleteFromSquad} name="8"> -</button>
+          </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="6">
+            Right Mid
+        <img src={playersToDisplayPhoto[6].photo} alt="" />
+            <button onClick={handleAddToSquad} name="6"> +</button>
+            <button onClick={handleDeleteFromSquad} name="6"> -</button>
+          </div> </div>
+          <div className="column red "> </div>
+          <div className="column red ">4 </div>
+        </div>
+        <div className="columns main full-page ">
+          <div className="column red"> 1</div>
+          <div className="column red ">2 </div>
+
+          <div className="column red ">
+            <div className="pcard" name="1">
+              Left Back
+        <img src={playersToDisplayPhoto[1].photo} alt="" />
+              <button onClick={handleAddToSquad} name="1"> +</button>
+              <button onClick={handleDeleteFromSquad} name="1"> -</button>
+            </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="2">
+            Right Back
+        <img src={playersToDisplayPhoto[2].photo} alt="" />
+            <button onClick={handleAddToSquad} name="2"> +</button>
+            <button onClick={handleDeleteFromSquad} name="2"> -</button>
+          </div></div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="3">
+            Center Back
+        <img src={playersToDisplayPhoto[3].photo} alt="" />
+            <button onClick={handleAddToSquad} name="3"> +</button>
+            <button onClick={handleDeleteFromSquad} name="3"> -</button>
+          </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" name="4">
+            Center Back
+        <img src={playersToDisplayPhoto[4].photo} alt="" />
+            <button onClick={handleAddToSquad} name="4"> +</button>
+            <button onClick={handleDeleteFromSquad} name="4"> -</button>
+          </div></div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+        </div>
+        <div className="columns main full-page ">
+          <div className="column red"> 1</div>
+          <div className="column red ">2 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red "><div className="pcard" >
+            Goalkeeper
+        <img src={playersToDisplayPhoto[0].photo} alt="" />
+            <button onClick={handleAddToSquad} name="0"> +</button>
+            <button onClick={handleDeleteFromSquad} name="0"> -</button>
+          </div> </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+          <div className="column red ">4 </div>
+        </div>
       </div>
-      <div className="pcard" name="1">
-        Left Back
-        <img src={playersToDisplayPhoto[1].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="1"> +</button>
-        <button onClick={handleDeleteFromSquad} name="1"> -</button>
+      <div className="everything">
+        <div className="container ">
+          <Slider {...sliderSettings} className="slider ">
+            {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
+            ).map((data) => (
+              <div key={data.id} className="card-content item">
+                <button className="button" value={data.id} onClick={handleChangeTeam} name={allPlayers.indexOf(data)} >
+                  <div className="card-image">
+                    <figure className="image is-4b3">
+                      {/* <img src={data.photo} alt="" /> */}
+                    </figure>
+                    <li>{data.first_name} {data.last_name}</li>
+                    <li>{data.team_name}</li>
+                    <li>{data.nationality}</li>
+                    <li>{data.position}</li>
+                  </div>
+                </button>
+              </div>
+            )
+            )}
+          </Slider>
+          {/* <div className="container columns ">
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+          <div className="item column"> 1 </div>
+        </div> */}
+        </div>
       </div>
-      <div className="pcard" name="2">
-        Right Back
-        <img src={playersToDisplayPhoto[2].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="2"> +</button>
-        <button onClick={handleDeleteFromSquad} name="2"> -</button>
-      </div>
-      <div className="pcard" name="3">
-        Center Back
-        <img src={playersToDisplayPhoto[3].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="3"> +</button>
-        <button onClick={handleDeleteFromSquad} name="3"> -</button>
-      </div>
-      <div className="pcard" name="4">
-        Center Back
-        <img src={playersToDisplayPhoto[4].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="4"> +</button>
-        <button onClick={handleDeleteFromSquad} name="4"> -</button>
-      </div>
-      <div className="pcard" name="5">
-        Left Mid
-        <img src={playersToDisplayPhoto[5].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="5"> +</button>
-        <button onClick={handleDeleteFromSquad} name="5"> -</button>
-      </div>
-      <div className="pcard" name="6">
-        Right Mid
-        <img src={playersToDisplayPhoto[6].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="6"> +</button>
-        <button onClick={handleDeleteFromSquad} name="6"> -</button>
-      </div>
-      <div className="pcard" name="7">
-        Center Mid
-        <img src={playersToDisplayPhoto[7].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="7"> +</button>
-        <button onClick={handleDeleteFromSquad} name="7"> -</button>
-      </div>
-      <div className="pcard" name="8">
-        Center Mid
-        <img src={playersToDisplayPhoto[8].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="8"> +</button>
-        <button onClick={handleDeleteFromSquad} name="8"> -</button>
-      </div>
-      <div className="pcard" name="9">
-        Forward
-        <img src={playersToDisplayPhoto[9].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="9"> +</button>
-        <button onClick={handleDeleteFromSquad} name="9"> -</button>
-      </div>
-      <div className="pcard" name="10">
-        Forward
-        <img src={playersToDisplayPhoto[10].photo} alt=""/>
-        <button onClick={handleAddToSquad} name="10"> +</button>
-        <button onClick={handleDeleteFromSquad} name="10"> -</button>
-      </div>
-    </div>
-    </div>
     </div>
   )
 }
