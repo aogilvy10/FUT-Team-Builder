@@ -209,3 +209,21 @@
     visibility: hidden;
   }
 
+  .card-container { 
+    background-image: url('../assets//ezgif.com-gif-maker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    max-width: 420px;
+    .red { 
+    }
+    .main-card { 
+      height: 30vh;
+    }
+    .bottom-card {
+      height: 5vh;
+    }
+    .picture-padding { 
+      padding-top: 100px;
+    }
+  }
