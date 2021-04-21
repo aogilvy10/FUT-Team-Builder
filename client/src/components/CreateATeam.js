@@ -103,7 +103,7 @@ const CreateATeam = () => {
   }
 
   return (
-    <div>
+    <div className="create-page">
       <form onSubmit={handleSubmit}>
         <div className="control">
           <input className="input" type="text" placeholder="Team Name" name="team_name" onChange={handleChange} />

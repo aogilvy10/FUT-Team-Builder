@@ -1,5 +1,6 @@
 
 @import '~bulma/bulma.sass';
+@import url('http://fonts.cdnfonts.com/css/ea-font');
 
 .App {
   text-align: center;
@@ -1937,6 +1938,7 @@
   }
 }
 
+//PITCH
 .pitch { 
   .pos {
     margin: 65px 258px
@@ -1980,7 +1982,6 @@
    border: 1px solid black
  }
 
-<<<<<<< HEAD
  //Team Feed
  .feed {
   background-image: url('https://www.gamingfrog.com/wp-content/uploads/2019/09/FIFA-20-background.jpg');
@@ -2028,85 +2029,87 @@
       width: 15vw;
     }
 }
-=======
- .full-page{ 
-   .red { 
 
-     border: black solid;
-     height: 25vh;
+//CREATE A TEAM PAGE
+  .create-page {
+    .full-page{ 
+      .red { 
+   
+        border: black solid;
+        height: 25vh;
+      }
+      .main { 
+        max-width: 100vh;
+      }
+    }
+   
+    .field { 
+     background-image: url('../assets/pitch-option-two.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+   
+    .container { 
+     .item { 
+       transition: transform 300ms ease 100ms;
+       background-color: red;
+     } 
+     .container:hover .item {
+     transform: translateX(-25%);
    }
-   .main { 
-     max-width: 100vh;
+   .item:hover ~ .item {
+     transform: translateX(25%);
    }
- }
-
- .field { 
-  background-image: url('../assets/pitch-option-two.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
- .container { 
-  .item { 
-    transition: transform 300ms ease 100ms;
-    background-color: red;
-  } 
-  .container:hover .item {
-  transform: translateX(-25%);
-}
-.item:hover ~ .item {
-  transform: translateX(25%);
-}
-
-.item:hover {
-  transform: scale(1.5) !important;
-}
- }
-
-
-  
-  .slider {
-    display: flex;
-    width: 1000vw;
-    z-index: 1;
-    .slick-list {
-      width: 80vw;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 0;
-      padding-right: 0;
+   
+   .item:hover {
+     transform: scale(1.5) !important;
+   }
     }
-    .slick-track { 
-      display: flex;
-    }
+   
+   
+     
+     .slider {
+       display: flex;
+       width: 1000vw;
+       z-index: 1;
+       .slick-list {
+         width: 80vw;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         padding-left: 0;
+         padding-right: 0;
+       }
+       .slick-track { 
+         display: flex;
+       }
+     }
+     .slick-arrow.slick-next {
+       margin-right: 30px;
+       z-index: 1;
+       visibility: hidden;
+     }
+     .slick-arrow.slick-prev {
+       margin-left: 30px;
+       z-index: 1;
+       visibility: hidden;
+     }
+   
+     .card-container { 
+       background-image: url('../assets//ezgif.com-gif-maker.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 40vh;
+       max-width: 420px;
+       .main-card { 
+         height: 30vh;
+       }
+       .bottom-card {
+         height: 5vh;
+       }
+       .picture-padding { 
+         padding-top: 100px;
+       }
+     }
+
   }
-  .slick-arrow.slick-next {
-    margin-right: 30px;
-    z-index: 1;
-    visibility: hidden;
-  }
-  .slick-arrow.slick-prev {
-    margin-left: 30px;
-    z-index: 1;
-    visibility: hidden;
-  }
 
-  .card-container { 
-    background-image: url('../assets//ezgif.com-gif-maker.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    max-width: 420px;
-    .red { 
-    }
-    .main-card { 
-      height: 30vh;
-    }
-    .bottom-card {
-      height: 5vh;
-    }
-    .picture-padding { 
-      padding-top: 100px;
-    }
-  }
->>>>>>> e16ba6cb1e6cf1c8f1b14fb0748fd547c5754765
