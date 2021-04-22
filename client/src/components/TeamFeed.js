@@ -25,16 +25,13 @@ const TeamFeed = () => {
   console.log('LOOK HERE', users)
 
 
-
-
-
   if (!users) return null
   return (
-    <>
-    <ul className="feed">
+    <div className="entire">
       <Link to='/home'>
         <p className="home">HOME</p>
       </Link>
+    <ul className="feed">
       <h1>TEAM FEED</h1>
       {users.map((user) => {
         return (
@@ -62,7 +59,7 @@ const TeamFeed = () => {
         )
       })}
     </ul>
-    </>
+    </div>
   )
 }
 

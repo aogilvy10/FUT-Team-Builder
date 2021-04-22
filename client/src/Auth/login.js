@@ -24,7 +24,7 @@ const Login = () => {
       const response = await axios.post('/api/auth/login/', formData)
       console.log(response)
       window.localStorage.setItem('token', response.data.token)
-      history.push('/teamfeed')
+      history.push('/home')
     } catch (err) {
       window.alert(err)
     }

@@ -1851,6 +1851,11 @@
     display       : flex;
     flex-direction: column;
     align-items   : center;
+  } 
+
+  ::placeholder {
+    font-family   : 'EA Font v1.5 by Ghettoshark', sans-serif;
+    text-align: center;
   }
 
   .field-top {
@@ -1919,6 +1924,8 @@
     border-radius      : 10px;
     opacity            : .8;
     transition-duration: 0.4s;
+    margin-left: 4vw;
+
   }
 
   .button.is-success:hover {
@@ -1964,16 +1971,105 @@
   font-size       : 19px;
   border          : 4px solid black;
   height          : 100vh;
+  background-repeat: no-repeat;
+  
 
-  h1,
-  h2,
-  .column-dark.pl-2 {
-
+<<<<<<< HEAD
     h1,
     h2,
     .column-dark.pl-2 {
       color: #ABCB2D;
     }
+=======
+  h1, h2, .column-dark.pl-2 {
+    color: #ABCB2D;
+  }
+
+  .main-page-column {
+    height: 600px;
+  }
+
+  .image-mane {
+    max-width: 290px;
+  }
+
+  .image-fut {
+    max-height: 308px;
+    max-width : 260px;
+  }
+
+  .p-explanation {
+    max-width: 400px;
+  }
+
+  .is-blue {
+    background-color   : #2662d9;
+    border-radius      : 10px;
+    opacity            : .8;
+    transition-duration: 0.4s;
+  }
+
+  .is-blue:hover {
+    background-color: rgb(115, 96, 189);
+  }
+
+  .column-dark {
+    background: rgba(0, 0, 0, 0.596);
+  }
+
+  .column {
+    color: white;
+  }
+
+  #nav-bar {
+    display        : flex;
+    background     : rgba(0, 0, 0, 0.596);
+    justify-content: space-around;
+    font-size      : 15px;
+    height         : 4vh;
+    opacity        : .8;
+  }
+
+  .column-dark.pl-2 {
+    width: 24.5vw;
+  }
+}
+
+
+//PITCH
+.pitch {
+  .pos {
+    margin: 65px 258px
+  }
+
+  .pos2 {
+    margin: 65px 53px
+  }
+
+  .pos3 {
+    margin: 65px 126px
+  }
+
+  .pos4 {
+    margin: 65px 186px
+  }
+
+  .pos5 {
+    margin: 65px 258px
+  }
+
+  .pos6 {
+    margin: 130px 53px
+  }
+
+  .pos7 {
+    margin: 130px 126px
+  }
+
+  .pos8 {
+    margin: 130px 186px
+  }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
 
     .main-page-column {
       height: 600px;
@@ -1992,6 +2088,7 @@
       max-width: 400px;
     }
 
+<<<<<<< HEAD
     .is-blue {
       background-color   : #2662d9;
       border-radius      : 10px;
@@ -2032,33 +2129,68 @@
     height          : 100vh;
     width           : 100vw;
     background-size : contain;
+=======
+//Team Feed
+.entire {
+  background-image: url('https://www.gamingfrog.com/wp-content/uploads/2019/09/FIFA-20-background.jpg');
+  // height          : 100vh;
+  width           : 100vw;
+  background-size : contain;
+  font-family   : 'EA Font v1.5 by Ghettoshark', sans-serif;
+
+  .home {
+    margin-left: 2vw;
+    color: #ABCB2D;
+  }
+
+  .feed {
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     display         : flex;
     flex-direction  : column;
     justify-content : center;
     align-items     : center;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .container {
       border        : 2px solid white;
       border-radius : 10px;
       padding       : 20px;
       color         : white;
+<<<<<<< HEAD
       font-family   : 'EA Font v1.5 by Ghettoshark', sans-serif;
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
       margin        : 12px 0;
       width         : 55vw;
       display       : flex;
       flex-direction: column;
       align-items   : center;
     }
+<<<<<<< HEAD
 
     .container:hover {
       background-color: #ABCB2D;
     }
 
+=======
+  
+    .container:hover {
+      background-color: #ABCB2D;
+    }
+  
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .feed-container {
       display       : flex;
       flex-direction: column;
     }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     h3 {
       color          : white;
       font-family    : 'EA Font v1.5 by Ghettoshark', sans-serif;
@@ -2066,12 +2198,17 @@
       display        : flex;
       justify-content: center;
     }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     h1 {
       font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
       font-size  : 45px;
       color      : #ABCB2D
     }
+<<<<<<< HEAD
 
     img {
       height: 10vh;
@@ -2081,23 +2218,101 @@
 }
 
 //CREATE A TEAM PAGE
+=======
+  
+    img {
+      height: 10vh;
+      width : 15vw;
+    }
+  }
+
+}
+
+
+
+
+
+//USER PROFILE
+
+.user-profile {
+  background-image: url('https://windowsthemepack.com/themepack/_games/fifa-21-next-level/1.jpg');
+  background-size: cover;
+  height: 150vh;
+  width: 100vw;
+  font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+  color: white;
+
+  .home {
+    color: #ABCB2D;
+  }
+  h1 {
+    margin-top: 25vh;
+    font-size: 45px;
+    color: #ABCB2D;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items     : center;
+    height: 100vh;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid white;
+      border-radius: 10px;
+      color: white;
+      font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+      height: 25vh;
+      width: 55vw;
+      margin-top: 10vh;
+    }
+    img {
+      height: 10vh;
+      width: 15vh;
+    }
+  
+  }
+
+}
+
+
+
+
+
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
 //CREATE A TEAM PAGE
 .create-page {
   .align {
     text-align : center;
     font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .is-centered1 {
     font-size: 200%;
+    
   }
 
   .full-page {
     .red {
+<<<<<<< HEAD
 
       height: 25vh;
     }
 
+=======
+      height: 25vh;
+    }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .is-active {
       background-color: red;
     }
@@ -2134,7 +2349,10 @@
       margin   : 0, 10vw;
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .hidden {
     display: none;
   }
@@ -2188,20 +2406,29 @@
       padding-top: 100px;
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .wrapper {
     * {
       margin    : 0;
       padding   : 0;
       box-sizing: border-box;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     body {
       font-family: "Saira Semi Condensed", sans-serif;
       font-weight: 400;
       background : url("https://user-images.githubusercontent.com/22690563/67150939-14a0b180-f2c7-11e9-8016-a993a397e1c5.jpg") no-repeat center center/cover;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     body:after {
       content  : "@selimdoyranli";
       font-size: 1rem;
@@ -2211,7 +2438,10 @@
       right    : 20px;
       z-index  : 2;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     position       : relative;
     display        : flex;
     align-items    : center;
@@ -2219,7 +2449,10 @@
     width          : 100%;
     height         : 40vh;
     min-height     : 410px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     /*
     *** fut-player-card styles ***
   */
@@ -2235,14 +2468,20 @@
       z-index            : 2;
       transition         : 200ms ease-in;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top {
       position: relative;
       display : flex;
       color   : #e9cc74;
       padding : 0 1.5rem;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-master-info {
       position      : absolute;
       line-height   : 2.2rem;
@@ -2250,6 +2489,7 @@
       padding       : 1.5rem 0;
       text-transform: uppercase;
     }
+<<<<<<< HEAD
 
     .fut-player-card .player-card-top .player-master-info .player-rating {
       font-size: 2rem;
@@ -2259,40 +2499,63 @@
       font-size: 1.4rem;
     }
 
+=======
+    .fut-player-card .player-card-top .player-master-info .player-rating {
+      font-size: 2rem;
+    }
+    .fut-player-card .player-card-top .player-master-info .player-position {
+      font-size: 1.4rem;
+    }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-master-info .player-nation {
       display: block;
       width  : 2rem;
       height : 25px;
       margin : 0.3rem 0;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-master-info .player-nation img {
       width        : 100%;
       height       : 100%;
       -o-object-fit: contain;
       object-fit   : contain;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-master-info .player-club {
       display: block;
       width  : 2.1rem;
       height : 40px;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-master-info .player-club img {
       width        : 100%;
       height       : 100%;
       -o-object-fit: contain;
       object-fit   : contain;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-picture {
       width   : 200px;
       height  : 200px;
       margin  : 0 auto;
       overflow: hidden;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-picture img {
       width        : 100%;
       height       : 100%;
@@ -2302,7 +2565,10 @@
       right        : -1.5rem;
       bottom       : 0;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-picture .player-extra {
       position      : absolute;
       right         : 0;
@@ -2317,16 +2583,25 @@
       text-align    : right;
       background    : none;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-top .player-picture .player-extra span {
       margin-left: 0.6rem;
       text-shadow: 2px 2px #333;
     }
+<<<<<<< HEAD
 
     .fut-player-card .player-card-bottom {
       position: relative;
     }
 
+=======
+    .fut-player-card .player-card-bottom {
+      position: relative;
+    }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info {
       display : block;
       padding : 0.3rem 0;
@@ -2337,44 +2612,69 @@
       position: relative;
       z-index : 2;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info .player-name {
       width         : 100%;
       display       : block;
       text-align    : center;
+<<<<<<< HEAD
       font-size     : 1.6rem;
+=======
+      font-size     : 1rem;
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
       text-transform: uppercase;
       border-bottom : 2px solid rgba(233, 204, 116, 0.1);
       padding-bottom: 0.3rem;
       overflow      : hidden;
+<<<<<<< HEAD
     }
 
+=======
+      font-family        : 'EA Font v1.5 by Ghettoshark', sans-serif;
+    }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info .player-name span {
       display    : block;
       text-shadow: 2px 2px #111;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info .player-features {
       margin         : 0.5rem auto;
       display        : flex;
       justify-content: center;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info .player-features .player-features-col {
       border-right: 2px solid rgba(233, 204, 116, 0.1);
       padding     : 0 2.3rem;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info .player-features .player-features-col span {
       display       : flex;
       font-size     : 1.2rem;
       text-transform: uppercase;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .fut-player-card .player-card-bottom .player-info .player-features .player-features-col span .player-feature-value {
       margin-right: 0.3rem;
       font-weight : 700;
     }
+<<<<<<< HEAD
 
     .fut-player-card .player-card-bottom .player-info .player-features .player-features-col span .player-feature-title {
       font-weight: 300;
@@ -2384,12 +2684,21 @@
       border: 0;
     }
 
+=======
+    .fut-player-card .player-card-bottom .player-info .player-features .player-features-col span .player-feature-title {
+      font-weight: 300;
+    }
+    .fut-player-card .player-card-bottom .player-info .player-features .player-features-col:last-child {
+      border: 0;
+    }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     .button-player-card {
       width : 40px;
       height: 50px;
     }
   }
 
+<<<<<<< HEAD
   .wrapper-pitch {
     position       : relative;
     display        : flex;
@@ -2483,6 +2792,145 @@
     height: 190px;
   }
 
+=======
+  .modal.is-active {
+    .modal-background{
+      background-image: url('https://wallpaper.dog/large/5576378.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input {
+      margin: 1vh 0;
+      width: 30vw;
+      text-align: center;
+    }
+    ::placeholder, .button.is-primary {
+      font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+    }
+    .button.is-primary {
+      margin-left: 8vw;
+    }
+
+    .modal-content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .add-button {
+    background-color   : black;
+    font-family        : 'EA Font v1.5 by Ghettoshark', sans-serif;
+    border-radius      : 10px;
+    opacity            : .8;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 3vw;
+    height: 5vh;
+    width: 9vw;
+    color: #e5c685 ;
+
+  }
+
+  .add-button:hover, .home-button:hover {
+    background-color: white;
+  }
+
+  .home-button {
+    margin-top: 3.2vh;
+    margin-left: 3vh;
+    color: #e5c685 ;
+    background-color: #4a4a4a;
+    font-family        : 'EA Font v1.5 by Ghettoshark', sans-serif;
+    width: 5vw;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .wrapper-pitch {
+    position       : relative;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 100%;
+    height         : 0vh;
+    min-height     : 250px;
+    .fut-player-card {
+      position: relative;
+      width: 200px;
+      height: 275px;
+      background-image: url("https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png");
+      background-position: center center;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding: 0.8rem 0;
+      z-index: 2;
+      transition: 200ms ease-in;
+    }
+    .button-pitch { 
+      width: 30px;
+      height: 30px;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch {
+      display : block;
+      padding : 0rem 0;
+      color   : #e9cc74;
+      width   : 90%;
+      margin  : 0 auto;
+      height  : auto;
+      position: relative;
+      z-index : 2;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-name {
+      width         : 100%;
+      display       : block;
+      text-align    : center;
+      font-size     : 1rem;
+      text-transform: uppercase;
+      border-bottom : 2px solid rgba(233, 204, 116, 0.1);
+      padding-bottom: 0.3rem;
+      overflow      : hidden;
+      font-family        : 'EA Font v1.5 by Ghettoshark', sans-serif;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-name span {
+      display    : block;
+      text-shadow: 2px 2px #111;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-features {
+      margin         : 0.5rem auto;
+      display        : flex;
+      justify-content: center;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-features .player-features-col {
+      border-right: 2px solid rgba(233, 204, 116, 0.1);
+      padding     : 0 2.3rem;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-features .player-features-col span {
+      display       : flex;
+      font-size     : 1.2rem;
+      text-transform: uppercase;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-features .player-features-col span .player-feature-value {
+      margin-right: 0.3rem;
+      font-weight : 700;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-features .player-features-col span .player-feature-title {
+      font-weight: 300;
+    }
+    .fut-player-card .player-card-bottom .player-info-pitch .player-features .player-features-col:last-child {
+      border: 0;
+    }
+  }
+  .fut-player-card .player-card-top-pitch {
+    position: relative;
+    display : flex;
+    color   : #e9cc74;
+    padding : 0 1.5rem;
+    height: 190px;
+  }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-master-info {
     position      : absolute;
     line-height   : 2.2rem;
@@ -2490,6 +2938,7 @@
     padding       : 1.5rem 0;
     text-transform: uppercase;
   }
+<<<<<<< HEAD
 
   .fut-player-card .player-card-top-pitch .player-master-info .player-rating {
     font-size: 2rem;
@@ -2499,40 +2948,63 @@
     font-size: 1.4rem;
   }
 
+=======
+  .fut-player-card .player-card-top-pitch .player-master-info .player-rating {
+    font-size: 2rem;
+  }
+  .fut-player-card .player-card-top-pitch .player-master-info .player-position {
+    font-size: 1.4rem;
+  }
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-master-info .player-nation {
     display: block;
     width  : 2rem;
     height : 25px;
     margin : 0.3rem 0;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-master-info .player-nation img {
     width        : 100%;
     height       : 100%;
     -o-object-fit: contain;
     object-fit   : contain;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-master-info .player-club {
     display: block;
     width  : 2.1rem;
     height : 40px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-master-info .player-club img {
     width        : 100%;
     height       : 100%;
     -o-object-fit: contain;
     object-fit   : contain;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-picture {
     width   : 200px;
     height  : 200px;
     margin  : 0 auto;
     overflow: hidden;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-picture img {
     width        : 100%;
     height       : 100%;
@@ -2542,7 +3014,10 @@
     right        : -1.5rem;
     bottom       : 0;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-picture .player-extra {
     position      : absolute;
     right         : 0;
@@ -2557,7 +3032,10 @@
     text-align    : right;
     background    : none;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   .fut-player-card .player-card-top-pitch .player-picture .player-extra span {
     margin-left: 0.6rem;
     text-shadow: 2px 2px #333;

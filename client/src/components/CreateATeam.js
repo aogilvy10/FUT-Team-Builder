@@ -9,9 +9,13 @@ import { sliderSettings } from '../components/CreateATeam/SliderSettings'
 import EPLLogo from '../assets/kisspng-201718-premier-league-201617-premier-league-football-fan-5b3594f33be812.1616807615302381952454.jpg'
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
 const CreateATeam = () => {
   // const userId = getPayloadFromToken().sub
-
   const [formData, setFormData] = useState({
     team_name: '',
     abbreviation: '',
@@ -19,15 +23,11 @@ const CreateATeam = () => {
     formation: 4,
     players: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
   })
-
   // const history = useHistory()
-
   const handleChange = event => {
     const newFormData = { ...formData, [event.target.name]: event.target.value }
     setFormData(newFormData)
   }
-
-
   const handleSubmit = async event => {
     try {
       event.preventDefault()
@@ -44,7 +44,6 @@ const CreateATeam = () => {
       window.alert(err)
     }
   }
-
   //get all players
   const [allPlayers, setAllPlayers] = useState([])
   useEffect(() => {
@@ -55,14 +54,12 @@ const CreateATeam = () => {
     getData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-
   // search for players 
   const [search, setSearch] = useState(null)
   const searchSpace = event => {
     const keyword = event.target.value
     setSearch(keyword)
   }
-
   // add players to team
   let playerToPush
   let playerToDisplay
@@ -70,19 +67,19 @@ const CreateATeam = () => {
     playerToPush = event.target.value
     playerToDisplay = event.target.name
   }
-
   //add players to card
   const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([{ photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}])
+<<<<<<< HEAD
   
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   const handleAddToSquad = event => {
     const newPlayersArray = [...playersToDisplayPhoto]
     //add player to data
     console.log(playersToDisplayPhoto)
     formData.players[event.target.name] = Number(playerToPush)
     console.log('all players in array', formData.players)
-
-
-    //add picture to squad 
+    //add picture to squad 
     if (playersToDisplayPhoto.includes(allPlayers[playerToDisplay])) {
       window.alert('Already have that player ')
     } else {
@@ -90,27 +87,30 @@ const CreateATeam = () => {
       setPlayersToDisplayPhoto(newPlayersArray)
       console.log(playerToPush)
     }
-
   }
-
   //delete players from positions 
   const handleDeleteFromSquad = event => {
     //delete player from array to send to database 
     const formDataPlayerToDelete = [...formData.players]
     formDataPlayerToDelete[event.target.name] = event.target.name
     formData.players[event.target.name] = 1
+<<<<<<< HEAD
    
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     //delete player from picture 
     const playerToDelete = [...playersToDisplayPhoto]
     playerToDelete[event.target.name] = event.target.name
     setPlayersToDisplayPhoto(playerToDelete) 
     const stockPhotoToShow = [...playersToDisplayPhoto]
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     stockPhotoToShow[event.target.name] = { photo : "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png" }
     setPlayersToDisplayPhoto(stockPhotoToShow)
     console.log(playersToDisplayPhoto)
   }
-
   const [handleToggle, setHandleToggle] = useState(null)
   //modal to add a team. 
   const handleModal = event => {
@@ -120,19 +120,23 @@ const CreateATeam = () => {
       console.log(event)
       console.log(handleToggle, setHandleToggle)
       setHandleToggle(true)
-
     }
-
   }
 
   return (
     <div className="create-page">
       <div className="columns">
+      <Link to="/home">
+        <h3 className="home-button">HOME</h3>
+      </Link>
         <div className="column "> </div>
         <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
         <div className="column"> </div>
       </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
       <div className="field">
         <div className="columns main full-page ">
           <div className="column red"> 1</div>
@@ -174,7 +178,11 @@ const CreateATeam = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
+<<<<<<< HEAD
                   <div class="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[10].photo} alt=""  className="img img-pitch" /> 
+=======
+                  <div class="player-picture player-picture-pitch">  <img src={playersToDisplayPhoto[10].photo} alt=""  className="img img-pitch" /> 
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
                   </div>
                 </div>
                 <div class="player-card-bottom">
@@ -205,7 +213,11 @@ const CreateATeam = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
+<<<<<<< HEAD
                   <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
+=======
+                  <div class="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
                   </div>
                 </div>
                 <div class="player-card-bottom">
@@ -297,7 +309,10 @@ const CreateATeam = () => {
         <div className="columns main full-page ">
           <div className="column red"> </div>
           <div className="column red "> </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
           <div className="column red ">
             <div className="pcard" name="1">
               L<div class="wrapper wrapper-pitch">
@@ -324,7 +339,11 @@ const CreateATeam = () => {
             </div> </div>
           <div className="column red "></div>
           <div className="column red "><div className="pcard" name="2">
+<<<<<<< HEAD
             <div class="wrapper wrapper-pitch">
+=======
+          <div class="wrapper wrapper-pitch">
+>>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
               <div class="fut-player-card fut-player-card-pitch ">
                 <div class="player-card-top-pitch">
                   <div class="player-master-info">
@@ -433,7 +452,7 @@ const CreateATeam = () => {
           <div className="column red ">      <div>
             <input className="align" type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
             {allPlayers.name}
-            <button onClick={handleModal} className="button">Add Name/FC </button>
+            <button onClick={handleModal} className="add-button">Add Name/FC </button>
             {handleToggle && <div name="modal" className="modal is-active">
               <div className="modal-background"></div>
               <div className="modal-content">
@@ -522,5 +541,4 @@ const CreateATeam = () => {
     </div>
   )
 }
-
 export default CreateATeam
