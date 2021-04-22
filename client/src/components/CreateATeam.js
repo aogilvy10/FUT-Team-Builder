@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 // import { useHistory } from 'react-router'
 import axios from 'axios'
 // import PlayerCard from './PlayerCard'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 import Slider from 'react-slick'
 import { sliderSettings } from '../components/CreateATeam/SliderSettings'
@@ -65,12 +65,11 @@ const CreateATeam = () => {
     playerToDisplay = event.target.name
   }
   //add players to card
-  const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([{ photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
-  const [handleToggleCard, setHandleToggleCard] = useState(null)
+  const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([{ photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}])
   const handleAddToSquad = event => {
     const newPlayersArray = [...playersToDisplayPhoto]
     //add player to data
-    setHandleToggleCard(true)
+    console.log(playersToDisplayPhoto)
     formData.players[event.target.name] = Number(playerToPush)
     console.log('all players in array', formData.players)
     //add picture to squad 
@@ -88,11 +87,14 @@ const CreateATeam = () => {
     const formDataPlayerToDelete = [...formData.players]
     formDataPlayerToDelete[event.target.name] = event.target.name
     formData.players[event.target.name] = 1
-    setHandleToggleCard(false)
     //delete player from picture 
     const playerToDelete = [...playersToDisplayPhoto]
     playerToDelete[event.target.name] = event.target.name
-    setPlayersToDisplayPhoto(playerToDelete)
+    setPlayersToDisplayPhoto(playerToDelete) 
+    const stockPhotoToShow = [...playersToDisplayPhoto]
+    stockPhotoToShow[event.target.name] = { photo : "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png" }
+    setPlayersToDisplayPhoto(stockPhotoToShow)
+    console.log(playersToDisplayPhoto)
   }
   const [handleToggle, setHandleToggle] = useState(null)
   //modal to add a team. 
@@ -109,6 +111,9 @@ const CreateATeam = () => {
   return (
     <div className="create-page">
       <div className="columns">
+      <Link to="/home">
+        <h3 className="home-button">HOME</h3>
+      </Link>
         <div className="column "> </div>
         <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
         <div className="column"> </div>
@@ -154,7 +159,7 @@ const CreateATeam = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"> {handleToggleCard && <img src={playersToDisplayPhoto[10].photo} alt=""  className="img img-pitch" /> }
+                  <div class="player-picture player-picture-pitch">  <img src={playersToDisplayPhoto[10].photo} alt=""  className="img img-pitch" /> 
                   </div>
                 </div>
                 <div class="player-card-bottom">
@@ -185,7 +190,7 @@ const CreateATeam = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch">{handleToggleCard && <img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />}
+                  <div class="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
@@ -412,7 +417,7 @@ const CreateATeam = () => {
           <div className="column red ">      <div>
             <input className="align" type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
             {allPlayers.name}
-            <button onClick={handleModal} className="button">Add Name/FC </button>
+            <button onClick={handleModal} className="add-button">Add Name/FC </button>
             {handleToggle && <div name="modal" className="modal is-active">
               <div className="modal-background"></div>
               <div className="modal-content">
