@@ -1,19 +1,16 @@
 import React, { useEffect, useState } from 'react'
-// import { useHistory } from 'react-router'
+import { useHistory } from 'react-router'
 import axios from 'axios'
 // import PlayerCard from './PlayerCard'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 import Slider from 'react-slick'
 import { sliderSettings } from '../components/CreateATeam/SliderSettings'
 import EPLLogo from '../assets/kisspng-201718-premier-league-201617-premier-league-football-fan-5b3594f33be812.1616807615302381952454.jpg'
 
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
 const CreateATeam = () => {
   // const userId = getPayloadFromToken().sub
   const [formData, setFormData] = useState({
@@ -23,7 +20,7 @@ const CreateATeam = () => {
     formation: 4,
     players: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
   })
-  // const history = useHistory()
+  const history = useHistory()
   const handleChange = event => {
     const newFormData = { ...formData, [event.target.name]: event.target.value }
     setFormData(newFormData)
@@ -39,6 +36,7 @@ const CreateATeam = () => {
         }
       })
       console.log('RESPONSE', response)
+      history.push('/teamfeed')
     } catch (err) {
       console.log(err)
       window.alert(err)
@@ -69,10 +67,6 @@ const CreateATeam = () => {
   }
   //add players to card
   const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([{ photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}, { photo: "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png"}])
-<<<<<<< HEAD
-  
-=======
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
   const handleAddToSquad = event => {
     const newPlayersArray = [...playersToDisplayPhoto]
     //add player to data
@@ -94,19 +88,11 @@ const CreateATeam = () => {
     const formDataPlayerToDelete = [...formData.players]
     formDataPlayerToDelete[event.target.name] = event.target.name
     formData.players[event.target.name] = 1
-<<<<<<< HEAD
-   
-=======
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     //delete player from picture 
     const playerToDelete = [...playersToDisplayPhoto]
     playerToDelete[event.target.name] = event.target.name
     setPlayersToDisplayPhoto(playerToDelete) 
     const stockPhotoToShow = [...playersToDisplayPhoto]
-<<<<<<< HEAD
-
-=======
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
     stockPhotoToShow[event.target.name] = { photo : "https://www.futwiz.com/assets/img/fifa19/leagues/2118.png" }
     setPlayersToDisplayPhoto(stockPhotoToShow)
     console.log(playersToDisplayPhoto)
@@ -133,10 +119,6 @@ const CreateATeam = () => {
         <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
         <div className="column"> </div>
       </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
       <div className="field">
         <div className="columns main full-page ">
           <div className="column red"> 1</div>
@@ -178,11 +160,7 @@ const CreateATeam = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-<<<<<<< HEAD
-                  <div class="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[10].photo} alt=""  className="img img-pitch" /> 
-=======
                   <div class="player-picture player-picture-pitch">  <img src={playersToDisplayPhoto[10].photo} alt=""  className="img img-pitch" /> 
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
                   </div>
                 </div>
                 <div class="player-card-bottom">
@@ -213,11 +191,7 @@ const CreateATeam = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-<<<<<<< HEAD
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
-=======
                   <div class="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
                   </div>
                 </div>
                 <div class="player-card-bottom">
@@ -309,10 +283,6 @@ const CreateATeam = () => {
         <div className="columns main full-page ">
           <div className="column red"> </div>
           <div className="column red "> </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
           <div className="column red ">
             <div className="pcard" name="1">
               L<div class="wrapper wrapper-pitch">
@@ -339,11 +309,7 @@ const CreateATeam = () => {
             </div> </div>
           <div className="column red "></div>
           <div className="column red "><div className="pcard" name="2">
-<<<<<<< HEAD
-            <div class="wrapper wrapper-pitch">
-=======
           <div class="wrapper wrapper-pitch">
->>>>>>> 5c5f4b59b0c5f118d7bdca75632487ff8b2ca17d
               <div class="fut-player-card fut-player-card-pitch ">
                 <div class="player-card-top-pitch">
                   <div class="player-master-info">
@@ -450,7 +416,7 @@ const CreateATeam = () => {
           <div className="column red "></div>
           <div className="column red "></div>
           <div className="column red ">      <div>
-            <input className="align" type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
+            <input className="align align-left" type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
             {allPlayers.name}
             <button onClick={handleModal} className="add-button">Add Name/FC </button>
             {handleToggle && <div name="modal" className="modal is-active">
