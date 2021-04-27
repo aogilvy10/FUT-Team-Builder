@@ -16,4 +16,4 @@ https://animate.style/
 
 Feel free to change the CSS or add in any extra things you would like!
 
-**hint**: you will need some timers for this one!
+**hint**: you will need some timers for this one
