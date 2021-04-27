@@ -1,23 +1,39 @@
-# Getting Started with Create React App
+# FUT - Team - Builder, a Python Django API and React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My final dev project for the Software Engineering Immersive course, a complex full-stack application built with Django REST Framework and React.
 
-## Available Scripts
+FUT - Team - Builder is a Fifa Ultimate Team clone where users are able to choose from the best football(soccer) players in the English Premier League and add them to their squad. The users are able to make multiple teams and save them to their profile where they, as well as other users, are able to view the teams that have been created. 
 
-In the project directory, you can run:
+## You will find the deployed app here: 
 
-### `yarn start`
+ADD DEPLOYED LINK FOR PROJECT HERE
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Code Installation: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone or download the repo then do the following in Terminal:
 
-### `yarn test`
+Install back-end dependencies: pipenv
+Enter Shell for project: pipenv shell
+CD into backend folder and run the following:
+Make Migrations: python manage.py makemigrations
+Migrate: python manage.py migrate
+Load Seed data for Formations: python manage.py loaddata formations/seeds.json
+MAYBE ADD MORE TEAMS AND LOAD SEEDS FOR TEAMS
+Load Seed data for Players: python manage.py loaddata players/seeds.json
+Start back-end server: python manage.py runserver
+Change into front-end directory: cd client
+Install front-end dependencies: yarn
+Start front-end server: yarn start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### The Brief
+
+- Build a full-stack application by making your own backend and your own front-end
+- Use a Python Django API using Django REST Framework to serve your data from a Postgres database
+- Consume your API with a separate front-end built with React
+- Be a complete product which most likely means multiple relationships and CRUD functionality for at least a couple of models
+- Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut
+- Have a visually impressive design to kick your portfolio up a notch and have something to wow future clients & employers.
+- Be deployed online so it's publicly accessible.
 
 ### `yarn build`
 
