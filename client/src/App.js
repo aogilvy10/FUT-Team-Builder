@@ -2,12 +2,12 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import LandingPage from './components/LandingPage'
-import Login from './Auth/Login'
-import Register from './Auth/Register'
+import Login from './auth/Login'
+import Register from './auth/Register'
 import TeamFeed from './components/TeamFeed'
 import UserProfile from './components/UserProfile'
 import CreateATeam from './components/CreateATeam'
-import PitchTest from './components/CreateATeam/PitchTest'
+import PitchTest from './components/createateam/PitchTest'
 import TeamPage from './components/TeamPage'
 
 

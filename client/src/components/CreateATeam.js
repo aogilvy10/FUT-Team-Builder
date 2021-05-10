@@ -5,7 +5,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 // import { getPayloadFromToken } from '../helpers/auth'
 import Slider from 'react-slick'
-import { sliderSettings } from '../components/CreateATeam/SliderSettings'
+import { sliderSettings } from './createateam/SliderSettings'
 import EPLLogo from '../assets/kisspng-201718-premier-league-201617-premier-league-football-fan-5b3594f33be812.1616807615302381952454.jpg'
 
 
