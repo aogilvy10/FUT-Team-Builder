@@ -16,15 +16,15 @@ ADD DEPLOYED LINK FOR PROJECT HERE
 
 Clone or download the repo, then do the following in Terminal:
 
-- Install back-end dependencies: `pipenv`
+- Install django: `pipenv install`
 - Enter Shell for project: `pipenv shell`
 - CD into backend folder and run the following:
 - Make Migrations: `python manage.py makemigrations`
 - Migrate: `python manage.py migrate`
 - Load Seed data for Formations: `python manage.py loaddata formations/seeds.json`
-- MAYBE ADD MORE TEAMS AND LOAD SEEDS FOR TEAMS
 - Load Seed data for Players: `python manage.py loaddata players/seeds.json`
 - Start back-end server: `python manage.py runserver`
+- Open new terminal 
 - Change into front-end directory: `cd client`
 - Install front-end dependencies: `yarn`
 - Start front-end server: `yarn start`
