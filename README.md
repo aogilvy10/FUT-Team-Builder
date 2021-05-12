@@ -1,4 +1,6 @@
-# FUT - Team - Builder, a Python Django API and React app
+# FUT - Team - Builder
+
+## Python Django API and React app
 
 My final dev project for the Software Engineering Immersive course, a complex full-stack application built with Django REST Framework and React.
 
@@ -8,24 +10,26 @@ FUT - Team - Builder is a Fifa Ultimate Team clone where users are able to choos
 
 ADD DEPLOYED LINK FOR PROJECT HERE
 
-### Code Installation: 
+![image](https://user-images.githubusercontent.com/68297258/117752780-3c6aa980-b1cc-11eb-9238-b535653be7d5.png)
 
-Clone or download the repo then do the following in Terminal:
+## Code Installation: 
 
-Install back-end dependencies: pipenv
-Enter Shell for project: pipenv shell
-CD into backend folder and run the following:
-Make Migrations: python manage.py makemigrations
-Migrate: python manage.py migrate
-Load Seed data for Formations: python manage.py loaddata formations/seeds.json
-MAYBE ADD MORE TEAMS AND LOAD SEEDS FOR TEAMS
-Load Seed data for Players: python manage.py loaddata players/seeds.json
-Start back-end server: python manage.py runserver
-Change into front-end directory: cd client
-Install front-end dependencies: yarn
-Start front-end server: yarn start
+Clone or download the repo, then do the following in Terminal:
 
-### The Brief
+- Install back-end dependencies: `pipenv`
+- Enter Shell for project: `pipenv shell`
+- CD into backend folder and run the following:
+- Make Migrations: `python manage.py makemigrations`
+- Migrate: `python manage.py migrate`
+- Load Seed data for Formations: `python manage.py loaddata formations/seeds.json`
+- MAYBE ADD MORE TEAMS AND LOAD SEEDS FOR TEAMS
+- Load Seed data for Players: `python manage.py loaddata players/seeds.json`
+- Start back-end server: `python manage.py runserver`
+- Change into front-end directory: `cd client`
+- Install front-end dependencies: `yarn`
+- Start front-end server: `yarn start`
+
+## The Brief
 
 - Build a full-stack application by making your own backend and your own front-end
 - Use a Python Django API using Django REST Framework to serve your data from a Postgres database
@@ -36,7 +40,7 @@ Start front-end server: yarn start
 - Be deployed online so it's publicly accessible
 - Timeframe: 8 days
 
-### Technologies Used:
+## Technologies Used:
 
 - Django
 - Django REST Framework
@@ -56,24 +60,48 @@ Start front-end server: yarn start
 
 ## Planning
 
-Initially my partner and I had decided to work alone for our last projects but after telling him about this bigger project idea i had for a full-stack app that resembled FIFA Ultimate Team, he immediately wanted to try and tackle it together. We set up our planning using Trello to help keep track of everything throuughout our project as well as creating a simple presentation for styling. Every morining we would meet up for a 10-15 min stand up to layout our day and what we specfically needed to get done. Then we would continur our work on a zoom call and speak to each other about what code we were working on and the way we would code it. We used Git and GitHub for version control and made sure to tell one another when we were pushing and what coding was being pushed to help avoid any potentioal merging or Git conflicts.
+Initially my partner and I had decided to work alone for our last projects but after telling him about this bigger project idea i had for a full-stack app that resembled FIFA Ultimate Team, he immediately wanted to try and tackle it together. We set up our planning using Trello to help keep track of everything throuughout our project as well as creating a simple presentation for styling. 
 
-![](2021-05-10-13-23-06.png)
+Every morining we would meet up for a 10-15 min stand up to layout our day and what work needed to get done. We used Zoom to speak throughout the day and Git and GitHub for version control. 
 
-![](2021-05-10-13-25-11.png)
+![image](https://user-images.githubusercontent.com/68297258/117753601-9b7cee00-b1cd-11eb-9ef4-766a8113d60d.png)
+
 
 ## Back-end (Day 1 & 2)
-Creating our back-end using Python was something that was new to both of us but it turned out o be a great experience. We used Django and Django REST Framework to create a PostgreSql database with RESTful features. In total we agreeded on 4 models. I took charge of the back-end setup, including our seeds files, while my partner serached for useful API's. 
+Creating our back-end using Python was something that was new to both of us but it ended a great experience. We used Django and Django REST Framework to create a PostgreSql database with RESTful features. In total we agreeded on 4 models. I took charge of the back-end setup, including our seeds files, while my partner serached for useful API's. 
 
+``` javascript 
+class Player(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    team_name = models.CharField(max_length=50)
+    position = models.CharField(max_length=50)
+    nationality = models.CharField(max_length=50)
+    photo = models.CharField(max_length=500)
 
+class User(AbstractUser):
+
+    email = models.CharField(max_length=50, unique=True)
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    # profile_image = models.CharField(max_length=300) 
+    gamertag = models.CharField(max_length=20)
+    coins = models.FloatField(max_length=15)
+    wins = models.FloatField(max_length=15)
+    losses = models.FloatField(max_length=15)
+  ```
 
 ## Front-end (days 3 - 7)
 
 For the front-end we used React Hooks throughout. I took charge are creating both the Login and Register page, half of the Home page, the Landing Page, the User Profile, View All Teams, and assisted with the Create A Team page. Each page I implemented react as well as sass using the framework BULMA. I used Axios for the data requests from the back-end and React-Router-Dom was used for page navigation. 
 
+
+
 ### Landing, Login and Register
 
 For both the Login and Register I used the same simple responsive design with BULMA framework and adjusted their positioning using FlexBox. In the register form, the user is prompted to add in additoinal information such as their Gamertag, how many wins and losses they have, as well the amount of coins available just like one would while playing FIFA.
+
+PUT PICTURE OF THE REGISTER PAGE HERE
 
 ### Home Page
 
@@ -231,7 +259,7 @@ As mentioned earlier, we used Bulma framework for the styling as well SASS for a
 
 # Final Product - Walkthrough
 
-ADD PCITURES
+ADD PICTURES
 
 ## Wins & Blockers
 
