@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import axios from "axios"
 
 const TeamPage = () => {
- 
-
-  const [team, setTeam] = useState([])
+  const [team, setTeam] = useState({})
 
   const {teamId} = useParams()
 
@@ -17,6 +15,7 @@ const TeamPage = () => {
           Authorization: `Bearer ${token}`
         }
       })
+      console.log(data)
       setTeam(data)
     }
     getData()
@@ -25,7 +24,14 @@ const TeamPage = () => {
 
 
   return (
-    <div className="create-page">
+    <>
+    {
+      team.players && (
+        <div className="create-page">
+          <h1>{team.team_name} - {team.abbreviation}</h1>
+          <Link to='/home'>
+            <p className="home">HOME</p>
+          </Link>
       <div className="field">
         <div className="columns main full-page ">
           <div className="column red"> 1</div>
@@ -42,12 +48,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[9].photo} alt="Player" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[9].photo} alt="Player" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[9].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[9].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -67,12 +73,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[10].photo} alt=""  className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[10].photo} alt=""  className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[10].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[10].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -98,12 +104,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[5].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[5].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[5].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[5].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -122,12 +128,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[7].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[7].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[7].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[7].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -147,12 +153,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[8].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[8].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[8].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[8].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -171,12 +177,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[6].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[6].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[6].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[6].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -201,12 +207,12 @@ const TeamPage = () => {
                       <div class="player-position"><span>PL</span></div>
                       <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                     </div>
-                    <div class="player-picture player-picture-pitch"><img src={team[1].photo} alt="" draggable="false" className="img img-pitch" />
+                    <div class="player-picture player-picture-pitch"><img src={team.players[1].photo} alt="" draggable="false" className="img img-pitch" />
                     </div>
                   </div>
                   <div class="player-card-bottom">
                     <div class="player-info-pitch">
-                      <div class="player-name"><span>{team[1].last_name}</span></div>
+                      <div class="player-name"><span>{team.players[1].last_name}</span></div>
                       <div class="player-features">
                       </div>
                     </div>
@@ -225,12 +231,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[2].photo} alt="Player" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[2].photo} alt="Player" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[2].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[2].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -249,12 +255,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[3].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[3].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[3].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[3].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -273,12 +279,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[4].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[4].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[4].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[4].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -305,12 +311,12 @@ const TeamPage = () => {
                     <div class="player-position"><span>PL</span></div>
                     <div class="player-club"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Reddot-small.svg/1200px-Reddot-small.svg.png" alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={team[0].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div class="player-picture player-picture-pitch"><img src={team.players[0].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
                 <div class="player-card-bottom">
                   <div class="player-info-pitch">
-                    <div class="player-name"><span>{team[0].last_name}</span></div>
+                    <div class="player-name"><span>{team.players[0].last_name}</span></div>
                     <div class="player-features">
                     </div>
                   </div>
@@ -332,6 +338,9 @@ const TeamPage = () => {
         </div>
       </div>
     </div>
+      )
+    }
+    </>
   )
 }
 export default TeamPage

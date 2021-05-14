@@ -31,7 +31,8 @@ const Register = () => {
   const handleSubmit = async event => {
     try {
       event.preventDefault()
-      await axios.post('api/auth/register/', formData)
+      const req = await axios.post('api/auth/register/', formData)
+      console.log("LOOK HERE: ", req)
       const response = await axios.post('api/auth/login/', {
         email: formData.email, password: formData.password
       })
@@ -176,7 +177,7 @@ const Register = () => {
           <div className="column is-three-fifths"></div>
           <div className="field column">
             <p className="control">
-              <button className="button is-success">
+              <button type="submit" className="button is-success">
                 Register
               </button>
             </p>

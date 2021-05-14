@@ -26,6 +26,7 @@ const CreateATeam = () => {
     setFormData(newFormData)
   }
   const handleSubmit = async event => {
+    console.log("THIS RAN")
     try {
       event.preventDefault()
       const token = window.localStorage.getItem('token')
@@ -418,7 +419,7 @@ const CreateATeam = () => {
           <div className="column red ">      <div>
             <input className="align align-left" type="text" placeholder="Enter item to be searched" onChange={searchSpace} />
             {allPlayers.name}
-            <button onClick={handleModal} className="add-button">Add Name/FC </button>
+            <button onClick={handleModal} className="add-button">Create Team </button>
             {handleToggle && <div name="modal" className="modal is-active">
               <div className="modal-background"></div>
               <div className="modal-content">
@@ -447,7 +448,7 @@ const CreateATeam = () => {
                   </div>
                   {/* <Link to={'/userprofile'}> */}
                   <div className="control">+-
-          <button className="button is-primary">Create Team</button>
+                    <button type="submit" className="button is-primary">Create Team</button>
                   </div>
                   {/* </Link> */}
                 </form>
