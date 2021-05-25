@@ -261,9 +261,6 @@ const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([{ photo: "ht
 
 As mentioned earlier, we used Bulma framework for the styling as well SASS for any additional styling. Initally I was not very confident with Flexbox or SASS but after styling this entire project using both tools, I became aware of how awarding styling can. The Bulma documentaion was very useful in creating the layout of our project, then Flexbox allowed me to position each page as needed. The final day of our project was spent finding the exact color schemas FIFA uses and making our page look identical. 
 
-# Final Product - Walkthrough
-
-ADD PICTURES
 
 ## Wins & Blockers
 
