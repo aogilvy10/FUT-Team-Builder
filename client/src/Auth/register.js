@@ -44,12 +44,6 @@ const Register = () => {
   }
 
 
-
-
-
-
-
-
   return (
     <div className="register-page">
       <div className="columns">
