@@ -4,11 +4,11 @@
 
 My final dev project for the Software Engineering Immersive course, a complex full-stack application built with Django REST Framework and React.
 
-FUT - Team - Builder is a Fifa Ultimate Team clone where users are able to choose from the best football(soccer) players in the English Premier League and add them to their squad. The users are able to make multiple teams and save them to their profile where they, as well as other users, are able to view the teams that have been created. 
+FUT - Team - Builder is a Fifa Ultimate Team clone where users are able to choose from the best football (soccer) players in the English Premier League and add them to their squad. The users are able to make multiple teams and save them to their profile where they, as well as other users, are able to view the teams that have been created. 
 
 ## You will find the deployed app here: 
 
-ADD DEPLOYED LINK FOR PROJECT HERE
+https://fut-builder.herokuapp.com/ (fixing deployment bugs)
 
 ![image](https://user-images.githubusercontent.com/68297258/117752780-3c6aa980-b1cc-11eb-9238-b535653be7d5.png)
 
@@ -61,9 +61,9 @@ Clone or download the repo, then do the following in Terminal:
 
 ## Planning
 
-Initially my partner and I had decided to work alone for our last projects but after telling him about this bigger project idea i had for a full-stack app that resembled FIFA Ultimate Team, he immediately wanted to try and tackle it together. We set up our planning using Trello to help keep track of everything throuughout our project as well as creating a simple presentation for styling. 
+Initially my partner and I had decided to work alone for our last projects but after telling him about this bigger project idea I had for a full-stack app that resembled FIFA Ultimate Team, he immediately wanted to try and tackle it together. We set up our planning using Trello to help keep track of everything throuughout our project as well as creating a simple presentation for styling. 
 
-Every morining we would meet up for a 10-15 min stand up to layout our day and what work needed to get done. We used Zoom to speak throughout the day and Git and GitHub for version control. 
+Every morning we would meet up for a 10-15 min stand up to layout our day and what work needed to get done. We used Zoom to speak throughout the day and Git and GitHub for version control. 
 
 ![image](https://user-images.githubusercontent.com/68297258/117753601-9b7cee00-b1cd-11eb-9ef4-766a8113d60d.png)
 
@@ -102,11 +102,14 @@ For the front-end we used React Hooks throughout. I took charge are creating bot
 
 For both the Login and Register I used the same simple responsive design with BULMA framework and adjusted their positioning using FlexBox. In the register form, the user is prompted to add in additoinal information such as their Gamertag, how many wins and losses they have, as well the amount of coins available just like one would while playing FIFA.
 
-PUT PICTURE OF THE REGISTER PAGE HERE
+![image](https://user-images.githubusercontent.com/68297258/119567651-6b9f2000-bd61-11eb-976f-705f71d2ef4f.png)
+
 
 ### Home Page
 
 For the home page my partner and I agreed on how we wanted to design it and where the user will be able to explore throughout the app. Using an Axios request I grabbed the information the user presented us with when registering, and presented it at the top of certain pages to show which user profile you are looking at, or which user is logged in. Using BULMA's columns sizing, we were able to display our information in a grid with exact sizes, making it look identical to FIFA. From there the home page allows you to access the Create A Team page, User Profile, and View All Teams just with a click of a button. 
+
+![image](https://user-images.githubusercontent.com/68297258/119573361-fb949800-bd68-11eb-87d5-0c5dcd5b7342.png)
 
 ``` javascript
 return (
@@ -228,6 +231,8 @@ const TeamFeed = () => {
 
 The Create A Team page was the most challenging component in our app. Being that this was the main component of our app, we decided to spend most of our days having someone work on it while the other partner would focus on every other component. Initially I set up the Create a Team page with a strategy of what we want this page to do exactly. First we tackled the information we needed to get from our backend, this was done with an Axios request to our players seeds file. We then needed to create the initial state for each div that was then going to be populated with a player. We then set the idea of how to add the certain player to the users desired destination. We decided to correlate each players id to the index of our players array where the user would like to place them. From here we did not have much time left so I focused a majority of my time on the other componetns and styling for the page. 
 
+![image](https://user-images.githubusercontent.com/68297258/119575010-35669e00-bd6b-11eb-8bc7-9c08398d145e.png)
+
 ``` javascript
 
 //get all players
@@ -258,9 +263,6 @@ const [playersToDisplayPhoto, setPlayersToDisplayPhoto] = useState([{ photo: "ht
 
 As mentioned earlier, we used Bulma framework for the styling as well SASS for any additional styling. Initally I was not very confident with Flexbox or SASS but after styling this entire project using both tools, I became aware of how awarding styling can. The Bulma documentaion was very useful in creating the layout of our project, then Flexbox allowed me to position each page as needed. The final day of our project was spent finding the exact color schemas FIFA uses and making our page look identical. 
 
-# Final Product - Walkthrough
-
-ADD PICTURES
 
 ## Wins & Blockers
 
