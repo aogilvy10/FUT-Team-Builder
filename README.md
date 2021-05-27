@@ -42,6 +42,7 @@ Clone or download the repo, then do the following in Terminal:
 
 ## Technologies Used:
 
+- Python
 - Django
 - Django REST Framework
 - PostgreSQL
