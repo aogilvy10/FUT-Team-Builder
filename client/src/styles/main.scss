@@ -2033,9 +2033,10 @@
 //Team Feed
 .entire {
   background-image: url('https://www.gamingfrog.com/wp-content/uploads/2019/09/FIFA-20-background.jpg');
-  // height          : 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height          : 100vh;
   width           : 100vw;
-  background-size : contain;
   font-family   : 'EA Font v1.5 by Ghettoshark', sans-serif;
 
   .home {
@@ -2093,6 +2094,60 @@
 }
 
 
+// TEAM PAGE
+.team-page {
+  .columns.background {
+    background-color: #e9cc74;
+  }
+  .field {
+    margin-top: -12px;
+  }
+  .create-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  .top-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .is-centered1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .create-page .wrapper-pitch .fut-player-card {
+    margin: 19px;
+    position: relative;
+    width: 181px;
+    height: 275px;
+    background-image: url(https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png);
+    background-position: center center;
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    padding: 0.8rem 0px;
+    z-index: 2;
+    transition: 200ms ease-in;
+}
+.create-page .wrapper-pitch .fut-player-card .player-card-bottom .player-info-pitch {
+  display: block;
+  padding: 0rem 0;
+  color: #e9cc74;
+  width: 90%;
+  margin: -10px auto;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+.create-page .full-page .red {
+  height: 38vh;
+}
+}
 
 
 
@@ -2110,7 +2165,7 @@
     color: #ABCB2D;
   }
   h1 {
-    margin-top: 45vh;
+    // margin-top: 5vh;
     font-size: 45px;
     color: #ABCB2D;
   }
@@ -2153,6 +2208,22 @@
 
 //CREATE A TEAM PAGE
 .create-page {
+  .columns.background {
+    background-color: #e9cc74;
+  }
+  
+  .main-direction {
+    font-weight: bold;
+    font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+    margin-left: 5vw;
+    text-decoration: underline;
+  }
+  .directions {
+    font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
+    color: white;
+    margin-left: 5vw;
+  }
+  
   .align {
     text-align : center;
     font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
@@ -2480,11 +2551,12 @@
     margin-left: 3vh;
     color: #e5c685 ;
     background-color: #4a4a4a;
-    font-family        : 'EA Font v1.5 by Ghettoshark', sans-serif;
+    font-family: 'EA Font v1.5 by Ghettoshark', sans-serif;
     width: 5vw;
     text-align: center;
     border-radius: 10px;
   }
+
 
   .wrapper-pitch {
     position       : relative;
@@ -2496,11 +2568,11 @@
     min-height     : 250px;
     .fut-player-card {
       position: relative;
-      width: 200px;
+      width: 181px;
       height: 275px;
       background-image: url("https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png");
       background-position: center center;
-      background-size: 100% 100%;
+      background-size: 100% 92%;
       background-repeat: no-repeat;
       padding: 0.8rem 0;
       z-index: 2;
