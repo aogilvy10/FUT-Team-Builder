@@ -18,6 +18,7 @@ Clone or download the repo, then do the following in Terminal:
 
 - Install django: `pipenv install`
 - Enter Shell for project: `pipenv shell`
+- CD into backend folder and run the following:
 - Make Migrations: `python manage.py makemigrations`
 - Migrate: `python manage.py migrate`
 - Load Seed data for Formations: `python manage.py loaddata formations/seeds.json`
@@ -41,6 +42,7 @@ Clone or download the repo, then do the following in Terminal:
 
 ## Technologies Used:
 
+- Python
 - Django
 - Django REST Framework
 - PostgreSQL
@@ -92,7 +94,7 @@ class User(AbstractUser):
 
 ## Front-end (days 3 - 7)
 
-For the front-end we used React Hooks throughout. I took charge are creating both the Login and Register page, half of the Home page, the Landing Page, the User Profile, View All Teams,  and assisted with the Create A Team page. Each page I implemented react as well as sass using the framework BULMA. I used Axios for the data requests from the back-end and React-Router-Dom was used for page navigation. 
+For the front-end we used React Hooks throughout. I took charge are creating both the Login and Register page, half of the Home page, the Landing Page, the User Profile, View All Teams, and assisted with the Create A Team page. Each page I implemented react as well as sass using the framework BULMA. I used Axios for the data requests from the back-end and React-Router-Dom was used for page navigation. 
 
 
 

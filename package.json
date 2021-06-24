@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "django": "^1.0.0",
-    "node-sass": "^5.0.0",
-    "react-slick": "^0.28.1"
-  }
-}
