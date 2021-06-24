@@ -119,9 +119,9 @@ const CreateATeam = () => {
         <div className="column ">
           <p className='main-direction'>Directions:</p>
           <p className='directions'>
-            Add player then choose position
+           1. Add player then choose position
             <br></br>
-                Add 11 players then Create Team
+           2. Add ALL players then Create Team
           </p>
         </div>
         <div className="column align"> <h1 className="is-centered1 ">CREATE A TEAM</h1></div>
@@ -134,22 +134,22 @@ const CreateATeam = () => {
           <div className="column red "></div>
           <div className="column red "></div>
           <div className="column red "><div className="pcard" name="9">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="9" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="9" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="9" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="9" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[9].photo} alt="Player" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[9].photo} alt="Player" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[9].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[9].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -160,21 +160,21 @@ const CreateATeam = () => {
           <div className="column red "></div>
           <div className="column red "><div className="pcard" name="10">
             <div className="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="10" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="10" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="10" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="10" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch">  <img src={playersToDisplayPhoto[10].photo} alt="" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch">  <img src={playersToDisplayPhoto[10].photo} alt="" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[10].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[10].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -191,21 +191,21 @@ const CreateATeam = () => {
           <div className="column red "> </div>
           <div className="column red "> <div className="pcard" name="5">
             <div className={"wrapper wrapper-pitch"}>
-              <div class="fut-player-card fut-player-card-pitch">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="5" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="5" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+              <div className="fut-player-card fut-player-card-pitch">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="5" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="5" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"> <img src={playersToDisplayPhoto[5].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[5].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[5].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -214,22 +214,22 @@ const CreateATeam = () => {
           </div></div>
           <div className="column red "> </div>
           <div className="column red ">          <div className="pcard" name="7">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="7" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="7" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="7" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="7" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[7].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[7].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[7].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[7].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -239,22 +239,22 @@ const CreateATeam = () => {
           <div className="column red "></div>
           <div className="column red "> </div>
           <div className="column red "><div className="pcard" name="8">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="8" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="8" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="8" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="8" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[8].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[8].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[8].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[8].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -263,22 +263,22 @@ const CreateATeam = () => {
           </div> </div>
           <div className="column red "> </div>
           <div className="column red "><div className="pcard" name="6">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="6" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="6" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="6" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="6" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[6].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[6].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[6].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[6].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -293,22 +293,22 @@ const CreateATeam = () => {
           <div className="column red "> </div>
           <div className="column red ">
             <div className="pcard" name="1">
-              L<div class="wrapper wrapper-pitch">
-                <div class="fut-player-card fut-player-card-pitch ">
-                  <div class="player-card-top-pitch">
-                    <div class="player-master-info">
-                      <div class="player-rating"><span> <button onClick={handleAddToSquad} name="1" className="button-pitch button"> +</button></span> </div>
-                      <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="1" className="button-pitch button"> -</button></span> </div>
-                      <div class="player-position"><span>PL</span></div>
-                      <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+              L<div className="wrapper wrapper-pitch">
+                <div className="fut-player-card fut-player-card-pitch ">
+                  <div className="player-card-top-pitch">
+                    <div className="player-master-info">
+                      <div className="player-rating"><span> <button onClick={handleAddToSquad} name="1" className="button-pitch button"> +</button></span> </div>
+                      <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="1" className="button-pitch button"> -</button></span> </div>
+                      <div className="player-position"><span>PL</span></div>
+                      <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                     </div>
-                    <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[1].photo} alt="" draggable="false" className="img img-pitch" />
+                    <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[1].photo} alt="" draggable="false" className="img img-pitch" />
                     </div>
                   </div>
-                  <div class="player-card-bottom">
-                    <div class="player-info-pitch">
-                      <div class="player-name"><span>{playersToDisplayPhoto[1].last_name}</span></div>
-                      <div class="player-features">
+                  <div className="player-card-bottom">
+                    <div className="player-info-pitch">
+                      <div className="player-name"><span>{playersToDisplayPhoto[1].last_name}</span></div>
+                      <div className="player-features">
                       </div>
                     </div>
                   </div>
@@ -317,22 +317,22 @@ const CreateATeam = () => {
             </div> </div>
           <div className="column red "></div>
           <div className="column red "><div className="pcard" name="2">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="2" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="2" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="2" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="2" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[2].photo} alt="Player" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[2].photo} alt="Player" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[2].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[2].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -341,22 +341,22 @@ const CreateATeam = () => {
           </div></div>
           <div className="column red "> </div>
           <div className="column red "><div className="pcard" name="3">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="3" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="3" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="3" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="3" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[3].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[3].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[3].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[3].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -365,22 +365,22 @@ const CreateATeam = () => {
           </div> </div>
           <div className="column red "></div>
           <div className="column red "><div className="pcard" name="4">
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="4" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="4" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="4" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="4" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[4].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[4].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[4].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[4].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -397,22 +397,22 @@ const CreateATeam = () => {
           <div className="column red "> </div>
           <div className="column red "></div>
           <div className="column red "><div className="pcard" >
-            <div class="wrapper wrapper-pitch">
-              <div class="fut-player-card fut-player-card-pitch ">
-                <div class="player-card-top-pitch">
-                  <div class="player-master-info">
-                    <div class="player-rating"><span> <button onClick={handleAddToSquad} name="0" className="button-pitch button"> +</button></span> </div>
-                    <div class="player-rating"><span><button onClick={handleDeleteFromSquad} name="0" className="button-pitch button"> -</button></span> </div>
-                    <div class="player-position"><span>PL</span></div>
-                    <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+            <div className="wrapper wrapper-pitch">
+              <div className="fut-player-card fut-player-card-pitch ">
+                <div className="player-card-top-pitch">
+                  <div className="player-master-info">
+                    <div className="player-rating"><span> <button onClick={handleAddToSquad} name="0" className="button-pitch button"> +</button></span> </div>
+                    <div className="player-rating"><span><button onClick={handleDeleteFromSquad} name="0" className="button-pitch button"> -</button></span> </div>
+                    <div className="player-position"><span>PL</span></div>
+                    <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                   </div>
-                  <div class="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[0].photo} alt="" draggable="false" className="img img-pitch" />
+                  <div className="player-picture player-picture-pitch"><img src={playersToDisplayPhoto[0].photo} alt="" draggable="false" className="img img-pitch" />
                   </div>
                 </div>
-                <div class="player-card-bottom">
-                  <div class="player-info-pitch">
-                    <div class="player-name"><span>{playersToDisplayPhoto[0].last_name}</span></div>
-                    <div class="player-features">
+                <div className="player-card-bottom">
+                  <div className="player-info-pitch">
+                    <div className="player-name"><span>{playersToDisplayPhoto[0].last_name}</span></div>
+                    <div className="player-features">
                     </div>
                   </div>
                 </div>
@@ -470,38 +470,38 @@ const CreateATeam = () => {
           <Slider {...sliderSettings} className="slider ">
             {allPlayers.filter((data) => (search === null || search === '') ? data : (data.nationality.toLowerCase().includes(search.toLowerCase()) || data.first_name.toLowerCase().includes(search.toLowerCase()) || data.last_name.toLowerCase().includes(search.toLowerCase()) || data.team_name.toLowerCase().includes(search.toLowerCase()) || data.position.toLowerCase().includes(search.toLowerCase()))
             ).map((data) => (
-              <div class="wrapper" >
-                <div class="fut-player-card item">
-                  <div class="player-card-top">
-                    <div class="player-master-info">
-                      <div class="player-rating"><span><button value={data.id} onClick={handleChangeTeam} name={allPlayers.indexOf(data)} className="button-player-card" > +</button>
+              <div className="wrapper" >
+                <div className="fut-player-card item">
+                  <div className="player-card-top">
+                    <div className="player-master-info">
+                      <div className="player-rating"><span><button value={data.id} onClick={handleChangeTeam} name={allPlayers.indexOf(data)} className="button-player-card" > +</button>
                       </span></div>
-                      <div class="player-position"><span>PL</span></div>
-                      <div class="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
+                      <div className="player-position"><span>PL</span></div>
+                      <div className="player-club"><img src={EPLLogo} alt="Barcelona" draggable="false" /></div>
                     </div>
-                    <div class="player-picture"><img src={data.photo} alt="Messi" draggable="false" />
-                      <div class="player-extra"><span>4*SM</span><span>4*WF</span></div>
+                    <div className="player-picture"><img src={data.photo} alt="Messi" draggable="false" />
+                      <div className="player-extra"><span>4*SM</span><span>4*WF</span></div>
                     </div>
                   </div>
-                  <div class="player-card-bottom">
-                    <div class="player-info">
-                      <div class="player-name"><span>{data.last_name}</span></div>
-                      <div class="player-features">
-                        <div class="player-features-col"><span>
-                          <div class="player-feature-value">POS</div>
-                          <div class="player-feature-title"></div></span><span>
-                            <div class="player-feature-value">TEA</div>
-                            <div class="player-feature-title"></div></span><span>
-                            <div class="player-feature-value">NAT</div>
-                            <div class="player-feature-title"></div></span></div>
-                        <div class="player-features-col"><span>
-                          <div class="player-feature-value"></div>
-                          <div class="player-feature-title"></div>{data.position}</span><span>
-                            <div class="player-feature-value">
+                  <div className="player-card-bottom">
+                    <div className="player-info">
+                      <div className="player-name"><span>{data.last_name}</span></div>
+                      <div className="player-features">
+                        <div className="player-features-col"><span>
+                          <div className="player-feature-value">POS</div>
+                          <div className="player-feature-title"></div></span><span>
+                            <div className="player-feature-value">TEA</div>
+                            <div className="player-feature-title"></div></span><span>
+                            <div className="player-feature-value">NAT</div>
+                            <div className="player-feature-title"></div></span></div>
+                        <div className="player-features-col"><span>
+                          <div className="player-feature-value"></div>
+                          <div className="player-feature-title"></div>{data.position}</span><span>
+                            <div className="player-feature-value">
                             </div>
-                            <div class="player-feature-title"></div>{data.team_name}</span><span>
-                            <div class="player-feature-value"></div>
-                            <div class="player-feature-title">{data.nationality}</div></span></div>
+                            <div className="player-feature-title"></div>{data.team_name}</span><span>
+                            <div className="player-feature-value"></div>
+                            <div className="player-feature-title">{data.nationality}</div></span></div>
                       </div>
                     </div>
                   </div>

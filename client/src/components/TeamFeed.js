@@ -22,7 +22,7 @@ const TeamFeed = () => {
     getData()
   }, [])
 
-  console.log('LOOK HERE', users)
+  console.log('LOOK HERE NOW', users)
 
 
   if (!users) return null

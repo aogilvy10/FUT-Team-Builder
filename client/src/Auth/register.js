@@ -106,6 +106,7 @@ const Register = () => {
           <div className="field column">
             <p className="control has-icons-left">
               <input className="input" type="password" placeholder="Password" name="password" onChange={handleChange} />
+              {/* <p class="help is-success">This password must be longer than 5 characters using</p> */}
               <span className="icon is-small is-left">
                 <i className="fas fa-lock"></i>
               </span>

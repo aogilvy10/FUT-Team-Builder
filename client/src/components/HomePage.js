@@ -31,7 +31,7 @@ const HomePage = () => {
     history.push('/')
   }
 
-  console.log(user)
+  console.log('what is user',user)
   return (
     <>
       <div className="user-info">
