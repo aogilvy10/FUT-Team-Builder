@@ -15,7 +15,8 @@ const HomePage = () => {
   const [user, setUser] = useState('')
   useEffect(() => {
     const getData = async () => {
-      const { data } = await axios.get(`/api/auth/${userId}`)
+      const {data}  = await axios.get(`/api/auth/${userId}/`)
+
       setUser(data)
     }
     getData()
@@ -31,7 +32,7 @@ const HomePage = () => {
     history.push('/')
   }
 
-  console.log('what is user',user)
+  // console.log('what is user',user)
   return (
     <>
       <div className="user-info">

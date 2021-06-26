@@ -8,7 +8,7 @@ FUT - Team - Builder is a Fifa Ultimate Team clone where users are able to choos
 
 ## You will find the deployed app here: 
 
-https://fut-builder.herokuapp.com/ (fixing deployment bugs)
+https://fut-builder.herokuapp.com/ 
 
 ![image](https://user-images.githubusercontent.com/68297258/117752780-3c6aa980-b1cc-11eb-9238-b535653be7d5.png)
 

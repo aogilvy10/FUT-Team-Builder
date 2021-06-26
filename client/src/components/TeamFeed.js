@@ -12,7 +12,7 @@ const TeamFeed = () => {
   useEffect(() => {
     const getData = async () => {
       const token = window.localStorage.getItem('token')
-      const { data } = await axios.get('/api/auth/login', {
+      const { data } = await axios.get('/api/auth/login/', {
         headers: {
           Authorization: `Bearer ${token}`
         }
