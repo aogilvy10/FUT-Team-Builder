@@ -1,6 +1,7 @@
 import React , { useState } from 'react'
 import { useHistory } from 'react-router'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
 
@@ -35,6 +36,9 @@ const Login = () => {
   
   return (
     <div id="login-page">
+       <Link to="/">
+          <h3 className="login-back">BACK</h3>
+        </Link>
     <form onSubmit={handleSubmit} className="login-form">
     <h1>LOGIN</h1>
       <div className="field-top">
